@@ -1,0 +1,11 @@
+.sidepanel {
+    width: 175px;
+    height: 100%;
+    float: left;
+    padding-top: 60px;
+    margin: 20px;
+}
+
+.price-slider {
+  width: 100%;
+}

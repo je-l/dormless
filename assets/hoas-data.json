@@ -1,0 +1,3995 @@
+{
+    "apartments": [
+        {
+            "address": "Akanapolku 2",
+            "city": "Vantaa",
+            "district": "Jokiniemi",
+            "lat": 60.299737888914635,
+            "lng": 25.06074998384766,
+            "residence_count": 179,
+            "residences": [
+                {
+                    "area": 12.4,
+                    "price": 203,
+                    "type": "Huone"
+                },
+                {
+                    "area": 12.4,
+                    "price": 284,
+                    "type": "2h+oh+k"
+                },
+                {
+                    "area": 42.0,
+                    "price": 411,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 63.5,
+                    "price": 578,
+                    "type": "2h+tpk"
+                },
+                {
+                    "area": 63.5,
+                    "price": 568,
+                    "type": "2h+oh+k"
+                }
+            ]
+        },
+        {
+            "address": "Alberganesplanadi 2",
+            "city": "Espoo",
+            "district": "Leppävaara",
+            "lat": 60.21670627053088,
+            "lng": 24.812289023562247,
+            "residence_count": 62,
+            "residences": [
+                {
+                    "area": 37.0,
+                    "price": 499,
+                    "type": "1h+kt"
+                },
+                {
+                    "area": 55.0,
+                    "price": 691,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 46.5,
+                    "price": 626,
+                    "type": "1h+oh+kk"
+                },
+                {
+                    "area": 58.0,
+                    "price": 729,
+                    "type": "1h+oh+k"
+                },
+                {
+                    "area": 76.0,
+                    "price": 818,
+                    "type": "2h+tpk"
+                }
+            ]
+        },
+        {
+            "address": "Alempi Talonpojantie 4",
+            "city": "Helsinki",
+            "district": "Viikki",
+            "lat": 60.2261553407976,
+            "lng": 25.023249572928588,
+            "residence_count": 114,
+            "residences": [
+                {
+                    "area": 31.5,
+                    "price": 425,
+                    "type": "1h+kt"
+                },
+                {
+                    "area": 56.5,
+                    "price": 698,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 56.5,
+                    "price": 725,
+                    "type": "2h+k"
+                }
+            ]
+        },
+        {
+            "address": "Arentikuja 1",
+            "city": "Helsinki",
+            "district": "Malminkartano",
+            "lat": 60.24488184637606,
+            "lng": 24.854002118510493,
+            "residence_count": 160,
+            "residences": [
+                {
+                    "area": 10.2,
+                    "price": 250,
+                    "type": "Huone"
+                },
+                {
+                    "area": 27.0,
+                    "price": 330,
+                    "type": "1h+kt"
+                },
+                {
+                    "area": 42.5,
+                    "price": 498,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 42.5,
+                    "price": 500,
+                    "type": "2h+tpk"
+                }
+            ]
+        },
+        {
+            "address": "Arielinkatu 2",
+            "city": "Helsinki",
+            "district": "Kalasatama",
+            "lat": 60.186126900405576,
+            "lng": 24.981808886560355,
+            "residence_count": 143,
+            "residences": [
+                {
+                    "area": 13.0,
+                    "price": 361,
+                    "type": "Huone"
+                },
+                {
+                    "area": 15.0,
+                    "price": 387,
+                    "type": "Huone"
+                },
+                {
+                    "area": 28.5,
+                    "price": 487,
+                    "type": "1h+kt"
+                },
+                {
+                    "area": 39.5,
+                    "price": 655,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 47.0,
+                    "price": 750,
+                    "type": "2h+k"
+                },
+                {
+                    "area": 74.0,
+                    "price": 1115,
+                    "type": "3h+k"
+                }
+            ]
+        },
+        {
+            "address": "Asiakkaankatu 6",
+            "city": "Helsinki",
+            "district": "Itäkeskus",
+            "lat": 60.20875059891506,
+            "lng": 25.079612539097777,
+            "residence_count": 65,
+            "residences": [
+                {
+                    "area": 14.5,
+                    "price": 243,
+                    "type": "Huone"
+                },
+                {
+                    "area": 16.5,
+                    "price": 285,
+                    "type": "Huone"
+                },
+                {
+                    "area": 50.0,
+                    "price": 535,
+                    "type": "2h+k"
+                },
+                {
+                    "area": 74.5,
+                    "price": 785,
+                    "type": "3h+kk"
+                }
+            ]
+        },
+        {
+            "address": "Atlantinkatu 5",
+            "city": "Helsinki",
+            "district": "Länsisatama",
+            "lat": null,
+            "lng": null,
+            "residence_count": 103,
+            "residences": [
+                {
+                    "area": 15.0,
+                    "price": 402,
+                    "type": "Huone"
+                },
+                {
+                    "area": 29.5,
+                    "price": 563,
+                    "type": "1h+kt"
+                },
+                {
+                    "area": 36.5,
+                    "price": 673,
+                    "type": "1h+kt"
+                },
+                {
+                    "area": 42.0,
+                    "price": 772,
+                    "type": "1h+oh+kt"
+                },
+                {
+                    "area": 55.0,
+                    "price": 968,
+                    "type": "2h+k"
+                }
+            ]
+        },
+        {
+            "address": "Avaruuskatu 3",
+            "city": "Espoo",
+            "district": "Kuitinmäki",
+            "lat": 60.169629735794665,
+            "lng": 24.727329248965837,
+            "residence_count": 120,
+            "residences": [
+                {
+                    "area": 12.5,
+                    "price": 244,
+                    "type": "Huone"
+                },
+                {
+                    "area": 15.2,
+                    "price": 314,
+                    "type": "Huone"
+                },
+                {
+                    "area": 44.5,
+                    "price": 488,
+                    "type": "2h+kk"
+                },
+                {
+                    "area": 65.0,
+                    "price": 605,
+                    "type": "2h+tpk"
+                }
+            ]
+        },
+        {
+            "address": "Avaruuskatu 4",
+            "city": "Espoo",
+            "district": "Kuitinmäki",
+            "lat": 60.169662205562275,
+            "lng": 24.726666808165334,
+            "residence_count": 53,
+            "residences": [
+                {
+                    "area": 16.33,
+                    "price": 250,
+                    "type": "Huone"
+                },
+                {
+                    "area": 45.5,
+                    "price": 491,
+                    "type": "1h+oh+k"
+                },
+                {
+                    "area": 65.5,
+                    "price": 713,
+                    "type": "3h+k"
+                }
+            ]
+        },
+        {
+            "address": "Berliininkatu 5",
+            "city": "Helsinki",
+            "district": "Toukola",
+            "lat": 60.20410647184355,
+            "lng": 24.97409936312822,
+            "residence_count": 65,
+            "residences": [
+                {
+                    "area": 14.5,
+                    "price": 334,
+                    "type": "Huone"
+                },
+                {
+                    "area": 30.0,
+                    "price": 491,
+                    "type": "1h+kt"
+                },
+                {
+                    "area": 42.0,
+                    "price": 654,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 44.5,
+                    "price": 692,
+                    "type": "2h+kk"
+                },
+                {
+                    "area": 84.0,
+                    "price": 1002,
+                    "type": "3h+tpk"
+                }
+            ]
+        },
+        {
+            "address": "Brysselinkatu 3",
+            "city": "Helsinki",
+            "district": "Toukola",
+            "lat": 60.203184680744926,
+            "lng": 24.97173969267521,
+            "residence_count": 68,
+            "residences": [
+                {
+                    "area": 12.5,
+                    "price": 329,
+                    "type": "Huone"
+                },
+                {
+                    "area": 31.0,
+                    "price": 493,
+                    "type": "1h+kt"
+                },
+                {
+                    "area": 41.0,
+                    "price": 611,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 51.0,
+                    "price": 716,
+                    "type": "2h+k"
+                },
+                {
+                    "area": 69.5,
+                    "price": 980,
+                    "type": "3h+k"
+                }
+            ]
+        },
+        {
+            "address": "Haahkakuja 5",
+            "city": "Helsinki",
+            "district": "Lauttasaari",
+            "lat": 60.15721848565273,
+            "lng": 24.87566719335816,
+            "residence_count": 59,
+            "residences": [
+                {
+                    "area": 45.0,
+                    "price": 774,
+                    "type": "1h+kk"
+                },
+                {
+                    "area": 53.0,
+                    "price": 895,
+                    "type": "1h+oh+kk"
+                },
+                {
+                    "area": 43.5,
+                    "price": 755,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 51.0,
+                    "price": 863,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 32.0,
+                    "price": 556,
+                    "type": "1h+kt"
+                }
+            ]
+        },
+        {
+            "address": "Hakaniemenranta 12",
+            "city": "Helsinki",
+            "district": "Merihaka",
+            "lat": 60.17834403172753,
+            "lng": 24.959380932710566,
+            "residence_count": 120,
+            "residences": [
+                {
+                    "area": 12.6,
+                    "price": 266,
+                    "type": "Huone"
+                },
+                {
+                    "area": 16.2,
+                    "price": 325,
+                    "type": "Huone"
+                },
+                {
+                    "area": 21.0,
+                    "price": 359,
+                    "type": "1h+kk"
+                },
+                {
+                    "area": 40.0,
+                    "price": 590,
+                    "type": "2h+kk"
+                },
+                {
+                    "area": 64.0,
+                    "price": 809,
+                    "type": "2h+tpk"
+                },
+                {
+                    "area": 62.0,
+                    "price": 875,
+                    "type": "3h+k"
+                }
+            ]
+        },
+        {
+            "address": "Harustie 7",
+            "city": "Helsinki",
+            "district": "Vuosaari",
+            "lat": 60.20357755336546,
+            "lng": 25.122375621730527,
+            "residence_count": 105,
+            "residences": [
+                {
+                    "area": 13.0,
+                    "price": 247,
+                    "type": "Huone"
+                },
+                {
+                    "area": 14.0,
+                    "price": 265,
+                    "type": "Huone"
+                },
+                {
+                    "area": 39.0,
+                    "price": 471,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 54.5,
+                    "price": 602,
+                    "type": "2h+tpk"
+                }
+            ]
+        },
+        {
+            "address": "Harustie 8",
+            "city": "Helsinki",
+            "district": "Vuosaari",
+            "lat": 60.20339115008705,
+            "lng": 25.12260441012724,
+            "residence_count": 77,
+            "residences": [
+                {
+                    "area": 13.0,
+                    "price": 250,
+                    "type": "Huone"
+                },
+                {
+                    "area": 46.0,
+                    "price": 501,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 68.0,
+                    "price": 658,
+                    "type": "2h+tpk"
+                },
+                {
+                    "area": 68.0,
+                    "price": 750,
+                    "type": "3h+k"
+                }
+            ]
+        },
+        {
+            "address": "Haukilahdenkuja 15",
+            "city": "Helsinki",
+            "district": "Hermanni",
+            "lat": null,
+            "lng": null,
+            "residence_count": 150,
+            "residences": [
+                {
+                    "area": 27.5,
+                    "price": 466,
+                    "type": "1h+yhteiskeittiö"
+                },
+                {
+                    "area": 27.5,
+                    "price": 466,
+                    "type": "1h+kt"
+                },
+                {
+                    "area": 42.0,
+                    "price": 668,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 56.5,
+                    "price": 790,
+                    "type": "2h+kk"
+                }
+            ]
+        },
+        {
+            "address": "Helmikuja 6",
+            "city": "Vantaa",
+            "district": "Myyrmäki",
+            "lat": 60.25696633749079,
+            "lng": 24.85754920880037,
+            "residence_count": 36,
+            "residences": [
+                {
+                    "area": 39.5,
+                    "price": 528,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 62.5,
+                    "price": 705,
+                    "type": "1h+oh+k"
+                },
+                {
+                    "area": 49.0,
+                    "price": 612,
+                    "type": "1h+oh+kk"
+                },
+                {
+                    "area": 74.0,
+                    "price": 734,
+                    "type": "2h+oh+k"
+                },
+                {
+                    "area": 85.5,
+                    "price": 764,
+                    "type": "3h+oh+k"
+                }
+            ]
+        },
+        {
+            "address": "Hietapellontie 11",
+            "city": "Helsinki",
+            "district": "Tapaninkylä",
+            "lat": 60.258958787646996,
+            "lng": 25.013522018277598,
+            "residence_count": 34,
+            "residences": [
+                {
+                    "area": 30.0,
+                    "price": 383,
+                    "type": "1h+kt"
+                },
+                {
+                    "area": 42.0,
+                    "price": 517,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 56.0,
+                    "price": 634,
+                    "type": "2h+tpk"
+                }
+            ]
+        },
+        {
+            "address": "Hopeatie 10",
+            "city": "Helsinki",
+            "district": "Pohjois-Haaga",
+            "lat": 60.22933642497178,
+            "lng": 24.884913037721816,
+            "residence_count": 62,
+            "residences": [
+                {
+                    "area": 12.6,
+                    "price": 252,
+                    "type": "Huone"
+                },
+                {
+                    "area": 14.3,
+                    "price": 277,
+                    "type": "Huone"
+                },
+                {
+                    "area": 44.5,
+                    "price": 533,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 44.5,
+                    "price": 533,
+                    "type": "2h+kk"
+                },
+                {
+                    "area": 61.5,
+                    "price": 753,
+                    "type": "3h+k"
+                }
+            ]
+        },
+        {
+            "address": "Hyväntoivonkatu 6",
+            "city": "Helsinki",
+            "district": "Länsisatama",
+            "lat": 60.155708448682525,
+            "lng": 24.91644623085282,
+            "residence_count": 102,
+            "residences": [
+                {
+                    "area": 11.5,
+                    "price": 354,
+                    "type": "Huone"
+                },
+                {
+                    "area": 15.5,
+                    "price": 388,
+                    "type": "Huone"
+                },
+                {
+                    "area": 23.0,
+                    "price": 464,
+                    "type": "1h+kt"
+                },
+                {
+                    "area": 28.5,
+                    "price": 511,
+                    "type": "1h+kt"
+                },
+                {
+                    "area": 33.0,
+                    "price": 561,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 46.0,
+                    "price": 790,
+                    "type": "2h+kk"
+                },
+                {
+                    "area": 49.5,
+                    "price": 814,
+                    "type": "2h+k"
+                },
+                {
+                    "area": 58.5,
+                    "price": 1028,
+                    "type": "3h+k"
+                }
+            ]
+        },
+        {
+            "address": "Intiankatu 20",
+            "city": "Helsinki",
+            "district": "Kumpula",
+            "lat": null,
+            "lng": null,
+            "residence_count": 74,
+            "residences": [
+                {
+                    "area": 30.0,
+                    "price": 480,
+                    "type": "1h+kt"
+                },
+                {
+                    "area": 44.0,
+                    "price": 693,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 46.5,
+                    "price": 723,
+                    "type": "2h+kk"
+                }
+            ]
+        },
+        {
+            "address": "Intiankatu 21",
+            "city": "Helsinki",
+            "district": "Kumpula",
+            "lat": 60.20822402860288,
+            "lng": 24.967091523421004,
+            "residence_count": 81,
+            "residences": [
+                {
+                    "area": 30.0,
+                    "price": 480,
+                    "type": "1h+kt"
+                },
+                {
+                    "area": 46.0,
+                    "price": 714,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 71.5,
+                    "price": 862,
+                    "type": "2h+k"
+                },
+                {
+                    "area": 91.5,
+                    "price": 1002,
+                    "type": "2h+k+parvihuone"
+                }
+            ]
+        },
+        {
+            "address": "Itämerenkatu 12",
+            "city": "Helsinki",
+            "district": "Ruoholahti",
+            "lat": 60.16332323915321,
+            "lng": 24.915868629004898,
+            "residence_count": 16,
+            "residences": [
+                {
+                    "area": 15.6,
+                    "price": 366,
+                    "type": "Huone"
+                },
+                {
+                    "area": 17.7,
+                    "price": 461,
+                    "type": "Huone"
+                },
+                {
+                    "area": 50.0,
+                    "price": 718,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 62.0,
+                    "price": 848,
+                    "type": "1h+oh+k"
+                },
+                {
+                    "area": 61.0,
+                    "price": 838,
+                    "type": "2h+k"
+                }
+            ]
+        },
+        {
+            "address": "Juhana Herttuan Tie 3",
+            "city": "Helsinki",
+            "district": "Koskela",
+            "lat": 60.21788036188776,
+            "lng": 24.96826442706925,
+            "residence_count": 74,
+            "residences": [
+                {
+                    "area": 16.0,
+                    "price": 319,
+                    "type": "Huone"
+                },
+                {
+                    "area": 19.0,
+                    "price": 356,
+                    "type": "1h+kt"
+                },
+                {
+                    "area": 78.0,
+                    "price": 913,
+                    "type": "3h+tpk"
+                }
+            ]
+        },
+        {
+            "address": "Juusintie 5",
+            "city": "Kauniainen",
+            "district": "Kauniainen",
+            "lat": 60.21844052862911,
+            "lng": 24.747673089093194,
+            "residence_count": 72,
+            "residences": [
+                {
+                    "area": 15.0,
+                    "price": 296,
+                    "type": "Huone"
+                },
+                {
+                    "area": 14.0,
+                    "price": 322,
+                    "type": "Huone"
+                },
+                {
+                    "area": 36.0,
+                    "price": 464,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 72.5,
+                    "price": 853,
+                    "type": "2h+tpk"
+                },
+                {
+                    "area": 72.5,
+                    "price": 888,
+                    "type": "3h+tpk"
+                }
+            ]
+        },
+        {
+            "address": "Juustenintie 3",
+            "city": "Helsinki",
+            "district": "Malminkartano",
+            "lat": 60.244883157387015,
+            "lng": 24.867503793620582,
+            "residence_count": 133,
+            "residences": [
+                {
+                    "area": 13.1,
+                    "price": 253,
+                    "type": "Huone"
+                },
+                {
+                    "area": 25.0,
+                    "price": 315,
+                    "type": "1h+kt"
+                },
+                {
+                    "area": 39.5,
+                    "price": 448,
+                    "type": "1h+kk"
+                },
+                {
+                    "area": 43.0,
+                    "price": 503,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 65.0,
+                    "price": 747,
+                    "type": "3h+k"
+                }
+            ]
+        },
+        {
+            "address": "Jämeräntaival 10",
+            "city": "Espoo",
+            "district": "Otaniemi",
+            "lat": 60.19010695585412,
+            "lng": 24.839050744257698,
+            "residence_count": 157,
+            "residences": [
+                {
+                    "area": 42.5,
+                    "price": 508,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 35.0,
+                    "price": 441,
+                    "type": "1h+oh+kk"
+                },
+                {
+                    "area": 46.8,
+                    "price": 545,
+                    "type": "1h+oh+kk"
+                }
+            ]
+        },
+        {
+            "address": "Jämeräntaival 11",
+            "city": "Espoo",
+            "district": "Otaniemi",
+            "lat": 60.19021635240542,
+            "lng": 24.839505443046505,
+            "residence_count": 256,
+            "residences": [
+                {
+                    "area": 13.6,
+                    "price": 244,
+                    "type": "Huone"
+                },
+                {
+                    "area": 15.9,
+                    "price": 258,
+                    "type": "Huone"
+                },
+                {
+                    "area": 15.0,
+                    "price": 331,
+                    "type": "Huone"
+                },
+                {
+                    "area": 19.5,
+                    "price": 299,
+                    "type": "1h+kt"
+                },
+                {
+                    "area": 37.4,
+                    "price": 488,
+                    "type": "2h+kk"
+                },
+                {
+                    "area": 56.5,
+                    "price": 647,
+                    "type": "2h+tpk"
+                },
+                {
+                    "area": 60.3,
+                    "price": 734,
+                    "type": "3h+kk"
+                }
+            ]
+        },
+        {
+            "address": "Jämeräntaival 9",
+            "city": "Espoo",
+            "district": "Otaniemi",
+            "lat": 60.18960671057228,
+            "lng": 24.839017273033917,
+            "residence_count": 15,
+            "residences": [
+                {
+                    "area": 21.0,
+                    "price": 359,
+                    "type": "1h+kt"
+                },
+                {
+                    "area": 31.0,
+                    "price": 514,
+                    "type": "1h+kt"
+                }
+            ]
+        },
+        {
+            "address": "Karstulantie 8",
+            "city": "Helsinki",
+            "district": "Vallila",
+            "lat": 60.198246354467976,
+            "lng": 24.95442175803628,
+            "residence_count": 118,
+            "residences": [
+                {
+                    "area": 13.0,
+                    "price": 308,
+                    "type": "Huone"
+                },
+                {
+                    "area": 17.5,
+                    "price": 338,
+                    "type": "Huone"
+                },
+                {
+                    "area": 15.5,
+                    "price": 327,
+                    "type": "Huone"
+                },
+                {
+                    "area": 40.5,
+                    "price": 549,
+                    "type": "1h+k"
+                },
+                {
+                    "area": 38.0,
+                    "price": 508,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 48.5,
+                    "price": 654,
+                    "type": "2h+kk"
+                },
+                {
+                    "area": 66.0,
+                    "price": 920,
+                    "type": "3h+k"
+                },
+                {
+                    "area": 93.0,
+                    "price": 1187,
+                    "type": "4h+k"
+                }
+            ]
+        },
+        {
+            "address": "Kasperinkuja 13",
+            "city": "Helsinki",
+            "district": "Laajasalo",
+            "lat": 60.17057842439719,
+            "lng": 25.041700718830793,
+            "residence_count": 33,
+            "residences": [
+                {
+                    "area": 32.0,
+                    "price": 376,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 40.0,
+                    "price": 443,
+                    "type": "1h+tpk"
+                }
+            ]
+        },
+        {
+            "address": "Katajanokanranta 21",
+            "city": "Helsinki",
+            "district": "Katajanokka",
+            "lat": 60.16861931178806,
+            "lng": 24.975636930555204,
+            "residence_count": 50,
+            "residences": [
+                {
+                    "area": 13.5,
+                    "price": 360,
+                    "type": "Huone"
+                },
+                {
+                    "area": 13.6,
+                    "price": 324,
+                    "type": "Huone"
+                },
+                {
+                    "area": 48.5,
+                    "price": 700,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 49.5,
+                    "price": 711,
+                    "type": "1h+oh+k"
+                },
+                {
+                    "area": 49.5,
+                    "price": 712,
+                    "type": "2h+k"
+                },
+                {
+                    "area": 62.0,
+                    "price": 950,
+                    "type": "3h+k"
+                }
+            ]
+        },
+        {
+            "address": "Kilonkallio 10",
+            "city": "Espoo",
+            "district": "Kilo",
+            "lat": 60.22245387921507,
+            "lng": 24.780926958293986,
+            "residence_count": 82,
+            "residences": [
+                {
+                    "area": 12.86,
+                    "price": 300,
+                    "type": "Huone"
+                },
+                {
+                    "area": 26.0,
+                    "price": 310,
+                    "type": "1h+kk"
+                },
+                {
+                    "area": 41.7,
+                    "price": 440,
+                    "type": "2h+kk"
+                },
+                {
+                    "area": 63.1,
+                    "price": 598,
+                    "type": "2h+tpk"
+                }
+            ]
+        },
+        {
+            "address": "Kilonportti 1",
+            "city": "Espoo",
+            "district": "Kilo",
+            "lat": 60.21941318486498,
+            "lng": 24.78458746609422,
+            "residence_count": 64,
+            "residences": [
+                {
+                    "area": 38.5,
+                    "price": 523,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 66.0,
+                    "price": 732,
+                    "type": "1h+oh+k"
+                },
+                {
+                    "area": 78.5,
+                    "price": 762,
+                    "type": "2h+oh+k"
+                }
+            ]
+        },
+        {
+            "address": "Kilonrinne 10",
+            "city": "Espoo",
+            "district": "Kilo",
+            "lat": 60.220247474373274,
+            "lng": 24.779953768496213,
+            "residence_count": 156,
+            "residences": [
+                {
+                    "area": 12.9,
+                    "price": 191,
+                    "type": "Huone"
+                },
+                {
+                    "area": 26.0,
+                    "price": 310,
+                    "type": "1h+kk"
+                },
+                {
+                    "area": 42.2,
+                    "price": 394,
+                    "type": "2h+kk"
+                },
+                {
+                    "area": 62.0,
+                    "price": 528,
+                    "type": "2h+tpk"
+                },
+                {
+                    "area": 62.0,
+                    "price": 573,
+                    "type": "3h+k"
+                }
+            ]
+        },
+        {
+            "address": "Kilpolantie 16",
+            "city": "Helsinki",
+            "district": "Kontula",
+            "lat": 60.23950432764536,
+            "lng": 25.088156770766545,
+            "residence_count": 60,
+            "residences": [
+                {
+                    "area": 12.1,
+                    "price": 258,
+                    "type": "Huone"
+                },
+                {
+                    "area": 49.5,
+                    "price": 554,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 50.0,
+                    "price": 560,
+                    "type": "2h+k"
+                },
+                {
+                    "area": 67.0,
+                    "price": 771,
+                    "type": "3h+k"
+                }
+            ]
+        },
+        {
+            "address": "Kimpitie 10",
+            "city": "Helsinki",
+            "district": "Hakuninmaa",
+            "lat": 60.25035650117215,
+            "lng": 24.889642663975664,
+            "residence_count": 28,
+            "residences": [
+                {
+                    "area": 25.0,
+                    "price": 347,
+                    "type": "1h+kt"
+                },
+                {
+                    "area": 47.5,
+                    "price": 598,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 64.5,
+                    "price": 733,
+                    "type": "2h+oh+k"
+                }
+            ]
+        },
+        {
+            "address": "Kirjanpitäjänkuja 4",
+            "city": "Espoo",
+            "district": "Suvela",
+            "lat": 60.20667075714834,
+            "lng": 24.66796486630275,
+            "residence_count": 50,
+            "residences": [
+                {
+                    "area": 18.2,
+                    "price": 311,
+                    "type": "Huone"
+                },
+                {
+                    "area": 20.9,
+                    "price": 318,
+                    "type": "Huone"
+                },
+                {
+                    "area": 39.0,
+                    "price": 437,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 51.0,
+                    "price": 559,
+                    "type": "1h+oh+kk"
+                },
+                {
+                    "area": 62.0,
+                    "price": 653,
+                    "type": "2h+k"
+                },
+                {
+                    "area": 73.5,
+                    "price": 708,
+                    "type": "2h+tpk"
+                }
+            ]
+        },
+        {
+            "address": "Kirstinharju 1",
+            "city": "Espoo",
+            "district": "Suvela",
+            "lat": 60.20113745967169,
+            "lng": 24.664113007839237,
+            "residence_count": 33,
+            "residences": [
+                {
+                    "area": 13.3,
+                    "price": 241,
+                    "type": "Huone"
+                },
+                {
+                    "area": 15.7,
+                    "price": 307,
+                    "type": "Huone"
+                },
+                {
+                    "area": 50.5,
+                    "price": 509,
+                    "type": "1h+oh+kk"
+                },
+                {
+                    "area": 67.5,
+                    "price": 601,
+                    "type": "2h+tpk"
+                },
+                {
+                    "area": 74.0,
+                    "price": 681,
+                    "type": "3h+oh+k"
+                }
+            ]
+        },
+        {
+            "address": "Kirstinharju 3",
+            "city": "Espoo",
+            "district": "Suvela",
+            "lat": 60.201639971640994,
+            "lng": 24.665466293125743,
+            "residence_count": 33,
+            "residences": [
+                {
+                    "area": 13.3,
+                    "price": 234,
+                    "type": "Huone"
+                },
+                {
+                    "area": 15.7,
+                    "price": 307,
+                    "type": "Huone"
+                },
+                {
+                    "area": 50.5,
+                    "price": 509,
+                    "type": "1h+oh+kk"
+                },
+                {
+                    "area": 67.5,
+                    "price": 601,
+                    "type": "2h+tpk"
+                },
+                {
+                    "area": 74.0,
+                    "price": 682,
+                    "type": "3h+oh+k"
+                }
+            ]
+        },
+        {
+            "address": "Kirstinmäki 7",
+            "city": "Espoo",
+            "district": "Suvela",
+            "lat": 60.20254298451627,
+            "lng": 24.66478557984361,
+            "residence_count": 54,
+            "residences": [
+                {
+                    "area": 33.5,
+                    "price": 377,
+                    "type": "1h+kk"
+                },
+                {
+                    "area": 50.5,
+                    "price": 473,
+                    "type": "1h+oh+kk"
+                },
+                {
+                    "area": 61.0,
+                    "price": 540,
+                    "type": "1h+oh+k"
+                },
+                {
+                    "area": 78.5,
+                    "price": 618,
+                    "type": "2h+oh+k"
+                }
+            ]
+        },
+        {
+            "address": "Kitarakuja 1",
+            "city": "Helsinki",
+            "district": "Kannelmäki",
+            "lat": 60.238420658854565,
+            "lng": 24.876664960138065,
+            "residence_count": 67,
+            "residences": [
+                {
+                    "area": 11.5,
+                    "price": 226,
+                    "type": "Huone"
+                },
+                {
+                    "area": 55.0,
+                    "price": 590,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 55.0,
+                    "price": 580,
+                    "type": "2h+kk"
+                },
+                {
+                    "area": 61.0,
+                    "price": 671,
+                    "type": "3h+k"
+                }
+            ]
+        },
+        {
+            "address": "Kitarakuja 3",
+            "city": "Helsinki",
+            "district": "Kannelmäki",
+            "lat": 60.23850451246006,
+            "lng": 24.876913992149934,
+            "residence_count": 105,
+            "residences": [
+                {
+                    "area": 11.6,
+                    "price": 226,
+                    "type": "Huone"
+                },
+                {
+                    "area": 18.0,
+                    "price": 290,
+                    "type": "Huone"
+                },
+                {
+                    "area": 55.0,
+                    "price": 580,
+                    "type": "2h+kk"
+                },
+                {
+                    "area": 61.0,
+                    "price": 672,
+                    "type": "3h+k"
+                }
+            ]
+        },
+        {
+            "address": "Klaneettitie 1",
+            "city": "Helsinki",
+            "district": "Kannelmäki",
+            "lat": 60.23759552451947,
+            "lng": 24.87726409198904,
+            "residence_count": 133,
+            "residences": [
+                {
+                    "area": 14.1,
+                    "price": 232,
+                    "type": "Huone"
+                },
+                {
+                    "area": 21.0,
+                    "price": 306,
+                    "type": "1h+kt"
+                },
+                {
+                    "area": 41.5,
+                    "price": 486,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 41.0,
+                    "price": 482,
+                    "type": "2h+k"
+                },
+                {
+                    "area": 66.0,
+                    "price": 693,
+                    "type": "3h+k"
+                }
+            ]
+        },
+        {
+            "address": "Kulorastaantie 1",
+            "city": "Vantaa",
+            "district": "Kulomäki",
+            "lat": 60.345563556554204,
+            "lng": 25.058042486563103,
+            "residence_count": 60,
+            "residences": [
+                {
+                    "area": 11.45,
+                    "price": 196,
+                    "type": "Huone"
+                },
+                {
+                    "area": 41.0,
+                    "price": 394,
+                    "type": "2h+k"
+                },
+                {
+                    "area": 78.0,
+                    "price": 588,
+                    "type": "3h+tpk"
+                }
+            ]
+        },
+        {
+            "address": "Kulorastaantie 3",
+            "city": "Vantaa",
+            "district": "Kulomäki",
+            "lat": 60.346161725542174,
+            "lng": 25.05820468159801,
+            "residence_count": 65,
+            "residences": [
+                {
+                    "area": 11.45,
+                    "price": 196,
+                    "type": "Huone"
+                },
+                {
+                    "area": 41.0,
+                    "price": 394,
+                    "type": "2h+k"
+                },
+                {
+                    "area": 78.0,
+                    "price": 588,
+                    "type": "3h+tpk"
+                }
+            ]
+        },
+        {
+            "address": "Kurkimäentie 19",
+            "city": "Helsinki",
+            "district": "Kurkimäki",
+            "lat": 60.23129765085368,
+            "lng": 25.064858247206356,
+            "residence_count": 78,
+            "residences": [
+                {
+                    "area": 13.0,
+                    "price": 223,
+                    "type": "Huone"
+                },
+                {
+                    "area": 12.5,
+                    "price": 235,
+                    "type": "Huone"
+                },
+                {
+                    "area": 15.0,
+                    "price": 280,
+                    "type": "Huone"
+                },
+                {
+                    "area": 28.5,
+                    "price": 357,
+                    "type": "1h+k"
+                },
+                {
+                    "area": 46.5,
+                    "price": 523,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 47.5,
+                    "price": 544,
+                    "type": "1h+oh+k"
+                },
+                {
+                    "area": 47.5,
+                    "price": 534,
+                    "type": "2h+k"
+                },
+                {
+                    "area": 64.5,
+                    "price": 647,
+                    "type": "2h+oh+k"
+                }
+            ]
+        },
+        {
+            "address": "Kurkisuontie 12",
+            "city": "Helsinki",
+            "district": "Kurkimäki",
+            "lat": 60.233196805738224,
+            "lng": 25.071970717467178,
+            "residence_count": 35,
+            "residences": [
+                {
+                    "area": 12.6,
+                    "price": 271,
+                    "type": "Huone"
+                },
+                {
+                    "area": 10.8,
+                    "price": 250,
+                    "type": "Huone"
+                },
+                {
+                    "area": 41.0,
+                    "price": 459,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 48.0,
+                    "price": 542,
+                    "type": "2h+k"
+                },
+                {
+                    "area": 66.5,
+                    "price": 748,
+                    "type": "3h+k"
+                }
+            ]
+        },
+        {
+            "address": "Kurkisuontie 9",
+            "city": "Helsinki",
+            "district": "Kurkimäki",
+            "lat": 60.23276134520787,
+            "lng": 25.065405721961653,
+            "residence_count": 54,
+            "residences": [
+                {
+                    "area": 13.9,
+                    "price": 272,
+                    "type": "Huone"
+                },
+                {
+                    "area": 14.9,
+                    "price": 246,
+                    "type": "Huone"
+                },
+                {
+                    "area": 50.0,
+                    "price": 549,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 48.5,
+                    "price": 534,
+                    "type": "1h+oh+k"
+                },
+                {
+                    "area": 66.0,
+                    "price": 670,
+                    "type": "2h+oh+k"
+                },
+                {
+                    "area": 76.5,
+                    "price": 814,
+                    "type": "3h+k"
+                }
+            ]
+        },
+        {
+            "address": "Kylmäojantie 4",
+            "city": "Vantaa",
+            "district": "Ruskeasanta",
+            "lat": 60.32057832454129,
+            "lng": 25.015423287992036,
+            "residence_count": 82,
+            "residences": [
+                {
+                    "area": 12.0,
+                    "price": 246,
+                    "type": "Huone"
+                },
+                {
+                    "area": 11.0,
+                    "price": 222,
+                    "type": "Huone"
+                },
+                {
+                    "area": 16.5,
+                    "price": 279,
+                    "type": "Huone"
+                },
+                {
+                    "area": 31.0,
+                    "price": 356,
+                    "type": "1h+kk"
+                },
+                {
+                    "area": 44.0,
+                    "price": 492,
+                    "type": "2h+k"
+                },
+                {
+                    "area": 66.0,
+                    "price": 655,
+                    "type": "2h+oh+k"
+                }
+            ]
+        },
+        {
+            "address": "Kylänevantie 16",
+            "city": "Helsinki",
+            "district": "Etelä-Haaga",
+            "lat": 60.21343540632608,
+            "lng": 24.893308078314185,
+            "residence_count": 133,
+            "residences": [
+                {
+                    "area": 12.0,
+                    "price": 238,
+                    "type": "Huone"
+                },
+                {
+                    "area": 18.5,
+                    "price": 309,
+                    "type": "Huone"
+                },
+                {
+                    "area": 37.0,
+                    "price": 463,
+                    "type": "1h+k"
+                },
+                {
+                    "area": 36.5,
+                    "price": 458,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 73.5,
+                    "price": 805,
+                    "type": "3h+k"
+                }
+            ]
+        },
+        {
+            "address": "Kylävainionkuja 6",
+            "city": "Espoo",
+            "district": "Kirkkojärvi",
+            "lat": 60.20974586070959,
+            "lng": 24.672581534792084,
+            "residence_count": 43,
+            "residences": [
+                {
+                    "area": 13.5,
+                    "price": 269,
+                    "type": "Huone"
+                },
+                {
+                    "area": 32.5,
+                    "price": 389,
+                    "type": "1h+kt"
+                },
+                {
+                    "area": 42.0,
+                    "price": 485,
+                    "type": "1h+kk"
+                },
+                {
+                    "area": 53.5,
+                    "price": 592,
+                    "type": "1h+oh+k"
+                },
+                {
+                    "area": 44.5,
+                    "price": 512,
+                    "type": "2h+k"
+                },
+                {
+                    "area": 63.5,
+                    "price": 678,
+                    "type": "2h+oh+k"
+                },
+                {
+                    "area": 68.5,
+                    "price": 704,
+                    "type": "2h+tpk"
+                },
+                {
+                    "area": 69.5,
+                    "price": 778,
+                    "type": "3h+k"
+                }
+            ]
+        },
+        {
+            "address": "Kyyhkysmäki 2",
+            "city": "Espoo",
+            "district": "Leppävaara",
+            "lat": 60.22866430513985,
+            "lng": 24.813133584398102,
+            "residence_count": 51,
+            "residences": [
+                {
+                    "area": 39.0,
+                    "price": 512,
+                    "type": "1h+k"
+                },
+                {
+                    "area": 58.0,
+                    "price": 691,
+                    "type": "1h+oh+k"
+                },
+                {
+                    "area": 65.0,
+                    "price": 720,
+                    "type": "2h+tpk"
+                }
+            ]
+        },
+        {
+            "address": "Kyyhkysmäki 3",
+            "city": "Espoo",
+            "district": "Leppävaara",
+            "lat": 60.2288611118281,
+            "lng": 24.81191705190547,
+            "residence_count": 21,
+            "residences": [
+                {
+                    "area": 14.5,
+                    "price": 335,
+                    "type": "Huone"
+                },
+                {
+                    "area": 49.5,
+                    "price": 636,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 53.0,
+                    "price": 673,
+                    "type": "1h+oh+k"
+                },
+                {
+                    "area": 61.5,
+                    "price": 724,
+                    "type": "1h+oh+tpk"
+                },
+                {
+                    "area": 53.0,
+                    "price": 661,
+                    "type": "2h+k"
+                }
+            ]
+        },
+        {
+            "address": "Lehdeskuja 1",
+            "city": "Espoo",
+            "district": "Latokaski",
+            "lat": 60.182847834437624,
+            "lng": 24.669308881925552,
+            "residence_count": 28,
+            "residences": [
+                {
+                    "area": 55.0,
+                    "price": 690,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 77.5,
+                    "price": 789,
+                    "type": "2h+oh+k"
+                },
+                {
+                    "area": 96.0,
+                    "price": 864,
+                    "type": "3h+oh+k"
+                }
+            ]
+        },
+        {
+            "address": "Leppäsuonkatu 7",
+            "city": "Helsinki",
+            "district": "Kamppi",
+            "lat": 60.16921047363499,
+            "lng": 24.923687638441745,
+            "residence_count": 72,
+            "residences": [
+                {
+                    "area": 23.5,
+                    "price": 491,
+                    "type": "1h+minikeittiö"
+                },
+                {
+                    "area": 48.5,
+                    "price": 758,
+                    "type": "1h+kk"
+                },
+                {
+                    "area": 56.5,
+                    "price": 773,
+                    "type": "1h+oh+k"
+                },
+                {
+                    "area": 38.0,
+                    "price": 638,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 48.5,
+                    "price": 733,
+                    "type": "1h+tpk"
+                }
+            ]
+        },
+        {
+            "address": "Linnankuja 2",
+            "city": "Helsinki",
+            "district": "Katajanokka",
+            "lat": 60.166034503093805,
+            "lng": 24.970186846924072,
+            "residence_count": 9,
+            "residences": [
+                {
+                    "area": 36.0,
+                    "price": 543,
+                    "type": "1h+kk"
+                },
+                {
+                    "area": 53.5,
+                    "price": 745,
+                    "type": "1h+kk"
+                },
+                {
+                    "area": 31.0,
+                    "price": 484,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 64.0,
+                    "price": 852,
+                    "type": "1h+oh+k"
+                }
+            ]
+        },
+        {
+            "address": "Linnoituksentie 10",
+            "city": "Helsinki",
+            "district": "Kivikko",
+            "lat": 60.24152640129173,
+            "lng": 25.070934517749794,
+            "residence_count": 184,
+            "residences": [
+                {
+                    "area": 12.2,
+                    "price": 242,
+                    "type": "Huone"
+                },
+                {
+                    "area": 12.4,
+                    "price": 259,
+                    "type": "Huone"
+                },
+                {
+                    "area": 12.7,
+                    "price": 291,
+                    "type": "Huone"
+                },
+                {
+                    "area": 40.0,
+                    "price": 476,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 49.5,
+                    "price": 574,
+                    "type": "2h+k"
+                },
+                {
+                    "area": 77.0,
+                    "price": 679,
+                    "type": "2h+tpk"
+                },
+                {
+                    "area": 73.0,
+                    "price": 775,
+                    "type": "3h+k"
+                }
+            ]
+        },
+        {
+            "address": "Lohkopellontie 1",
+            "city": "Helsinki",
+            "district": "Oulunkylä",
+            "lat": 60.22420831660254,
+            "lng": 24.966054997647202,
+            "residence_count": 24,
+            "residences": [
+                {
+                    "area": 11.9,
+                    "price": 239,
+                    "type": "Huone"
+                },
+                {
+                    "area": 17.7,
+                    "price": 318,
+                    "type": "Huone"
+                },
+                {
+                    "area": 17.7,
+                    "price": 293,
+                    "type": "Huone"
+                },
+                {
+                    "area": 48.0,
+                    "price": 581,
+                    "type": "1h+oh+kk"
+                },
+                {
+                    "area": 50.0,
+                    "price": 586,
+                    "type": "2h+kk"
+                }
+            ]
+        },
+        {
+            "address": "Maakaari 1",
+            "city": "Helsinki",
+            "district": "Viikki",
+            "lat": 60.23018529353816,
+            "lng": 25.02474620005646,
+            "residence_count": 42,
+            "residences": [
+                {
+                    "area": 27.5,
+                    "price": 372,
+                    "type": "1h+yhteiskeittiö"
+                },
+                {
+                    "area": 54.5,
+                    "price": 712,
+                    "type": "1h+oh+k"
+                },
+                {
+                    "area": 78.5,
+                    "price": 890,
+                    "type": "2h+oh+k"
+                }
+            ]
+        },
+        {
+            "address": "Maakaari 6",
+            "city": "Helsinki",
+            "district": "Viikki",
+            "lat": 60.229614722749254,
+            "lng": 25.026901393116546,
+            "residence_count": 68,
+            "residences": [
+                {
+                    "area": 12.7,
+                    "price": 282,
+                    "type": "Huone"
+                },
+                {
+                    "area": 12.7,
+                    "price": 329,
+                    "type": "Huone"
+                },
+                {
+                    "area": 48.5,
+                    "price": 621,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 56.0,
+                    "price": 658,
+                    "type": "2h+k"
+                },
+                {
+                    "area": 73.0,
+                    "price": 786,
+                    "type": "2h+tpk"
+                }
+            ]
+        },
+        {
+            "address": "Maauunintie 19",
+            "city": "Vantaa",
+            "district": "Kulomäki",
+            "lat": 60.345025435348596,
+            "lng": 25.059069321133748,
+            "residence_count": 72,
+            "residences": [
+                {
+                    "area": 12.0,
+                    "price": 190,
+                    "type": "Huone"
+                },
+                {
+                    "area": 12.0,
+                    "price": 270,
+                    "type": "Huone"
+                },
+                {
+                    "area": 37.0,
+                    "price": 370,
+                    "type": "2h+kk"
+                },
+                {
+                    "area": 70.5,
+                    "price": 540,
+                    "type": "2h+tpk"
+                },
+                {
+                    "area": 70.5,
+                    "price": 570,
+                    "type": "3h+k"
+                }
+            ]
+        },
+        {
+            "address": "Maininkitie 4",
+            "city": "Espoo",
+            "district": "Kivenlahti",
+            "lat": 60.15117959867077,
+            "lng": 24.64502953982603,
+            "residence_count": 63,
+            "residences": [
+                {
+                    "area": 16.0,
+                    "price": 253,
+                    "type": "Huone"
+                },
+                {
+                    "area": 17.8,
+                    "price": 270,
+                    "type": "Huone"
+                },
+                {
+                    "area": 48.0,
+                    "price": 506,
+                    "type": "2h+kk"
+                },
+                {
+                    "area": 81.0,
+                    "price": 757,
+                    "type": "3h+oh+kk"
+                }
+            ]
+        },
+        {
+            "address": "Majurinkulma 2",
+            "city": "Espoo",
+            "district": "Leppävaara",
+            "lat": 60.2112111018897,
+            "lng": 24.825458144785134,
+            "residence_count": 83,
+            "residences": [
+                {
+                    "area": 48.0,
+                    "price": 618,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 58.5,
+                    "price": 711,
+                    "type": "1h+oh+k"
+                },
+                {
+                    "area": 53.0,
+                    "price": 678,
+                    "type": "2h+k"
+                }
+            ]
+        },
+        {
+            "address": "Matinniitynkuja 4",
+            "city": "Espoo",
+            "district": "Matinkylä",
+            "lat": 60.15962308726793,
+            "lng": 24.74407273704443,
+            "residence_count": 113,
+            "residences": [
+                {
+                    "area": 10.5,
+                    "price": 283,
+                    "type": "Huone"
+                },
+                {
+                    "area": 11.5,
+                    "price": 279,
+                    "type": "Huone"
+                },
+                {
+                    "area": 28.0,
+                    "price": 429,
+                    "type": "1h+kt"
+                },
+                {
+                    "area": 40.5,
+                    "price": 586,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 57.5,
+                    "price": 849,
+                    "type": "3h+k"
+                },
+                {
+                    "area": 77.5,
+                    "price": 897,
+                    "type": "3h+tpk"
+                }
+            ]
+        },
+        {
+            "address": "Metsälinnunreitti 2",
+            "city": "Espoo",
+            "district": "Lintuvaara",
+            "lat": 60.23738639059683,
+            "lng": 24.82078137132452,
+            "residence_count": 156,
+            "residences": [
+                {
+                    "area": 11.65,
+                    "price": 204,
+                    "type": "Huone"
+                },
+                {
+                    "area": 41.0,
+                    "price": 406,
+                    "type": "2h+kk"
+                },
+                {
+                    "area": 78.0,
+                    "price": 699,
+                    "type": "3h+tpk"
+                }
+            ]
+        },
+        {
+            "address": "Muusantori 5",
+            "city": "Helsinki",
+            "district": "Tali",
+            "lat": 60.20688601607545,
+            "lng": 24.855811775350386,
+            "residence_count": 94,
+            "residences": [
+                {
+                    "area": 16.1,
+                    "price": 285,
+                    "type": "Huone"
+                },
+                {
+                    "area": 17.6,
+                    "price": 353,
+                    "type": "Huone"
+                },
+                {
+                    "area": 18.5,
+                    "price": 398,
+                    "type": "3h+tpk"
+                },
+                {
+                    "area": 39.0,
+                    "price": 461,
+                    "type": "1h+kt"
+                },
+                {
+                    "area": 57.0,
+                    "price": 656,
+                    "type": "2h+k"
+                },
+                {
+                    "area": 71.5,
+                    "price": 752,
+                    "type": "2h+tpk"
+                }
+            ]
+        },
+        {
+            "address": "Myrttitie 2",
+            "city": "Helsinki",
+            "district": "Pukinmäki",
+            "lat": 60.24436131858924,
+            "lng": 24.99629100715781,
+            "residence_count": 37,
+            "residences": [
+                {
+                    "area": 12.5,
+                    "price": 295,
+                    "type": "Huone"
+                },
+                {
+                    "area": 13.0,
+                    "price": 298,
+                    "type": "Huone"
+                },
+                {
+                    "area": 38.0,
+                    "price": 486,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 55.5,
+                    "price": 675,
+                    "type": "1h+oh+k"
+                },
+                {
+                    "area": 48.5,
+                    "price": 590,
+                    "type": "2h+k"
+                }
+            ]
+        },
+        {
+            "address": "Ohratie 16",
+            "city": "Vantaa",
+            "district": "Jokiniemi",
+            "lat": 60.29989199978309,
+            "lng": 25.06643829211894,
+            "residence_count": 76,
+            "residences": [
+                {
+                    "area": 40.5,
+                    "price": 394,
+                    "type": "2h+kk"
+                },
+                {
+                    "area": 61.5,
+                    "price": 568,
+                    "type": "2h+tpk"
+                }
+            ]
+        },
+        {
+            "address": "Opastinsilta 2",
+            "city": "Helsinki",
+            "district": "Itä-Pasila",
+            "lat": 60.199708660479125,
+            "lng": 24.942706607316573,
+            "residence_count": 77,
+            "residences": [
+                {
+                    "area": 14.9,
+                    "price": 301,
+                    "type": "Huone"
+                },
+                {
+                    "area": 15.0,
+                    "price": 303,
+                    "type": "Huone"
+                },
+                {
+                    "area": 49.0,
+                    "price": 739,
+                    "type": "1h+oh+k"
+                },
+                {
+                    "area": 41.0,
+                    "price": 600,
+                    "type": "2h+kk"
+                },
+                {
+                    "area": 46.0,
+                    "price": 674,
+                    "type": "2h+tpk"
+                },
+                {
+                    "area": 62.0,
+                    "price": 903,
+                    "type": "3h+kk"
+                }
+            ]
+        },
+        {
+            "address": "Pallaksentie 4",
+            "city": "Helsinki",
+            "district": "Mellunmäki",
+            "lat": 60.23870006101975,
+            "lng": 25.111293895665085,
+            "residence_count": 41,
+            "residences": [
+                {
+                    "area": 14.5,
+                    "price": 280,
+                    "type": "Huone"
+                },
+                {
+                    "area": 14.0,
+                    "price": 264,
+                    "type": "Huone"
+                },
+                {
+                    "area": 69.5,
+                    "price": 716,
+                    "type": "2h+tpk"
+                },
+                {
+                    "area": 49.0,
+                    "price": 582,
+                    "type": "2h+k"
+                }
+            ]
+        },
+        {
+            "address": "Paraistentie 18",
+            "city": "Helsinki",
+            "district": "Ruskeasuo",
+            "lat": 60.20357276191707,
+            "lng": 24.903623236400122,
+            "residence_count": 54,
+            "residences": [
+                {
+                    "area": 11.8,
+                    "price": 279,
+                    "type": "Huone"
+                },
+                {
+                    "area": 12.0,
+                    "price": 314,
+                    "type": "Huone"
+                },
+                {
+                    "area": 32.0,
+                    "price": 476,
+                    "type": "1h+kt"
+                },
+                {
+                    "area": 45.0,
+                    "price": 570,
+                    "type": "1h+oh+k"
+                },
+                {
+                    "area": 49.0,
+                    "price": 693,
+                    "type": "2h+kt"
+                },
+                {
+                    "area": 50.0,
+                    "price": 628,
+                    "type": "2h+k"
+                },
+                {
+                    "area": 66.0,
+                    "price": 855,
+                    "type": "3h+k"
+                }
+            ]
+        },
+        {
+            "address": "Paraistentie 19",
+            "city": "Helsinki",
+            "district": "Ruskeasuo",
+            "lat": 60.20396206081186,
+            "lng": 24.90366754206426,
+            "residence_count": 45,
+            "residences": [
+                {
+                    "area": 21.0,
+                    "price": 368,
+                    "type": "1h+kt"
+                },
+                {
+                    "area": 35.0,
+                    "price": 464,
+                    "type": "1h+kt"
+                },
+                {
+                    "area": 50.0,
+                    "price": 617,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 69.5,
+                    "price": 744,
+                    "type": "2h+tpk"
+                },
+                {
+                    "area": 68.0,
+                    "price": 729,
+                    "type": "2h+oh+k"
+                },
+                {
+                    "area": 59.0,
+                    "price": 643,
+                    "type": "3h+tpk"
+                }
+            ]
+        },
+        {
+            "address": "Pasilanraitio 10",
+            "city": "Helsinki",
+            "district": "Länsi-Pasila",
+            "lat": 60.20035631541426,
+            "lng": 24.925411733946028,
+            "residence_count": 18,
+            "residences": [
+                {
+                    "area": 14.1,
+                    "price": 327,
+                    "type": "Huone"
+                },
+                {
+                    "area": 14.7,
+                    "price": 368,
+                    "type": "Huone"
+                },
+                {
+                    "area": 54.0,
+                    "price": 705,
+                    "type": "2h+k"
+                }
+            ]
+        },
+        {
+            "address": "Pasilanraitio 4",
+            "city": "Helsinki",
+            "district": "Länsi-Pasila",
+            "lat": 60.19670254686664,
+            "lng": 24.927143965256636,
+            "residence_count": 54,
+            "residences": [
+                {
+                    "area": 17.3,
+                    "price": 392,
+                    "type": "Huone"
+                },
+                {
+                    "area": 33.5,
+                    "price": 485,
+                    "type": "1h+kk"
+                },
+                {
+                    "area": 51.5,
+                    "price": 720,
+                    "type": "1h+oh+kk"
+                },
+                {
+                    "area": 64.0,
+                    "price": 845,
+                    "type": "2h+k"
+                },
+                {
+                    "area": 74.5,
+                    "price": 945,
+                    "type": "2h+oh+k"
+                }
+            ]
+        },
+        {
+            "address": "Pasilanraitio 6",
+            "city": "Helsinki",
+            "district": "Länsi-Pasila",
+            "lat": 60.19705010611609,
+            "lng": 24.926975216315725,
+            "residence_count": 71,
+            "residences": [
+                {
+                    "area": 13.7,
+                    "price": 295,
+                    "type": "Huone"
+                },
+                {
+                    "area": 15.9,
+                    "price": 337,
+                    "type": "Huone"
+                },
+                {
+                    "area": 37.5,
+                    "price": 501,
+                    "type": "1h+kk"
+                },
+                {
+                    "area": 46.0,
+                    "price": 618,
+                    "type": "2h+kk"
+                },
+                {
+                    "area": 65.5,
+                    "price": 878,
+                    "type": "3h+k"
+                }
+            ]
+        },
+        {
+            "address": "Pasteurinkatu 1",
+            "city": "Helsinki",
+            "district": "Viikki",
+            "lat": 60.22496627539446,
+            "lng": 25.012573316423666,
+            "residence_count": 104,
+            "residences": [
+                {
+                    "area": 16.5,
+                    "price": 364,
+                    "type": "Huone"
+                },
+                {
+                    "area": 27.0,
+                    "price": 467,
+                    "type": "1h+kt"
+                },
+                {
+                    "area": 42.5,
+                    "price": 680,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 55.0,
+                    "price": 826,
+                    "type": "2h+k"
+                },
+                {
+                    "area": 81.5,
+                    "price": 1077,
+                    "type": "3h+k"
+                }
+            ]
+        },
+        {
+            "address": "Pekankatu 5",
+            "city": "Helsinki",
+            "district": "Malmi",
+            "lat": 60.25116138683189,
+            "lng": 25.014302554030696,
+            "residence_count": 72,
+            "residences": [
+                {
+                    "area": 10.5,
+                    "price": 265,
+                    "type": "Huone"
+                },
+                {
+                    "area": 13.5,
+                    "price": 283,
+                    "type": "Huone"
+                },
+                {
+                    "area": 22.0,
+                    "price": 358,
+                    "type": "1h+kt"
+                },
+                {
+                    "area": 38.5,
+                    "price": 499,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 43.5,
+                    "price": 568,
+                    "type": "2h+tpk"
+                },
+                {
+                    "area": 63.5,
+                    "price": 676,
+                    "type": "2h+oh+k"
+                },
+                {
+                    "area": 66.5,
+                    "price": 795,
+                    "type": "3h+tpk"
+                }
+            ]
+        },
+        {
+            "address": "Peltokyläntie 3",
+            "city": "Helsinki",
+            "district": "Suutarila",
+            "lat": 60.268079055661595,
+            "lng": 24.981589882798392,
+            "residence_count": 150,
+            "residences": [
+                {
+                    "area": 13.1,
+                    "price": 235,
+                    "type": "Huone"
+                },
+                {
+                    "area": 11.6,
+                    "price": 269,
+                    "type": "Huone"
+                },
+                {
+                    "area": 55.5,
+                    "price": 601,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 48.0,
+                    "price": 538,
+                    "type": "2h+k"
+                },
+                {
+                    "area": 60.0,
+                    "price": 630,
+                    "type": "2h+tpk"
+                },
+                {
+                    "area": 61.0,
+                    "price": 677,
+                    "type": "3h+k"
+                }
+            ]
+        },
+        {
+            "address": "Peltomyyränkuja 2",
+            "city": "Vantaa",
+            "district": "Korso",
+            "lat": 60.352633777811874,
+            "lng": 25.082555866502034,
+            "residence_count": 31,
+            "residences": [
+                {
+                    "area": 13.0,
+                    "price": 231,
+                    "type": "Huone"
+                },
+                {
+                    "area": 13.5,
+                    "price": 286,
+                    "type": "Huone"
+                },
+                {
+                    "area": 52.0,
+                    "price": 570,
+                    "type": "1h+oh+k"
+                },
+                {
+                    "area": 52.0,
+                    "price": 572,
+                    "type": "2h+k"
+                },
+                {
+                    "area": 61.5,
+                    "price": 635,
+                    "type": "2h+oh+k"
+                }
+            ]
+        },
+        {
+            "address": "Pitäjänmäentie 13",
+            "city": "Helsinki",
+            "district": "Pitäjänmäki",
+            "lat": 60.22383267695607,
+            "lng": 24.862217654096003,
+            "residence_count": 36,
+            "residences": [
+                {
+                    "area": 16.6,
+                    "price": 315,
+                    "type": "Huone"
+                },
+                {
+                    "area": 15.4,
+                    "price": 280,
+                    "type": "Huone"
+                },
+                {
+                    "area": 51.5,
+                    "price": 653,
+                    "type": "1h+oh+kk"
+                },
+                {
+                    "area": 66.5,
+                    "price": 784,
+                    "type": "2h+oh+tpk"
+                }
+            ]
+        },
+        {
+            "address": "Pohjoinen Rautatiekatu 29",
+            "city": "Helsinki",
+            "district": "Kamppi",
+            "lat": 60.16885023122021,
+            "lng": 24.924180553869373,
+            "residence_count": 215,
+            "residences": [
+                {
+                    "area": 29.0,
+                    "price": 545,
+                    "type": "1h+kt"
+                },
+                {
+                    "area": 44.0,
+                    "price": 704,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 65.5,
+                    "price": 928,
+                    "type": "1h+parvi+tpk"
+                },
+                {
+                    "area": 54.0,
+                    "price": 822,
+                    "type": "2h+tpk"
+                }
+            ]
+        },
+        {
+            "address": "Pronssitie 4",
+            "city": "Helsinki",
+            "district": "Pohjois-Haaga",
+            "lat": 60.2312187197522,
+            "lng": 24.883592256837034,
+            "residence_count": 40,
+            "residences": [
+                {
+                    "area": 12.5,
+                    "price": 251,
+                    "type": "Huone"
+                },
+                {
+                    "area": 12.7,
+                    "price": 313,
+                    "type": "Huone"
+                },
+                {
+                    "area": 39.0,
+                    "price": 512,
+                    "type": "2h+kk"
+                }
+            ]
+        },
+        {
+            "address": "Rantaharju 10",
+            "city": "Espoo",
+            "district": "Matinlahti",
+            "lat": 60.15256688867038,
+            "lng": 24.757240355424944,
+            "residence_count": 209,
+            "residences": [
+                {
+                    "area": 28.0,
+                    "price": 372,
+                    "type": "1h+kt"
+                },
+                {
+                    "area": 46.5,
+                    "price": 560,
+                    "type": "1h+tpk"
+                }
+            ]
+        },
+        {
+            "address": "Rasinkatu 10",
+            "city": "Vantaa",
+            "district": "Koivukylä",
+            "lat": 60.323081200854666,
+            "lng": 25.06516615266127,
+            "residence_count": 72,
+            "residences": [
+                {
+                    "area": 17.8,
+                    "price": 204,
+                    "type": "Huone"
+                },
+                {
+                    "area": 17.8,
+                    "price": 269,
+                    "type": "Huone"
+                },
+                {
+                    "area": 49.0,
+                    "price": 395,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 53.0,
+                    "price": 408,
+                    "type": "2h+kk"
+                },
+                {
+                    "area": 76.0,
+                    "price": 538,
+                    "type": "2h+tpk"
+                }
+            ]
+        },
+        {
+            "address": "Rasinkatu 13",
+            "city": "Vantaa",
+            "district": "Koivukylä",
+            "lat": 60.32342670570319,
+            "lng": 25.06583562701273,
+            "residence_count": 18,
+            "residences": [
+                {
+                    "area": 47.0,
+                    "price": 383,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 60.5,
+                    "price": 466,
+                    "type": "1h+oh+k"
+                },
+                {
+                    "area": 77.5,
+                    "price": 558,
+                    "type": "2h+oh+k"
+                }
+            ]
+        },
+        {
+            "address": "Rasinkatu 15",
+            "city": "Vantaa",
+            "district": "Koivukylä",
+            "lat": 60.324056919264024,
+            "lng": 25.066345254085956,
+            "residence_count": 25,
+            "residences": [
+                {
+                    "area": 14.3,
+                    "price": 279,
+                    "type": "Huone"
+                },
+                {
+                    "area": 47.0,
+                    "price": 383,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 60.5,
+                    "price": 466,
+                    "type": "1h+oh+k"
+                },
+                {
+                    "area": 77.5,
+                    "price": 558,
+                    "type": "2h+oh+k"
+                }
+            ]
+        },
+        {
+            "address": "Rasinkatu 20",
+            "city": "Vantaa",
+            "district": "Koivukylä",
+            "lat": 60.32442854303255,
+            "lng": 25.066255681377925,
+            "residence_count": 89,
+            "residences": [
+                {
+                    "area": 13.0,
+                    "price": 243,
+                    "type": "Huone"
+                },
+                {
+                    "area": 17.5,
+                    "price": 225,
+                    "type": "Huone"
+                },
+                {
+                    "area": 34.0,
+                    "price": 369,
+                    "type": "1h+kk"
+                },
+                {
+                    "area": 51.5,
+                    "price": 400,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 61.0,
+                    "price": 509,
+                    "type": "2h+tpk"
+                },
+                {
+                    "area": 78.5,
+                    "price": 631,
+                    "type": "3h+tpk"
+                }
+            ]
+        },
+        {
+            "address": "Rasinkatu 4",
+            "city": "Vantaa",
+            "district": "Koivukylä",
+            "lat": 60.32194760093622,
+            "lng": 25.064296386021066,
+            "residence_count": 72,
+            "residences": [
+                {
+                    "area": 17.8,
+                    "price": 204,
+                    "type": "2h+kk"
+                },
+                {
+                    "area": 17.8,
+                    "price": 269,
+                    "type": "2h+tpk"
+                },
+                {
+                    "area": 49.0,
+                    "price": 395,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 53.0,
+                    "price": 408,
+                    "type": "2h+kk"
+                },
+                {
+                    "area": 76.0,
+                    "price": 538,
+                    "type": "2h+tpk"
+                }
+            ]
+        },
+        {
+            "address": "Rasinkatu 7",
+            "city": "Vantaa",
+            "district": "Koivukylä",
+            "lat": 60.32241364459386,
+            "lng": 25.065038885083794,
+            "residence_count": 12,
+            "residences": [
+                {
+                    "area": 16.5,
+                    "price": 249,
+                    "type": "Huone"
+                },
+                {
+                    "area": 81.5,
+                    "price": 580,
+                    "type": "2h+oh+k"
+                },
+                {
+                    "area": 97.0,
+                    "price": 715,
+                    "type": "3h+oh+k"
+                }
+            ]
+        },
+        {
+            "address": "Rekipellontie 15",
+            "city": "Helsinki",
+            "district": "Kontula",
+            "lat": 60.23877293009305,
+            "lng": 25.09151153807753,
+            "residence_count": 17,
+            "residences": [
+                {
+                    "area": 20.7,
+                    "price": 300,
+                    "type": "Huone"
+                },
+                {
+                    "area": 19.3,
+                    "price": 304,
+                    "type": "Huone"
+                }
+            ]
+        },
+        {
+            "address": "Rälssintie 16",
+            "city": "Helsinki",
+            "district": "Pukinmäki",
+            "lat": 60.24136650232315,
+            "lng": 24.988530166611163,
+            "residence_count": 104,
+            "residences": [
+                {
+                    "area": 14.0,
+                    "price": 294,
+                    "type": "Huone"
+                },
+                {
+                    "area": 50.0,
+                    "price": 608,
+                    "type": "2h+k"
+                },
+                {
+                    "area": 65.0,
+                    "price": 830,
+                    "type": "3h+k"
+                },
+                {
+                    "area": 69.5,
+                    "price": 855,
+                    "type": "3h+tpk"
+                }
+            ]
+        },
+        {
+            "address": "Rörstrandinkatu 3",
+            "city": "Helsinki",
+            "district": "Toukola",
+            "lat": 60.20596165937903,
+            "lng": 24.978086767249867,
+            "residence_count": 134,
+            "residences": [
+                {
+                    "area": 31.0,
+                    "price": 477,
+                    "type": "1h+kt"
+                },
+                {
+                    "area": 36.0,
+                    "price": 523,
+                    "type": "1h+kt"
+                },
+                {
+                    "area": 40.5,
+                    "price": 603,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 62.5,
+                    "price": 800,
+                    "type": "1h+oh+kk"
+                },
+                {
+                    "area": 55.5,
+                    "price": 763,
+                    "type": "1h+oh+k"
+                },
+                {
+                    "area": 56.0,
+                    "price": 770,
+                    "type": "2h+k"
+                },
+                {
+                    "area": 61.5,
+                    "price": 798,
+                    "type": "2h+k"
+                }
+            ]
+        },
+        {
+            "address": "Santakuja 3",
+            "city": "Helsinki",
+            "district": "Ruoholahti",
+            "lat": 60.16237380552577,
+            "lng": 24.917121309967996,
+            "residence_count": 5,
+            "residences": [
+                {
+                    "area": 13.5,
+                    "price": 370,
+                    "type": "Huone"
+                }
+            ]
+        },
+        {
+            "address": "Seljapolku 7",
+            "city": "Vantaa",
+            "district": "Koivukylä",
+            "lat": 60.32211671912054,
+            "lng": 25.0556368333495,
+            "residence_count": 46,
+            "residences": [
+                {
+                    "area": 11.7,
+                    "price": 229,
+                    "type": "Huone"
+                },
+                {
+                    "area": 48.5,
+                    "price": 502,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 49.0,
+                    "price": 502,
+                    "type": "1h+oh+kk"
+                },
+                {
+                    "area": 62.0,
+                    "price": 683,
+                    "type": "3h+k"
+                }
+            ]
+        },
+        {
+            "address": "Selkämerenkatu 6",
+            "city": "Helsinki",
+            "district": "Ruoholahti",
+            "lat": 60.1622740014881,
+            "lng": 24.91577609204515,
+            "residence_count": 8,
+            "residences": [
+                {
+                    "area": 13.5,
+                    "price": 371,
+                    "type": "Huone"
+                },
+                {
+                    "area": 60.5,
+                    "price": 829,
+                    "type": "1h+oh+k"
+                }
+            ]
+        },
+        {
+            "address": "Serkustentie 1",
+            "city": "Helsinki",
+            "district": "Hakuninmaa",
+            "lat": 60.25478885830411,
+            "lng": 24.898064451314735,
+            "residence_count": 38,
+            "residences": [
+                {
+                    "area": 12.0,
+                    "price": 252,
+                    "type": "Huone"
+                },
+                {
+                    "area": 47.5,
+                    "price": 572,
+                    "type": "2h+k"
+                },
+                {
+                    "area": 65.0,
+                    "price": 756,
+                    "type": "3h+k"
+                }
+            ]
+        },
+        {
+            "address": "Servin Maijan Tie 3",
+            "city": "Espoo",
+            "district": "Otaniemi",
+            "lat": 60.189696393739936,
+            "lng": 24.835677620739247,
+            "residence_count": 24,
+            "residences": [
+                {
+                    "area": 12.4,
+                    "price": 302,
+                    "type": "Huone"
+                },
+                {
+                    "area": 75.0,
+                    "price": 832,
+                    "type": "2h+oh+k"
+                },
+                {
+                    "area": 75.5,
+                    "price": 913,
+                    "type": "3h+k"
+                }
+            ]
+        },
+        {
+            "address": "Servinkuja 5",
+            "city": "Espoo",
+            "district": "Otaniemi",
+            "lat": 60.19102933259006,
+            "lng": 24.833275088737338,
+            "residence_count": 76,
+            "residences": [
+                {
+                    "area": 17.5,
+                    "price": 328,
+                    "type": "Huone"
+                },
+                {
+                    "area": 28.5,
+                    "price": 428,
+                    "type": "1h+kt"
+                },
+                {
+                    "area": 37.5,
+                    "price": 482,
+                    "type": "1h+kk"
+                },
+                {
+                    "area": 51.0,
+                    "price": 656,
+                    "type": "2h+kk"
+                }
+            ]
+        },
+        {
+            "address": "Servinkuja 6",
+            "city": "Espoo",
+            "district": "Otaniemi",
+            "lat": 60.190925406650315,
+            "lng": 24.8329810525399,
+            "residence_count": 27,
+            "residences": [
+                {
+                    "area": 16.0,
+                    "price": 327,
+                    "type": "Huone"
+                },
+                {
+                    "area": 30.5,
+                    "price": 414,
+                    "type": "1h+kk"
+                },
+                {
+                    "area": 44.5,
+                    "price": 581,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 59.5,
+                    "price": 693,
+                    "type": "2h+tpk"
+                },
+                {
+                    "area": 90.0,
+                    "price": 935,
+                    "type": "3h+tpk"
+                }
+            ]
+        },
+        {
+            "address": "Siamintie 3",
+            "city": "Helsinki",
+            "district": "Kumpula",
+            "lat": 60.20971418010102,
+            "lng": 24.971034393203222,
+            "residence_count": 14,
+            "residences": [
+                {
+                    "area": 40.5,
+                    "price": 560,
+                    "type": "1h+kk"
+                },
+                {
+                    "area": 60.5,
+                    "price": 774,
+                    "type": "1h+oh+kk"
+                },
+                {
+                    "area": 75.0,
+                    "price": 883,
+                    "type": "2h+oh+kk"
+                }
+            ]
+        },
+        {
+            "address": "Silmupolku 1",
+            "city": "Helsinki",
+            "district": "Pitäjänmäki",
+            "lat": 60.21772871216942,
+            "lng": 24.86699803678486,
+            "residence_count": 50,
+            "residences": [
+                {
+                    "area": 46.0,
+                    "price": 592,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 44.0,
+                    "price": 579,
+                    "type": "1h+oh+kk"
+                },
+                {
+                    "area": 76.5,
+                    "price": 790,
+                    "type": "2h+oh+kk"
+                },
+                {
+                    "area": 80.5,
+                    "price": 795,
+                    "type": "2h+oh+k"
+                }
+            ]
+        },
+        {
+            "address": "Siltakuja 2",
+            "city": "Espoo",
+            "district": "Kiltakallio",
+            "lat": 60.203148636096024,
+            "lng": 24.655536819678815,
+            "residence_count": 170,
+            "residences": [
+                {
+                    "area": 12.8,
+                    "price": 236,
+                    "type": "Huone"
+                },
+                {
+                    "area": 12.5,
+                    "price": 282,
+                    "type": "Huone"
+                },
+                {
+                    "area": 27.0,
+                    "price": 365,
+                    "type": "1h+kt"
+                },
+                {
+                    "area": 45.0,
+                    "price": 511,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 45.0,
+                    "price": 512,
+                    "type": "1h+oh+kk"
+                },
+                {
+                    "area": 46.0,
+                    "price": 564,
+                    "type": "2h+kk"
+                },
+                {
+                    "area": 67.0,
+                    "price": 610,
+                    "type": "2h+tpk"
+                }
+            ]
+        },
+        {
+            "address": "Siltakylänkuja 1",
+            "city": "Helsinki",
+            "district": "Suutarila",
+            "lat": 60.269610959732795,
+            "lng": 24.984937241567966,
+            "residence_count": 28,
+            "residences": [
+                {
+                    "area": 12.1,
+                    "price": 223,
+                    "type": "Huone"
+                },
+                {
+                    "area": 15.7,
+                    "price": 303,
+                    "type": "Huone"
+                },
+                {
+                    "area": 48.0,
+                    "price": 538,
+                    "type": "2h+k"
+                },
+                {
+                    "area": 56.0,
+                    "price": 606,
+                    "type": "2h+k"
+                },
+                {
+                    "area": 60.0,
+                    "price": 665,
+                    "type": "3h+k"
+                }
+            ]
+        },
+        {
+            "address": "Siltakylänkuja 3",
+            "city": "Helsinki",
+            "district": "Suutarila",
+            "lat": 60.26923592345275,
+            "lng": 24.98593791534309,
+            "residence_count": 68,
+            "residences": [
+                {
+                    "area": 11.8,
+                    "price": 269,
+                    "type": "Huone"
+                },
+                {
+                    "area": 12.1,
+                    "price": 223,
+                    "type": "Huone"
+                },
+                {
+                    "area": 48.0,
+                    "price": 538,
+                    "type": "2h+k"
+                },
+                {
+                    "area": 60.0,
+                    "price": 636,
+                    "type": "2h+tpk"
+                },
+                {
+                    "area": 60.0,
+                    "price": 665,
+                    "type": "3h+k"
+                }
+            ]
+        },
+        {
+            "address": "Siltapellonkuja 2",
+            "city": "Helsinki",
+            "district": "Suutarila",
+            "lat": 60.2693668387631,
+            "lng": 24.991233945634814,
+            "residence_count": 60,
+            "residences": [
+                {
+                    "area": 11.8,
+                    "price": 221,
+                    "type": "Huone"
+                },
+                {
+                    "area": 11.8,
+                    "price": 269,
+                    "type": "Huone"
+                },
+                {
+                    "area": 48.0,
+                    "price": 528,
+                    "type": "2h+k"
+                },
+                {
+                    "area": 60.0,
+                    "price": 624,
+                    "type": "2h+tpk"
+                },
+                {
+                    "area": 60.0,
+                    "price": 653,
+                    "type": "3h+k"
+                }
+            ]
+        },
+        {
+            "address": "Sisarustentie 2",
+            "city": "Helsinki",
+            "district": "Hakuninmaa",
+            "lat": 60.25370937461605,
+            "lng": 24.898404075098995,
+            "residence_count": 38,
+            "residences": [
+                {
+                    "area": 12.0,
+                    "price": 252,
+                    "type": "Huone"
+                },
+                {
+                    "area": 62.5,
+                    "price": 700,
+                    "type": "2h+tpk"
+                }
+            ]
+        },
+        {
+            "address": "Talonpojantie 5",
+            "city": "Helsinki",
+            "district": "Viikki",
+            "lat": 60.230051828450115,
+            "lng": 25.02380671913527,
+            "residence_count": 60,
+            "residences": [
+                {
+                    "area": 12.0,
+                    "price": 223,
+                    "type": "Huone"
+                },
+                {
+                    "area": 17.5,
+                    "price": 299,
+                    "type": "Huone"
+                },
+                {
+                    "area": 48.5,
+                    "price": 596,
+                    "type": "1h+oh+kk"
+                },
+                {
+                    "area": 50.5,
+                    "price": 611,
+                    "type": "2h+kk"
+                }
+            ]
+        },
+        {
+            "address": "Tilanhoitajankaari 11",
+            "city": "Helsinki",
+            "district": "Viikki",
+            "lat": 60.23005426941571,
+            "lng": 25.029315055157685,
+            "residence_count": 118,
+            "residences": [
+                {
+                    "area": 35.5,
+                    "price": 464,
+                    "type": "1h+kk"
+                },
+                {
+                    "area": 51.0,
+                    "price": 648,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 60.5,
+                    "price": 731,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 69.5,
+                    "price": 780,
+                    "type": "2h+tpk"
+                }
+            ]
+        },
+        {
+            "address": "Tilanhoitajankaari 6",
+            "city": "Helsinki",
+            "district": "Viikki",
+            "lat": 60.232337064792716,
+            "lng": 25.03120220709437,
+            "residence_count": 92,
+            "residences": [
+                {
+                    "area": 32.5,
+                    "price": 438,
+                    "type": "1h+kt"
+                },
+                {
+                    "area": 58.5,
+                    "price": 725,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 58.5,
+                    "price": 732,
+                    "type": "2h+k"
+                },
+                {
+                    "area": 72.5,
+                    "price": 809,
+                    "type": "2h+tpk"
+                }
+            ]
+        },
+        {
+            "address": "Timpurinkuja 1",
+            "city": "Espoo",
+            "district": "Leppävaara",
+            "lat": 60.22272305659873,
+            "lng": 24.814202793269722,
+            "residence_count": 47,
+            "residences": [
+                {
+                    "area": 14.5,
+                    "price": 324,
+                    "type": "Huone"
+                },
+                {
+                    "area": 12.0,
+                    "price": 269,
+                    "type": "Huone"
+                },
+                {
+                    "area": 30.5,
+                    "price": 427,
+                    "type": "1h+kk"
+                },
+                {
+                    "area": 45.0,
+                    "price": 606,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 48.0,
+                    "price": 632,
+                    "type": "2h+kk"
+                },
+                {
+                    "area": 67.0,
+                    "price": 800,
+                    "type": "2h+tpk"
+                }
+            ]
+        },
+        {
+            "address": "Tukkitie 18",
+            "city": "Helsinki",
+            "district": "Heikinlaakso",
+            "lat": 60.27163600225845,
+            "lng": 25.0723104861452,
+            "residence_count": 51,
+            "residences": [
+                {
+                    "area": 12.9,
+                    "price": 237,
+                    "type": "Huone"
+                },
+                {
+                    "area": 12.7,
+                    "price": 269,
+                    "type": "Huone"
+                },
+                {
+                    "area": 47.0,
+                    "price": 538,
+                    "type": "2h+k"
+                },
+                {
+                    "area": 65.0,
+                    "price": 683,
+                    "type": "2h+oh+k"
+                },
+                {
+                    "area": 65.0,
+                    "price": 707,
+                    "type": "3h+k"
+                }
+            ]
+        },
+        {
+            "address": "Tähkäkuja 5",
+            "city": "Vantaa",
+            "district": "Jokiniemi",
+            "lat": 60.29982441315084,
+            "lng": 25.062778332440324,
+            "residence_count": 178,
+            "residences": [
+                {
+                    "area": 42.0,
+                    "price": 408,
+                    "type": "1h+oh+kk"
+                },
+                {
+                    "area": 61.0,
+                    "price": 568,
+                    "type": "2h+tpk"
+                },
+                {
+                    "area": 61.0,
+                    "price": 568,
+                    "type": "2h+oh+kk"
+                }
+            ]
+        },
+        {
+            "address": "Vaskivuorentie 22",
+            "city": "Vantaa",
+            "district": "Myyrmäki",
+            "lat": 60.26340724791007,
+            "lng": 24.846411909142635,
+            "residence_count": 36,
+            "residences": [
+                {
+                    "area": 13.4,
+                    "price": 251,
+                    "type": "Huone"
+                },
+                {
+                    "area": 17.7,
+                    "price": 284,
+                    "type": "Huone"
+                },
+                {
+                    "area": 13.8,
+                    "price": 335,
+                    "type": "Huone"
+                },
+                {
+                    "area": 45.5,
+                    "price": 523,
+                    "type": "2h+kk"
+                }
+            ]
+        },
+        {
+            "address": "Vieraskuja 5",
+            "city": "Espoo",
+            "district": "Kirkkojärvi",
+            "lat": 60.207514462375705,
+            "lng": 24.66243090533902,
+            "residence_count": 84,
+            "residences": [
+                {
+                    "area": 13.7,
+                    "price": 233,
+                    "type": "Huone"
+                },
+                {
+                    "area": 16.1,
+                    "price": 242,
+                    "type": "Huone"
+                },
+                {
+                    "area": 38.0,
+                    "price": 390,
+                    "type": "1h+kk"
+                },
+                {
+                    "area": 47.0,
+                    "price": 482,
+                    "type": "1h+oh+kk"
+                },
+                {
+                    "area": 47.0,
+                    "price": 484,
+                    "type": "2h+kk"
+                },
+                {
+                    "area": 66.0,
+                    "price": 692,
+                    "type": "3h+k"
+                }
+            ]
+        },
+        {
+            "address": "Viljelijäntie 4-6",
+            "city": "Helsinki",
+            "district": "Malminkartano",
+            "lat": null,
+            "lng": null,
+            "residence_count": 192,
+            "residences": [
+                {
+                    "area": 27.0,
+                    "price": 352,
+                    "type": "1h+kt"
+                },
+                {
+                    "area": 42.5,
+                    "price": 499,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 42.5,
+                    "price": 500,
+                    "type": "2h+tpk"
+                }
+            ]
+        },
+        {
+            "address": "Viljo Sohkasen Katu 3",
+            "city": "Vantaa",
+            "district": "Jokiniemi",
+            "lat": 60.29783527595442,
+            "lng": 25.053093155832197,
+            "residence_count": 78,
+            "residences": [
+                {
+                    "area": 12.5,
+                    "price": 229,
+                    "type": "Huone"
+                },
+                {
+                    "area": 17.5,
+                    "price": 257,
+                    "type": "Huone"
+                },
+                {
+                    "area": 46.0,
+                    "price": 469,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 66.0,
+                    "price": 640,
+                    "type": "2h+tpk"
+                },
+                {
+                    "area": 66.0,
+                    "price": 684,
+                    "type": "3h+k"
+                }
+            ]
+        },
+        {
+            "address": "Von Daehnin Katu 14",
+            "city": "Helsinki",
+            "district": "Viikki",
+            "lat": 60.23074487088858,
+            "lng": 25.044112888663836,
+            "residence_count": 58,
+            "residences": [
+                {
+                    "area": 13.5,
+                    "price": 297,
+                    "type": "Huone"
+                },
+                {
+                    "area": 15.0,
+                    "price": 333,
+                    "type": "Huone"
+                },
+                {
+                    "area": 20.0,
+                    "price": 353,
+                    "type": "Huone"
+                },
+                {
+                    "area": 31.0,
+                    "price": 488,
+                    "type": "1h+kt"
+                },
+                {
+                    "area": 59.5,
+                    "price": 920,
+                    "type": "1h+oh+k"
+                },
+                {
+                    "area": 48.5,
+                    "price": 676,
+                    "type": "2h+k"
+                },
+                {
+                    "area": 62.5,
+                    "price": 850,
+                    "type": "3h+k"
+                }
+            ]
+        },
+        {
+            "address": "Väinö Auerin Katu 1",
+            "city": "Helsinki",
+            "district": "Kumpula",
+            "lat": 60.208734516747555,
+            "lng": 24.967132297055617,
+            "residence_count": 85,
+            "residences": [
+                {
+                    "area": 13.0,
+                    "price": 294,
+                    "type": "Huone"
+                },
+                {
+                    "area": 10.5,
+                    "price": 298,
+                    "type": "Huone"
+                },
+                {
+                    "area": 13.5,
+                    "price": 343,
+                    "type": "Huone"
+                },
+                {
+                    "area": 33.0,
+                    "price": 457,
+                    "type": "1h+k"
+                },
+                {
+                    "area": 44.0,
+                    "price": 596,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 44.0,
+                    "price": 596,
+                    "type": "2h+kk"
+                },
+                {
+                    "area": 64.0,
+                    "price": 846,
+                    "type": "3h+k"
+                }
+            ]
+        },
+        {
+            "address": "Väinö Auerin Katu 13",
+            "city": "Helsinki",
+            "district": "Kumpula",
+            "lat": 60.2053024404549,
+            "lng": 24.96144240993094,
+            "residence_count": 91,
+            "residences": [
+                {
+                    "area": 29.5,
+                    "price": 437,
+                    "type": "1h+kt"
+                },
+                {
+                    "area": 45.5,
+                    "price": 662,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 57.0,
+                    "price": 760,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 60.0,
+                    "price": 733,
+                    "type": "2h+k"
+                },
+                {
+                    "area": 65.0,
+                    "price": 780,
+                    "type": "2h+tpk"
+                }
+            ]
+        },
+        {
+            "address": "Väinö Auerin Katu 3",
+            "city": "Helsinki",
+            "district": "Kumpula",
+            "lat": 60.20795954945371,
+            "lng": 24.965486296730152,
+            "residence_count": 69,
+            "residences": [
+                {
+                    "area": 12.5,
+                    "price": 266,
+                    "type": "8h+oh+tpk"
+                },
+                {
+                    "area": 33.0,
+                    "price": 457,
+                    "type": "1h+k"
+                },
+                {
+                    "area": 44.0,
+                    "price": 596,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 44.0,
+                    "price": 596,
+                    "type": "2h+kk"
+                },
+                {
+                    "area": 64.0,
+                    "price": 846,
+                    "type": "3h+k"
+                }
+            ]
+        },
+        {
+            "address": "Välimerenkatu 5",
+            "city": "Helsinki",
+            "district": "Länsisatama",
+            "lat": 60.1602866009842,
+            "lng": 24.919509720805568,
+            "residence_count": 206,
+            "residences": [
+                {
+                    "area": 24.5,
+                    "price": 510,
+                    "type": "1h+yhteiskeittiö"
+                },
+                {
+                    "area": 35.5,
+                    "price": 630,
+                    "type": "1h+kt"
+                },
+                {
+                    "area": 46.0,
+                    "price": 805,
+                    "type": "1h+tpk"
+                },
+                {
+                    "area": 40.0,
+                    "price": 716,
+                    "type": "1h+oh+kt"
+                },
+                {
+                    "area": 46.0,
+                    "price": 808,
+                    "type": "2h+k"
+                },
+                {
+                    "area": 69.0,
+                    "price": 1193,
+                    "type": "3h+k"
+                }
+            ]
+        }
+    ],
+    "timestamp": 1489935060
+}
