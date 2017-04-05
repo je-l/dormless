@@ -14,15 +14,13 @@ export default class DormMap extends Component {
       zoom: 11,
       markers: this.createMarkers(hoasData.apartments),
     };
-
     this.filterApartments = this.filterApartments.bind(this);
   }
 
   createMarkers(apartments) {
-    const marks = apartments.filter(x => x.lat).map(a => (
+    return apartments.filter(x => x.lat).map(a => (
       <HouseMarker key={a.address} position={[a.lat, a.lng]} apartment={a} />
     ));
-    return marks;
   }
 
   filterApartments(maxPrice) {

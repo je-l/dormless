@@ -44,3 +44,8 @@ export default class HouseMarker extends Component {
     );
   }
 }
+
+HouseMarker.propTypes = {
+  position: React.PropTypes.arrayOf(React.PropTypes.number).isRequired,
+  apartment: React.PropTypes.any.isRequired,
+};

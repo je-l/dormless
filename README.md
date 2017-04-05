@@ -5,7 +5,7 @@
 ### Building
 
 1. `npm install`
-2. `webpack`
+2. `./node_modules/webpack/bin/webpack.js` (or just `webpack` if installed globally)
 3. Open index.html
 
 Libraries: react, leaflet.

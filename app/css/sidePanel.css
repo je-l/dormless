@@ -1,11 +1,29 @@
 .sidepanel {
-    width: 175px;
+    width: 15%;
     height: 100%;
     float: left;
     padding-top: 60px;
     margin: 20px;
+    font-size: 0.85em;
 }
 
 .price-slider {
   width: 100%;
+}
+
+table {
+  width: 100%;
+  padding: 3px;
+  border-spacing: 0px;
+}
+
+td {
+  padding: 5px;
+}
+
+tr {
+  border: #fff 1px solid;
+}
+tr:nth-child(odd) {
+  background: #eee;
 }

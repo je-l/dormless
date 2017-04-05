@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 
 import Slider from "./Slider";
+import Statistics from "./Statistics";
 
 export default class SidePanel extends Component {
   constructor(props) {
     super();
-    const residences = props.apartments.map(a => a.residences).reduce((a, b) => (
-      a.concat(b)
+    const residences = props.apartments.map(a => a.residences).reduce((acc, cur) => (
+      acc.concat(cur)
     ), []);
     const highestPrice = Math.max.apply(null, residences.map(x => x.price));
     this.state = {
@@ -14,7 +15,6 @@ export default class SidePanel extends Component {
       selectedMaxPrice: highestPrice,
       minPrice: Math.min.apply(null, residences.map(x => x.price)),
     };
-
     this.updateApartments = this.updateApartments.bind(this);
   }
 
@@ -35,8 +35,13 @@ export default class SidePanel extends Component {
           min={this.state.minPrice} max={this.state.maxPrice}
         />
         <p className="min-price-area">{this.state.minPrice} - {this.state.selectedMaxPrice} €</p>
+        <Statistics apartments={this.props.apartments} />
       </div>
     );
   }
-
 }
+
+SidePanel.propTypes = {
+  apartments: React.PropTypes.any.isRequired,
+  filterApartments: React.PropTypes.func.isRequired,
+};
