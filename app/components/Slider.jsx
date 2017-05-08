@@ -1,8 +1,8 @@
-import React, {Component} from "react";
-import Leaflet from "leaflet";
-import {Marker, Popup} from "react-leaflet";
+import React, {Component} from 'react';
+import Leaflet from 'leaflet';
+import {Marker, Popup} from 'react-leaflet';
 
-import Pricing from "./Pricing";
+import Pricing from './Pricing';
 
 export default class Slider extends Component {
   constructor(props) {

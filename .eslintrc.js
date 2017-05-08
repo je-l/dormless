@@ -4,7 +4,7 @@ module.exports = {
     "browser": "true"
   },
   "rules": {
-    "quotes": [2, "double"],
+    "quotes": [2, "single"],
     "semi": [1, "always"],
     "react/prop-types": 1,
     "react/prefer-stateless-function": 1,

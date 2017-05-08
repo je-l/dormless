@@ -1,15 +1,16 @@
-import React, { Component } from "react";
-import Leaflet from "leaflet";
-import { Marker, Popup } from "react-leaflet";
+import React, { Component } from 'react';
+import Leaflet from 'leaflet';
+import { Marker, Popup } from 'react-leaflet';
+import PropTypes from 'prop-types';
 
-import Pricing from "./Pricing";
+import Pricing from './Pricing';
 
 export default class HouseMarker extends Component {
   constructor() {
     super();
     const customIcon = Leaflet.icon({
-      iconUrl: "./assets/marker.png",
-      shadowUrl: "./assets/marker-shadow.png",
+      iconUrl: './assets/marker.png',
+      shadowUrl: './assets/marker-shadow.png',
 
       iconSize: [30, 41],
       shadowSize: [59, 34],
@@ -24,10 +25,10 @@ export default class HouseMarker extends Component {
   render() {
     const address = this.props.apartment.address;
     const hyperlink = address.toLowerCase()
-      .replace(/ /g, "-")
-      .replace(/ä/g, "a")
-      .replace(/ö/g, "o")
-      .replace(/å/g, "å");
+      .replace(/ /g, '-')
+      .replace(/ä/g, 'a')
+      .replace(/ö/g, 'o')
+      .replace(/å/g, 'å');
 
     const link = `https://www.hoas.fi/kohteet/${hyperlink}/`;
     return (
@@ -35,7 +36,7 @@ export default class HouseMarker extends Component {
         <Marker position={this.props.position} icon={this.state.icon}>
           <Popup>
             <div>
-              <a href={link} target={"_blank"}>{this.props.apartment.address}</a>
+              <a href={link} target={'_blank'}>{this.props.apartment.address}</a>
               <Pricing key={this.props.apartment.address} apartment={this.props.apartment} />
             </div>
           </Popup>
@@ -46,6 +47,9 @@ export default class HouseMarker extends Component {
 }
 
 HouseMarker.propTypes = {
-  position: React.PropTypes.arrayOf(React.PropTypes.number).isRequired,
-  apartment: React.PropTypes.any.isRequired,
+  position: PropTypes.arrayOf(PropTypes.number).isRequired,
+  apartment: PropTypes.shape({
+    address: PropTypes.string.isRequired,
+    residences: PropTypes.arrayOf(PropTypes.any).isRequired,
+  }).isRequired,
 };

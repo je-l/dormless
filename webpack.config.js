@@ -1,24 +1,24 @@
-const path = require("path");
+const path = require('path');
 
-const srcDir = path.resolve(__dirname, "app/");
+const srcDir = path.resolve(__dirname, 'app/');
 
 module.exports = {
   entry: `${srcDir}/index.jsx`,
   output: {
-    path: path.resolve(__dirname, "bin/"),
-    filename: "bundle.js",
-    publicPath: "/bin/",
+    path: path.resolve(__dirname, 'bin/'),
+    filename: 'bundle.js',
+    publicPath: '/bin/',
   },
   module: {
     loaders: [
       {
         test: /\.jsx?/,
         include: srcDir,
-        loader: "babel-loader",
+        loader: 'babel-loader',
       },
     ],
   },
   resolve: {
-    extensions: [".js", ".jsx"],
+    extensions: ['.js', '.jsx'],
   },
 };

@@ -1,5 +1,7 @@
-import React, { Component } from "react";
-import houseTypes from "../constants/residenceTypes";
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+
+import houseTypes from '../constants/residenceTypes';
 
 function sum(array) {
   return array.reduce((acc, cur) => acc + cur, 0);
@@ -18,7 +20,7 @@ export default class Statistics extends Component {
     this.state = {
       residences,
       residenceCount,
-      types: ["dorm", "single", "double", "family"],
+      types: ['room', 'studio', 'double', 'family'],
     };
   }
 
@@ -56,10 +58,10 @@ export default class Statistics extends Component {
         <h3>Keskimääräiset vuokrat</h3>
         <table>
           <tbody>
-            {this.houseTypePrices("Huone", "dorm")}
-            {this.houseTypePrices("Yksiö", "single")}
-            {this.houseTypePrices("Kaksio", "double")}
-            {this.houseTypePrices("Perhe", "family")}
+            {this.houseTypePrices('Huone', 'room')}
+            {this.houseTypePrices('Yksiö', 'studio')}
+            {this.houseTypePrices('Kaksio', 'double')}
+            {this.houseTypePrices('Perhe', 'family')}
           </tbody>
         </table>
       </div>
@@ -68,5 +70,5 @@ export default class Statistics extends Component {
 }
 
 Statistics.propTypes = {
-  apartments: React.PropTypes.arrayOf(React.PropTypes.any).isRequired,
+  apartments: PropTypes.arrayOf(PropTypes.any).isRequired,
 };

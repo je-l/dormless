@@ -1,6 +1,6 @@
-import React from "react";
-import { render } from "react-dom";
+import React from 'react';
+import { render } from 'react-dom';
 
-import Map from "./components/Map";
+import Map from './components/Map';
 
-render(<Map />, document.getElementById("app"));
+render(<Map />, document.getElementById('app'));

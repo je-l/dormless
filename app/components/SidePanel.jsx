@@ -1,7 +1,8 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
-import Slider from "./Slider";
-import Statistics from "./Statistics";
+import Slider from './Slider';
+import Statistics from './Statistics';
 
 export default class SidePanel extends Component {
   constructor(props) {
@@ -28,7 +29,7 @@ export default class SidePanel extends Component {
   render() {
     return (
       <div id="mainpanel" className="sidepanel">
-        <p>{"Vuokra:"}</p>
+        <p>{'Vuokra:'}</p>
         <Slider
           cb={this.updateApartments}
           apartments={this.props.apartments}
@@ -42,6 +43,6 @@ export default class SidePanel extends Component {
 }
 
 SidePanel.propTypes = {
-  apartments: React.PropTypes.any.isRequired,
-  filterApartments: React.PropTypes.func.isRequired,
+  apartments: PropTypes.arrayOf(PropTypes.any).isRequired,
+  filterApartments: PropTypes.func.isRequired,
 };
