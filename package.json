@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js -d"
+    "dev": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js -d",
+    "lint": "eslint --ext js,jsx app && echo Success"
   },
   "author": "",
   "license": "MIT",
