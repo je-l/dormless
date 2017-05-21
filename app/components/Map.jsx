@@ -34,7 +34,9 @@ export default class DormMap extends Component {
 
   render() {
     const position = [this.state.lat, this.state.lng];
-    const credits = '&copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors';
+    const credits = '&copy <a href="http://osm.org/' +
+      'copyright">OpenStreetMap</a> contributors';
+
     const tileServer = 'https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png';
     return (
       <div>
@@ -42,10 +44,13 @@ export default class DormMap extends Component {
           apartments={hoasData.apartments}
           filterApartments={this.filterApartments}
         />
-        <Map center={position} zoom={this.state.zoom} maxZoom={18} attributionControl={false}>
-          <TileLayer
-            url={tileServer}
-          />
+        <Map
+          center={position}
+          zoom={this.state.zoom}
+          maxZoom={18}
+          attributionControl={false}
+        >
+          <TileLayer url={tileServer} />
           <AttributionControl prefix={credits} />
           {this.state.markers}
         </Map>

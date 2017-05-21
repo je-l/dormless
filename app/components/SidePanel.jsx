@@ -8,9 +8,10 @@ import Statistics from './Statistics';
 export default class SidePanel extends Component {
   constructor(props) {
     super();
-    const residences = props.apartments.map(a => a.residences).reduce((acc, cur) => (
-      acc.concat(cur)
-    ), []);
+    const residences = props.apartments
+      .map(a => a.residences)
+      .reduce((acc, cur) => (acc.concat(cur)), []);
+
     const highestPrice = _.max(props.apartments.map(a => (
       _.min(a.residences.map(r => r.price))
     )));
@@ -39,7 +40,9 @@ export default class SidePanel extends Component {
           apartments={this.props.apartments}
           min={this.state.minPrice} max={this.state.maxPrice}
         />
-        <p className="min-price-area">{this.state.minPrice} - {this.state.selectedMaxPrice} €</p>
+        <p className="min-price-area">
+          {this.state.minPrice} - {this.state.selectedMaxPrice} €
+        </p>
         <Statistics apartments={this.props.apartments} />
       </div>
     );

@@ -36,8 +36,13 @@ export default class HouseMarker extends Component {
         <Marker position={this.props.position} icon={this.state.icon}>
           <Popup>
             <div>
-              <a href={link} target={'_blank'}>{this.props.apartment.address}</a>
-              <Pricing key={this.props.apartment.address} apartment={this.props.apartment} />
+              <a href={link} target={'_blank'}>
+                {this.props.apartment.address}
+              </a>
+              <Pricing
+                key={this.props.apartment.address}
+                apartment={this.props.apartment}
+              />
             </div>
           </Popup>
         </Marker>
