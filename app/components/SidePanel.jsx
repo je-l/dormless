@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import _ from 'lodash';
 
 import Slider from './Slider';
 import Statistics from './Statistics';
@@ -10,11 +11,14 @@ export default class SidePanel extends Component {
     const residences = props.apartments.map(a => a.residences).reduce((acc, cur) => (
       acc.concat(cur)
     ), []);
-    const highestPrice = Math.max.apply(null, residences.map(x => x.price));
+    const highestPrice = _.max(props.apartments.map(a => (
+      _.min(a.residences.map(r => r.price))
+    )));
+
     this.state = {
       maxPrice: highestPrice,
       selectedMaxPrice: highestPrice,
-      minPrice: Math.min.apply(null, residences.map(x => x.price)),
+      minPrice: _.min(residences.map(x => x.price)),
     };
     this.updateApartments = this.updateApartments.bind(this);
   }
