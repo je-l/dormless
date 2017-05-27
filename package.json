@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js -d",
+    "webpack": "./node_modules/.bin/webpack",
+    "prod": "./node_modules/.bin/webpack -p",
+    "dev": "./node_modules/.bin/webpack-dev-server --debug",
     "lint": "eslint --ext js,jsx app && echo Success"
   },
   "author": "",

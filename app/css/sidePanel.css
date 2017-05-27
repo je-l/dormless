@@ -1,29 +1,50 @@
 .sidepanel {
-    width: 15%;
-    height: 100%;
-    float: left;
-    padding-top: 60px;
-    margin: 20px;
-    font-size: 0.85em;
+  width: 15%;
+  bottom: 0;
+  top: 0;
+  border-radius: 5px;
+  height: auto;
+  float: left;
+  position: absolute;
+  background: white;
+  margin: 20px;
+  font-size: 0.85em;
+  z-index: 999;
+  box-shadow: 1.5px 2.6px 10px 0 rgba(0,0,0,0.2);
+  padding: 20px;
 }
 
 .price-slider {
   width: 100%;
 }
 
+.close-button {
+  float: right;
+}
+
 table {
   width: 100%;
   padding: 3px;
-  border-spacing: 0px;
+  border-collapse: collapse;
 }
 
 td {
   padding: 5px;
 }
 
-tr {
-  border: #fff 1px solid;
+td:last-child {
+  text-align: right;
 }
-tr:nth-child(odd) {
-  background: #eee;
+
+tr {
+  border: solid;
+  border-color: #ccc;
+  border-width: 1px 0;
+}
+
+tr:first-child {
+  border-top: none;
+}
+tr:last-child {
+  border-bottom: none;
 }

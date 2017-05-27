@@ -8,6 +8,35 @@ body, html, #app, .leaflet-container {
   height: 100%;
 }
 
+.leaflet-left {
+  margin: 1.6%;
+}
+
 .leaflet-popup-content-wrapper {
-    border-radius: 2px;
+  border-radius: 3px;
+}
+
+.leaflet-control-scale-line {
+  background: unset;
+}
+
+.leaflet-control-zoom {
+  border: 1px solid rgba(0,0,0,0.2) !important;
+}
+
+.show-button {
+  border: 1px solid rgba(0,0,0,0.2);
+  position: absolute;
+  z-index: 999;
+  cursor: pointer;
+  background-clip: padding-box;
+  font-weight: bold;
+}
+
+.leaflet-bar, .show-button {
+  box-shadow: 1.5px 2.6px 10px 0 rgba(0,0,0,0.2) !important;
+}
+
+.show-button:hover {
+  background-color: #f4f4f4;
 }

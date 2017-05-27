@@ -17,6 +17,7 @@ export default class SidePanel extends Component {
     )));
 
     this.state = {
+      visible: true,
       maxPrice: highestPrice,
       selectedMaxPrice: highestPrice,
       minPrice: _.min(residences.map(x => x.price)),
@@ -33,8 +34,13 @@ export default class SidePanel extends Component {
 
   render() {
     return (
-      <div id="mainpanel" className="sidepanel">
-        <p>{'Vuokra:'}</p>
+      <div className="sidepanel" >
+        <button
+          className="close-button"
+          onClick={this.props.toggleSidepanel}
+        >sulje</button>
+
+        <p>Vuokra:</p>
         <Slider
           cb={this.updateApartments}
           apartments={this.props.apartments}
@@ -52,4 +58,5 @@ export default class SidePanel extends Component {
 SidePanel.propTypes = {
   apartments: PropTypes.arrayOf(PropTypes.any).isRequired,
   filterApartments: PropTypes.func.isRequired,
+  toggleSidepanel: PropTypes.func.isRequired,
 };
