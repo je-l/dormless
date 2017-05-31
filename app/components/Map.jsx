@@ -1,3 +1,4 @@
+import elementResizeEvent from 'element-resize-detector';
 import React, { Component } from 'react';
 import {
   Map,
@@ -10,6 +11,11 @@ import {
 import SidePanel from './SidePanel';
 import HouseMarker from './HouseMarker';
 import hoasData from '../../assets/hoas-data.json';
+
+import '../css/map.css';
+import '../css/sidePanel.css';
+import '../css/map-large.css';
+import '../css/map-small.css';
 
 function createMarkers(apartments) {
   return apartments.filter(x => x.lat).map(a => (
@@ -29,6 +35,15 @@ export default class DormMap extends Component {
     };
     this.filterApartments = this.filterApartments.bind(this);
     this.toggleSidepanel = this.toggleSidepanel.bind(this);
+    this.componentDidMount = this.componentDidMount.bind(this);
+  }
+
+  componentDidMount() {
+    const erd = elementResizeEvent();
+    // eslint-disable-next-line
+    erd.listenTo(this.map.leafletElement._container, () => {
+      this.map.leafletElement.invalidateSize(false);
+    });
   }
 
   filterApartments(maxPrice) {
@@ -83,6 +98,7 @@ export default class DormMap extends Component {
           maxZoom={18}
           attributionControl={false}
           zoomControl={false}
+          ref={elem => (this.map = elem)}
         >
           <ZoomControl position="topright" />
           <ScaleControl imperial={false} />

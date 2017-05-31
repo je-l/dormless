@@ -1,7 +1,6 @@
 body, html, #app, .leaflet-container {
   height: 100%;
   margin: 0 auto;
-  overflow: hidden;
 }
 
 #app > div {
@@ -21,11 +20,11 @@ body, html, #app, .leaflet-container {
 }
 
 .leaflet-control-zoom {
-  border: 1px solid rgba(0,0,0,0.2) !important;
+  border: 1px solid grey !important;
 }
 
 .show-button {
-  border: 1px solid rgba(0,0,0,0.2);
+  border: 1px solid grey;
   position: absolute;
   z-index: 999;
   cursor: pointer;
@@ -35,8 +34,19 @@ body, html, #app, .leaflet-container {
 
 .leaflet-bar, .show-button {
   box-shadow: 1.5px 2.6px 10px 0 rgba(0,0,0,0.2) !important;
+  border-radius: 0;
+}
+
+.leaflet-control-zoom-in, .leaflet-control-zoom-out {
+  border-radius: 0 !important;
 }
 
 .show-button:hover {
   background-color: #f4f4f4;
+}
+
+table {
+  padding: 3px;
+  border-collapse: collapse;
+  table-layout: fixed;
 }

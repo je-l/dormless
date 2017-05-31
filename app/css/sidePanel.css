@@ -1,5 +1,5 @@
 .sidepanel {
-  width: 15%;
+  width: calc(10% + 80px);
   bottom: 0;
   top: 0;
   border-radius: 5px;
@@ -22,10 +22,11 @@
   float: right;
 }
 
-table {
+.sidepanel table {
   width: 100%;
   padding: 3px;
   border-collapse: collapse;
+  table-layout: fixed;
 }
 
 td {
@@ -34,6 +35,7 @@ td {
 
 td:last-child {
   text-align: right;
+  white-space: nowrap;
 }
 
 tr {

@@ -5,12 +5,15 @@ import PropTypes from 'prop-types';
 
 import Pricing from './Pricing';
 
+import markerPic from '../../assets/marker.png';
+import markerShadow from '../../assets/marker-shadow.png';
+
 export default class HouseMarker extends Component {
   constructor() {
     super();
     const customIcon = Leaflet.icon({
-      iconUrl: './assets/marker.png',
-      shadowUrl: './assets/marker-shadow.png',
+      iconUrl: markerPic,
+      shadowUrl: markerShadow,
 
       iconSize: [30, 41],
       shadowSize: [59, 34],
