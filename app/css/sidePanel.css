@@ -24,9 +24,7 @@
 
 .sidepanel table {
   width: 100%;
-  padding: 3px;
-  border-collapse: collapse;
-  table-layout: fixed;
+
 }
 
 td {

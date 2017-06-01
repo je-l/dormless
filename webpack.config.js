@@ -1,7 +1,13 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
+const logger = require('winston');
 
 const srcDir = path.resolve(__dirname, 'app/');
+
+if (!process.env.UAID) {
+  logger.error('env missing');
+  process.exit(1);
+}
 
 module.exports = {
   entry: `${srcDir}/index.jsx`,
@@ -34,12 +40,14 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './index.html',
+      uaId: process.env.UAID,
+      template: './index.ejs',
       minify: {
         removeAttributeQuotes: true,
         collapseWhitespace: true,
         html5: true,
         minifyCSS: true,
+        minifyJS: true,
         removeComments: true,
         removeEmptyAttributes: true,
       },

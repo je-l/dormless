@@ -45,8 +45,18 @@ body, html, #app, .leaflet-container {
   background-color: #f4f4f4;
 }
 
+.leaflet-container a.leaflet-popup-close-button {
+  font-size: 30px;
+  width: 16px;
+  padding: 8px;
+}
+
 table {
   padding: 3px;
   border-collapse: collapse;
   table-layout: fixed;
+}
+
+.leaflet-zoom-anim .leaflet-zoom-animated {
+  transition: transform 0.15s cubic-bezier(0,0,0.25,1);
 }

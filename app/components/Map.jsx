@@ -1,4 +1,4 @@
-import elementResizeEvent from 'element-resize-detector';
+import elementResizeDetector from 'element-resize-detector';
 import React, { Component } from 'react';
 import {
   Map,
@@ -39,7 +39,7 @@ export default class DormMap extends Component {
   }
 
   componentDidMount() {
-    const erd = elementResizeEvent();
+    const erd = elementResizeDetector({ strategy: 'scroll' });
     // eslint-disable-next-line
     erd.listenTo(this.map.leafletElement._container, () => {
       this.map.leafletElement.invalidateSize(false);
@@ -88,7 +88,7 @@ export default class DormMap extends Component {
     const credits = '&copy <a href="http://osm.org/' +
       'copyright">OpenStreetMap</a> contributors';
 
-    const tileServer = 'https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png';
+    const tileServer = 'https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}{r}.png';
     return (
       <div>
         {this.sideContent()}
