@@ -24,7 +24,7 @@ module.exports = {
     {
       test: /\.(jpg|png|svg)$/,
       loader: 'file-loader',
-      include: path.join(__dirname, './assets'),
+      include: path.join(__dirname, 'assets'),
     },
     {
       test: /\.html$/,
@@ -42,6 +42,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       uaId: process.env.UAID,
       template: './index.ejs',
+      favicon: './assets/favicon.png',
       minify: {
         removeAttributeQuotes: true,
         collapseWhitespace: true,

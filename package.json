@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node ./server/app",
-    "webpack": "./node_modules/.bin/webpack --progress",
-    "prod": "./node_modules/.bin/webpack -p",
-    "dev": "./node_modules/.bin/webpack-dev-server --debug --progress --content-base dist/",
+    "webpack": "webpack --progress",
+    "prod": "webpack -p",
+    "dev": "webpack-dev-server --debug --progress",
     "lint": "eslint --ext js,jsx . && echo success"
   },
   "author": "",
