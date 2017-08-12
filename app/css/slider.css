@@ -1,0 +1,36 @@
+::-moz-range-track {
+  visibility: hidden;
+}
+
+/* Remove dotted focus line around slider on firefox */
+input[type=range]::-moz-focus-outer {
+  border: 0;
+}
+
+.slider {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  height: 0.25em;
+  background-color: rgb(204, 204, 204);
+  cursor: pointer;
+  outline: 0;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 1.5em;
+  height: 1.5em;
+  background-color: #f44336;
+  border-radius: 1em;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  -webkit-appearance: none;
+  width: 1.5em;
+  height: 1.5em;
+  background-color: #f44336;
+  border-radius: 1em;
+  cursor: pointer;
+  outline: none;
+}

@@ -1,6 +1,10 @@
-body, html, #app, .leaflet-container {
+body,
+html,
+#app,
+.leaflet-container {
   height: 100%;
   margin: 0 auto;
+  font-family: 'Open Sans', 'sans-serif';
 }
 
 #app > div {
@@ -21,28 +25,46 @@ body, html, #app, .leaflet-container {
 
 .leaflet-control-zoom {
   border: 1px solid grey !important;
+  border-radius: 3px !important;
+}
+
+/* less kerning in firefox buttons */
+@-moz-document url-prefix() {
+  button {
+    letter-spacing: -1px;
+  }
+}
+
+button {
+  cursor: pointer;
+  background: none;
+  background-clip: padding-box;
+  font-weight: bold;
+  color: #444;
+  font-family: 'Open Sans';
+  outline: none;
+  text-align: center;
+  border: 1px solid grey;
+  border-radius: 3px;
+}
+
+button:hover {
+  background-color: #f4f4f4;
 }
 
 .show-button {
-  border: 1px solid grey;
   position: absolute;
   z-index: 999;
-  cursor: pointer;
-  background-clip: padding-box;
-  font-weight: bold;
 }
 
-.leaflet-bar, .show-button {
-  box-shadow: 1.5px 2.6px 10px 0 rgba(0,0,0,0.2) !important;
-  border-radius: 0;
+.leaflet-bar,
+.show-button {
+  box-shadow: 1.5px 2.6px 10px 0 rgba(0, 0, 0, 0.2) !important;
 }
 
-.leaflet-control-zoom-in, .leaflet-control-zoom-out {
-  border-radius: 0 !important;
-}
-
-.show-button:hover {
-  background-color: #f4f4f4;
+.leaflet-control-zoom-in,
+.leaflet-control-zoom-out {
+  color: #444 !important;
 }
 
 .leaflet-container a.leaflet-popup-close-button {
@@ -58,5 +80,5 @@ table {
 }
 
 .leaflet-zoom-anim .leaflet-zoom-animated {
-  transition: transform 0.15s cubic-bezier(0,0,0.25,1);
+  transition: transform 0.17s cubic-bezier(0, 0, 0.25, 1);
 }

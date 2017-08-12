@@ -6,27 +6,23 @@ import PropTypes from 'prop-types';
 import Pricing from './Pricing';
 
 import markerPic from '../../assets/marker.png';
-import markerShadow from '../../assets/marker-shadow.png';
 
 export default class HouseMarker extends Component {
   constructor() {
     super();
     const customIcon = Leaflet.icon({
       iconUrl: markerPic,
-      shadowUrl: markerShadow,
-
       iconSize: [30, 41],
-      shadowSize: [59, 34],
       iconAnchor: [15, 40],
-      shadowAnchor: [13, 32],
       popupAnchor: [0, -41],
     });
+
     this.state = {
       icon: customIcon,
     };
   }
   render() {
-    const address = this.props.apartment.address;
+    const { address } = this.props.apartment;
     const hyperlink = address.toLowerCase()
       .replace(/ /g, '-')
       .replace(/ä/g, 'a')
@@ -39,7 +35,7 @@ export default class HouseMarker extends Component {
         <Marker position={this.props.position} icon={this.state.icon}>
           <Popup>
             <div>
-              <a href={link} target={'_blank'}>
+              <a href={link} target="_blank">
                 {this.props.apartment.address}
               </a>
               <Pricing

@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import _ from 'lodash';
+
+import min from 'lodash/min';
+import max from 'lodash/max';
 
 import Slider from './Slider';
 import Statistics from './Statistics';
@@ -12,17 +14,18 @@ export default class SidePanel extends Component {
       .map(a => a.residences)
       .reduce((acc, cur) => (acc.concat(cur)), []);
 
-    const highestPrice = _.max(props.apartments.map(a => (
-      _.min(a.residences.map(r => r.price))
+    const highestPrice = max(props.apartments.map(a => (
+      min(a.residences.map(r => r.price))
     )));
 
     this.state = {
-      visible: true,
       maxPrice: highestPrice,
       selectedMaxPrice: highestPrice,
-      minPrice: _.min(residences.map(x => x.price)),
+      minPrice: min(residences.map(x => x.price)),
     };
+
     this.updateApartments = this.updateApartments.bind(this);
+    this.updateMaxPrice = this.updateMaxPrice.bind(this);
   }
 
   updateApartments(event) {
@@ -32,23 +35,34 @@ export default class SidePanel extends Component {
     this.props.filterApartments(event.target.value);
   }
 
+  updateMaxPrice(event) {
+    this.setState({
+      selectedMaxPrice: event.target.value,
+    });
+  }
+
   render() {
     return (
       <div className="sidepanel" >
         <button
           className="close-button"
           onClick={this.props.toggleSidepanel}
-        >sulje</button>
+        >sulje
+        </button>
 
         <p>Vuokra:</p>
         <Slider
           cb={this.updateApartments}
+          changeMaxPrice={this.updateMaxPrice}
           apartments={this.props.apartments}
-          min={this.state.minPrice} max={this.state.maxPrice}
+          min={this.state.minPrice}
+          max={this.state.maxPrice}
         />
+
         <p className="min-price-area">
           {this.state.minPrice} - {this.state.selectedMaxPrice} €
         </p>
+
         <Statistics apartments={this.props.apartments} />
       </div>
     );

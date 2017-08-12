@@ -8,6 +8,6 @@
   div.panel-open.leaflet-bottom.leaflet-left {
     left: calc(150px + 10%);
     margin: 0;
-    bottom: 2.2%
+    bottom: 2.2%;
   }
 }

@@ -1,4 +1,3 @@
-import elementResizeDetector from 'element-resize-detector';
 import React, { Component } from 'react';
 import {
   Map,
@@ -13,7 +12,7 @@ import HouseMarker from './HouseMarker';
 import hoasData from '../../assets/hoas-data.json';
 
 import '../css/map.css';
-import '../css/sidePanel.css';
+import '../css/sidepanel.css';
 import '../css/map-large.css';
 import '../css/map-small.css';
 
@@ -35,15 +34,6 @@ export default class DormMap extends Component {
     };
     this.filterApartments = this.filterApartments.bind(this);
     this.toggleSidepanel = this.toggleSidepanel.bind(this);
-    this.componentDidMount = this.componentDidMount.bind(this);
-  }
-
-  componentDidMount() {
-    const erd = elementResizeDetector({ strategy: 'scroll' });
-    // eslint-disable-next-line
-    erd.listenTo(this.map.leafletElement._container, () => {
-      this.map.leafletElement.invalidateSize(false);
-    });
   }
 
   filterApartments(maxPrice) {
@@ -57,8 +47,9 @@ export default class DormMap extends Component {
 
   toggleSidepanel() {
     this.setState({ sidepanelVisible: !this.state.sidepanelVisible });
-    const hideOnMobile = document.querySelectorAll(
-      '.leaflet-bottom.leaflet-left, .show-button, .leaflet-control-zoom');
+    const selector =
+      '.leaflet-bottom.leaflet-left, .show-button, .leaflet-control-zoom';
+    const hideOnMobile = document.querySelectorAll(selector);
 
     hideOnMobile.forEach(element => element.classList.toggle('panel-open'));
   }
@@ -98,7 +89,6 @@ export default class DormMap extends Component {
           maxZoom={18}
           attributionControl={false}
           zoomControl={false}
-          ref={elem => (this.map = elem)}
         >
           <ZoomControl position="topright" />
           <ScaleControl imperial={false} />

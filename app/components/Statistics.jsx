@@ -11,23 +11,22 @@ export default class Statistics extends Component {
   constructor(props) {
     super();
     const residences = props.apartments
-        .map(x => x.residences)
-        .reduce((acc, cur) => acc.concat(cur), []);
+      .map(x => x.residences)
+      .reduce((acc, cur) => acc.concat(cur), []);
 
     const residenceCount = props.apartments
-        .reduce((acc, cur) => acc + cur.residence_count, 0);
+      .reduce((acc, cur) => acc + cur.residence_count, 0);
 
     this.state = {
       residences,
       residenceCount,
-      types: ['room', 'studio', 'double', 'family'],
     };
   }
 
   avgPriceForType(name) {
     const prices = this.state.residences
-        .filter(r => houseTypes[r.type] === name)
-        .map(r => r.price);
+      .filter(r => houseTypes[r.type] === name)
+      .map(r => r.price);
     return sum(prices) / prices.length;
   }
 
@@ -50,7 +49,7 @@ export default class Statistics extends Component {
               <td>{this.state.residences.length}</td>
             </tr>
             <tr>
-              <td>Huoneistojen lukumäärä:</td>
+              <td>Huoneistoja yhteensä:</td>
               <td>{this.state.residenceCount}</td>
             </tr>
           </tbody>

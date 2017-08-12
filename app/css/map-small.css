@@ -1,6 +1,6 @@
 @media (max-aspect-ratio: 1/1) {
   .sidepanel {
-    font-size: calc(2vw + 7px)
+    font-size: calc(2vw + 7px);
   }
 
   .sidepanel,
@@ -12,7 +12,7 @@
 
   .show-button {
     margin: 20px;
-    padding: 0px;
+    padding: 0;
     background-color: white;
   }
 
