@@ -6,6 +6,7 @@ import PropTypes from 'prop-types';
 import Pricing from './Pricing';
 
 import markerPic from '../../assets/marker.png';
+import '../css/marker.css';
 
 export default class HouseMarker extends Component {
   constructor() {
@@ -35,9 +36,11 @@ export default class HouseMarker extends Component {
         <Marker position={this.props.position} icon={this.state.icon}>
           <Popup>
             <div>
-              <a href={link} target="_blank">
-                {this.props.apartment.address}
-              </a>
+              <h3>
+                <a href={link} target="_blank">
+                  {this.props.apartment.address}
+                </a>
+              </h3>
               <Pricing
                 key={this.props.apartment.address}
                 apartment={this.props.apartment}

@@ -1,0 +1,17 @@
+div.leaflet-popup-content a {
+  overflow: hidden;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #555;
+  font-weight: bold;
+}
+
+div.leaflet-popup-content h3 {
+  margin: 10px auto 8px;
+}
+
+div.leaflet-popup-content a:hover {
+  color: #333;
+  text-decoration: underline;
+}
