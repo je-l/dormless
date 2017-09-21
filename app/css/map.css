@@ -73,6 +73,12 @@ button:hover {
   padding: 8px;
 }
 
+@-moz-document url-prefix() {
+  .leaflet-container a.leaflet-popup-close-button {
+    width: 21px;
+  }
+}
+
 table {
   padding: 3px;
   border-collapse: collapse;

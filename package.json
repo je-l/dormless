@@ -6,9 +6,9 @@
   "scripts": {
     "start": "node ./server/app",
     "webpack": "webpack --progress",
-    "prod": "webpack -p",
+    "prod": "webpack -p --progress",
     "dev": "webpack-dev-server --debug --progress",
-    "lint": "eslint --ext js,jsx . && echo success"
+    "lint": "eslint --ext js,jsx ."
   },
   "author": "",
   "license": "MIT",

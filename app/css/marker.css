@@ -1,3 +1,10 @@
+/* less kerning in firefox */
+@-moz-document url-prefix() {
+  div.leaflet-popup-content a {
+    letter-spacing: -1px;
+  }
+}
+
 div.leaflet-popup-content a {
   overflow: hidden;
   display: block;

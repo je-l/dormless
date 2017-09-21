@@ -4,6 +4,6 @@
 
 1. `npm install`
 2. `npm run dev`
-3. Open index.html
+3. Open localhost:8080
 
 Libraries: react, leaflet.
