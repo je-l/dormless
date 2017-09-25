@@ -1,30 +1,23 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
+import flatMap from 'lodash/flatMap';
 
 import houseTypes from '../constants/residenceTypes';
+import { apartments } from '../../assets/hoas-data.json';
 
 function sum(array) {
   return array.reduce((acc, cur) => acc + cur, 0);
 }
 
 export default class Statistics extends Component {
-  constructor(props) {
+  constructor() {
     super();
-    const residences = props.apartments
-      .map(x => x.residences)
-      .reduce((acc, cur) => acc.concat(cur), []);
-
-    const residenceCount = props.apartments
-      .reduce((acc, cur) => acc + cur.residence_count, 0);
-
-    this.state = {
-      residences,
-      residenceCount,
-    };
+    this.residences = flatMap(apartments, 'residences');
+    this.residenceCount = apartments
+      .reduce((acc, apartment) => acc + apartment.residence_count, 0);
   }
 
   avgPriceForType(name) {
-    const prices = this.state.residences
+    const prices = this.residences
       .filter(r => houseTypes[r.type] === name)
       .map(r => r.price);
     return sum(prices) / prices.length;
@@ -46,11 +39,11 @@ export default class Statistics extends Component {
           <tbody>
             <tr>
               <td>Erilaiset huoneistot:</td>
-              <td>{this.state.residences.length}</td>
+              <td>{this.residences.length}</td>
             </tr>
             <tr>
               <td>Huoneistoja yhteensä:</td>
-              <td>{this.state.residenceCount}</td>
+              <td>{this.residenceCount}</td>
             </tr>
           </tbody>
         </table>
@@ -67,7 +60,3 @@ export default class Statistics extends Component {
     );
   }
 }
-
-Statistics.propTypes = {
-  apartments: PropTypes.arrayOf(PropTypes.any).isRequired,
-};

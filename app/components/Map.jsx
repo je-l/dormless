@@ -17,6 +17,7 @@ import '../css/map-large.css';
 import '../css/map-small.css';
 
 function createMarkers(apartments) {
+  // filter out houses without coordinates
   return apartments.filter(x => x.lat).map(a => (
     <HouseMarker key={a.address} position={[a.lat, a.lng]} apartment={a} />
   ));
@@ -27,11 +28,9 @@ export default class DormMap extends Component {
     super();
     this.state = {
       sidepanelVisible: false,
-      lat: 60.21,
-      lng: 24.93,
-      zoom: 11,
       markers: createMarkers(hoasData.apartments),
     };
+
     this.filterApartments = this.filterApartments.bind(this);
     this.toggleSidepanel = this.toggleSidepanel.bind(this);
   }
@@ -40,13 +39,17 @@ export default class DormMap extends Component {
     const newAparts = hoasData.apartments.filter(a => (
       a.residences.filter(r => r.price <= maxPrice).length > 0
     ));
+
     this.setState({
       markers: createMarkers(newAparts),
     });
   }
 
   toggleSidepanel() {
-    this.setState({ sidepanelVisible: !this.state.sidepanelVisible });
+    this.setState(prevState => (
+      { sidepanelVisible: !prevState.sidepanelVisible }
+    ));
+
     const selector =
       '.leaflet-bottom.leaflet-left, .show-button, .leaflet-control-zoom';
     const hideOnMobile = document.querySelectorAll(selector);
@@ -75,7 +78,6 @@ export default class DormMap extends Component {
   }
 
   render() {
-    const position = [this.state.lat, this.state.lng];
     const credits = '&copy <a href="http://osm.org/' +
       'copyright">OpenStreetMap</a> contributors';
 
@@ -84,8 +86,8 @@ export default class DormMap extends Component {
       <div>
         {this.sideContent()}
         <Map
-          center={position}
-          zoom={this.state.zoom}
+          center={{ lat: 60.21, lng: 24.93 }}
+          zoom={11}
           maxZoom={18}
           attributionControl={false}
           zoomControl={false}

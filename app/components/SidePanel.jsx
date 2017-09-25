@@ -32,6 +32,7 @@ export default class SidePanel extends Component {
     this.setState({
       selectedMaxPrice: event.target.value,
     });
+
     this.props.filterApartments(event.target.value);
   }
 
