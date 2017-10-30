@@ -9,8 +9,8 @@ function sum(array) {
 }
 
 export default class Statistics extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.residences = flatMap(apartments, 'residences');
     this.residenceCount = apartments
       .reduce((acc, apartment) => acc + apartment.residence_count, 0);

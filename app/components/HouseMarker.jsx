@@ -9,8 +9,8 @@ import markerPic from '../../assets/marker.png';
 import '../css/marker.css';
 
 export default class HouseMarker extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
 
     this.customIcon = Leaflet.icon({
       iconUrl: markerPic,
@@ -22,13 +22,13 @@ export default class HouseMarker extends Component {
 
   render() {
     const { address } = this.props.apartment;
-    const hyperlink = address.toLowerCase()
+    const urlId = address.toLowerCase()
       .replace(/ /g, '-')
       .replace(/ä/g, 'a')
       .replace(/ö/g, 'o')
       .replace(/å/g, 'å');
 
-    const url = `https://www.hoas.fi/kohteet/${hyperlink}/`;
+    const url = `https://www.hoas.fi/kohteet/${urlId}/`;
     return (
       <div>
         <Marker position={this.props.position} icon={this.customIcon}>

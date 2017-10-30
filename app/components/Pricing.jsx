@@ -10,6 +10,7 @@ export default function pricing(props) {
       <td>{r.price} €</td>
     </tr>
   ));
+
   return (
     <table>
       <tbody>

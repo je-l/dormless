@@ -24,8 +24,8 @@ function createMarkers(apartments) {
 }
 
 export default class DormMap extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
       sidepanelVisible: false,
       markers: createMarkers(hoasData.apartments),
