@@ -30,12 +30,9 @@ export default class DormMap extends Component {
       sidepanelVisible: false,
       markers: createMarkers(hoasData.apartments),
     };
-
-    this.filterApartments = this.filterApartments.bind(this);
-    this.toggleSidepanel = this.toggleSidepanel.bind(this);
   }
 
-  filterApartments(maxPrice) {
+  filterApartments = (maxPrice) => {
     const newAparts = hoasData.apartments.filter(a => (
       a.residences.filter(r => r.price <= maxPrice).length > 0
     ));
@@ -45,20 +42,24 @@ export default class DormMap extends Component {
     });
   }
 
-  toggleSidepanel() {
+  toggleSidepanel = () => {
     this.setState(prevState => (
       { sidepanelVisible: !prevState.sidepanelVisible }
     ));
 
-    const selector =
-      '.leaflet-bottom.leaflet-left, .show-button, .leaflet-control-zoom';
+    const selector = '.leaflet-bottom.leaflet-left, '
+      + '.show-button, .leaflet-control-zoom';
+
+    // TODO: remove queryselector hack
     const hideOnMobile = document.querySelectorAll(selector);
 
     hideOnMobile.forEach(element => element.classList.toggle('panel-open'));
   }
 
   sideContent() {
-    if (this.state.sidepanelVisible) {
+    const { sidepanelVisible } = this.state;
+
+    if (sidepanelVisible) {
       return (
         <SidePanel
           apartments={hoasData.apartments}
@@ -66,8 +67,10 @@ export default class DormMap extends Component {
           toggleSidepanel={this.toggleSidepanel}
         />);
     }
+
     return (
       <button
+        type="button"
         onClick={this.toggleSidepanel}
         className="show-button"
       >
@@ -78,8 +81,10 @@ export default class DormMap extends Component {
   }
 
   render() {
-    const credits = '&copy <a href="http://osm.org/' +
-      'copyright">OpenStreetMap</a> contributors';
+    const { markers } = this.state;
+
+    const credits = '&copy <a href="http://osm.org/'
+      + 'copyright">OpenStreetMap</a> contributors';
 
     const tileServer = 'https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}{r}.png';
     return (
@@ -96,7 +101,7 @@ export default class DormMap extends Component {
           <ScaleControl imperial={false} />
           <TileLayer url={tileServer} />
           <AttributionControl prefix={credits} />
-          {this.state.markers}
+          {markers}
         </Map>
       </div>
     );

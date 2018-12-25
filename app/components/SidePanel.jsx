@@ -23,48 +23,52 @@ export default class SidePanel extends Component {
       selectedMaxPrice: highestPrice,
       minPrice: min(residences.map(x => x.price)),
     };
-
-    this.updateApartments = this.updateApartments.bind(this);
-    this.updateMaxPrice = this.updateMaxPrice.bind(this);
   }
 
-  updateApartments(event) {
+  updateApartments = (event) => {
     this.setState({
       selectedMaxPrice: event.target.value,
     });
 
-    this.props.filterApartments(event.target.value);
+    const { filterApartments } = this.props;
+
+    filterApartments(event.target.value);
   }
 
-  updateMaxPrice(event) {
+  updateMaxPrice = (event) => {
     this.setState({
       selectedMaxPrice: event.target.value,
     });
   }
 
   render() {
+    const { toggleSidepanel, apartments } = this.props;
+    const { minPrice, maxPrice, selectedMaxPrice } = this.state;
+
     return (
-      <div className="sidepanel" >
+      <div className="sidepanel">
         <button
+          type="button"
           className="close-button"
-          onClick={this.props.toggleSidepanel}
-        >sulje
+          onClick={toggleSidepanel}
+        >
+          sulje
         </button>
 
         <p>Vuokra:</p>
         <Slider
           cb={this.updateApartments}
           changeMaxPrice={this.updateMaxPrice}
-          apartments={this.props.apartments}
-          min={this.state.minPrice}
-          max={this.state.maxPrice}
+          apartments={apartments}
+          min={minPrice}
+          max={maxPrice}
         />
 
         <p className="min-price-area">
-          {this.state.minPrice} - {this.state.selectedMaxPrice} €
+          {`${minPrice} - ${selectedMaxPrice} €`}
         </p>
 
-        <Statistics apartments={this.props.apartments} />
+        <Statistics apartments={apartments} />
       </div>
     );
   }

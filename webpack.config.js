@@ -1,15 +1,17 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
-const logger = require('winston');
 
 const srcDir = path.resolve(__dirname, 'app/');
 
-if (!process.env.UAID && process.env.NODE_ENV === 'production') {
-  logger.error('env missing');
+const isProd = process.env.NODE_ENV === 'production';
+
+if (!process.env.UAID && isProd) {
+  console.error('env missing during prod build');
   process.exit(1);
 }
 
 module.exports = {
+  mode: isProd ? 'production' : 'development',
   entry: `${srcDir}/index.jsx`,
   output: {
     path: path.join(__dirname, 'build/'),
@@ -22,9 +24,9 @@ module.exports = {
       use: {
         loader: 'babel-loader',
         options: {
-          presets: ['@babel/preset-env']
-        }
-      }
+          presets: ['@babel/preset-env'],
+        },
+      },
     },
     {
       test: /\.(jpg|png|svg)$/,

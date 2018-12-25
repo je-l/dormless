@@ -9,8 +9,6 @@ export default class Slider extends Component {
   constructor(props) {
     super();
     this.value = lastSelection || props.max;
-
-    this.changeValue = this.changeValue.bind(this);
   }
 
   // Remember last selection value
@@ -18,22 +16,26 @@ export default class Slider extends Component {
     lastSelection = this.value;
   }
 
-  changeValue(event) {
+  changeValue = (event) => {
+    const { props: { cb } } = this;
+
     this.value = event.target.value;
-    this.props.cb(event);
+    cb(event);
   }
 
   render() {
+    const { min, max, changeMaxPrice } = this.props;
+
     return (
       <input
         className="price-slider slider"
         type="range"
-        min={this.props.min}
-        max={this.props.max}
+        min={min}
+        max={max}
         defaultValue={this.value}
         onMouseUp={this.changeValue}
         onTouchEnd={this.changeValue}
-        onChange={this.props.changeMaxPrice}
+        onChange={changeMaxPrice}
       />
     );
   }

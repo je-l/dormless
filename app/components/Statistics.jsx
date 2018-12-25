@@ -27,7 +27,11 @@ export default class Statistics extends Component {
     return (
       <tr>
         <td>{fiName}</td>
-        <td>{this.avgPriceForType(enName).toFixed(2)} €</td>
+        <td>
+          {this.avgPriceForType(enName).toFixed(2)}
+          {' '}
+€
+        </td>
       </tr>
     );
   }

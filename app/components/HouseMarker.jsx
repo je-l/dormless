@@ -21,7 +21,8 @@ export default class HouseMarker extends Component {
   }
 
   render() {
-    const { address } = this.props.apartment;
+    const { apartment, apartment: { address }, position } = this.props;
+
     const urlId = address.toLowerCase()
       .replace(/ /g, '-')
       .replace(/ä/g, 'a')
@@ -31,17 +32,17 @@ export default class HouseMarker extends Component {
     const url = `https://www.hoas.fi/kohteet/${urlId}/`;
     return (
       <div>
-        <Marker position={this.props.position} icon={this.customIcon}>
+        <Marker position={position} icon={this.customIcon}>
           <Popup>
             <div>
               <h3>
-                <a href={url} target="_blank">
-                  {this.props.apartment.address}
+                <a href={url} rel="noopener noreferrer" target="_blank">
+                  {address}
                 </a>
               </h3>
               <Pricing
-                key={this.props.apartment.address}
-                apartment={this.props.apartment}
+                key={address}
+                apartment={apartment}
               />
             </div>
           </Popup>
