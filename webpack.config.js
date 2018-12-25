@@ -4,7 +4,7 @@ const logger = require('winston');
 
 const srcDir = path.resolve(__dirname, 'app/');
 
-if (!process.env.UAID) {
+if (!process.env.UAID && process.env.NODE_ENV === 'production') {
   logger.error('env missing');
   process.exit(1);
 }
@@ -16,10 +16,15 @@ module.exports = {
     filename: 'bundle.js',
   },
   module: {
-    loaders: [{
+    rules: [{
       test: /\.jsx?/,
       include: srcDir,
-      loader: 'babel-loader',
+      use: {
+        loader: 'babel-loader',
+        options: {
+          presets: ['@babel/preset-env']
+        }
+      }
     },
     {
       test: /\.(jpg|png|svg)$/,
