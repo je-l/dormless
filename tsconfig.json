@@ -1,11 +1,13 @@
 {
   "compilerOptions": {
     "outDir": "./dist/",
-    "module": "es6",
     "target": "es5",
+    "module": "es2015",
     "jsx": "react",
     "allowJs": true,
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true
   },
   "include": [
     "./app/**/*"

@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
 export default function pricing(props) {
   const { apartment: { residences: residenceData } } = props;
@@ -29,9 +28,3 @@ m
     </table>
   );
 }
-
-pricing.propTypes = {
-  apartment: PropTypes.shape({
-    residences: PropTypes.arrayOf(PropTypes.any),
-  }).isRequired,
-};

@@ -12,7 +12,7 @@ if (!process.env.UAID && isProd) {
 
 module.exports = {
   mode: isProd ? 'production' : 'development',
-  entry: `${srcDir}/index.jsx`,
+  entry: `${srcDir}/index.tsx`,
   output: {
     path: path.join(__dirname, 'build/'),
     filename: 'bundle.js',
@@ -39,9 +39,7 @@ module.exports = {
       loader: 'style-loader!css-loader',
     }],
   },
-  resolve: {
-    extensions: ['.js', '.jsx'],
-  },
+  resolve: { extensions: ['.js', '.tsx'] },
   plugins: [
     new HtmlWebpackPlugin({
       uaId: process.env.UAID,

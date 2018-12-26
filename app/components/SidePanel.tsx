@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 
 import min from 'lodash/min';
 import max from 'lodash/max';
 
-import Slider from './Slider.tsx';
+import Slider from './Slider';
 import Statistics from './Statistics';
 
 export default class SidePanel extends Component {
   constructor(props) {
-    super();
+    super(props);
+
     const residences = props.apartments
       .map(a => a.residences)
       .reduce((acc, cur) => (acc.concat(cur)), []);
@@ -73,9 +73,3 @@ export default class SidePanel extends Component {
     );
   }
 }
-
-SidePanel.propTypes = {
-  apartments: PropTypes.arrayOf(PropTypes.any).isRequired,
-  filterApartments: PropTypes.func.isRequired,
-  toggleSidepanel: PropTypes.func.isRequired,
-};

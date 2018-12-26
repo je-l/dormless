@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import Leaflet from 'leaflet';
 import { Marker, Popup } from 'react-leaflet';
-import PropTypes from 'prop-types';
 
 import Pricing from './Pricing';
 
 import markerPic from '../../assets/marker.png';
+
 import '../css/marker.css';
 
 export default class HouseMarker extends Component {
@@ -51,11 +51,3 @@ export default class HouseMarker extends Component {
     );
   }
 }
-
-HouseMarker.propTypes = {
-  position: PropTypes.arrayOf(PropTypes.number).isRequired,
-  apartment: PropTypes.shape({
-    address: PropTypes.string.isRequired,
-    residences: PropTypes.arrayOf(PropTypes.any).isRequired,
-  }).isRequired,
-};
