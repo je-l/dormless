@@ -19,13 +19,10 @@ module.exports = {
   },
   module: {
     rules: [{
-      test: /\.jsx?/,
+      test: /\.jsx?|\.tsx?/,
       include: srcDir,
       use: {
-        loader: 'babel-loader',
-        options: {
-          presets: ['@babel/preset-env'],
-        },
+        loader: 'ts-loader',
       },
     },
     {

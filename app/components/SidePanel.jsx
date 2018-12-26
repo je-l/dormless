@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import min from 'lodash/min';
 import max from 'lodash/max';
 
-import Slider from './Slider';
+import Slider from './Slider.tsx';
 import Statistics from './Statistics';
 
 export default class SidePanel extends Component {

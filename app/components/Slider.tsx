@@ -1,13 +1,21 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 
 import '../css/slider.css';
 
-let lastSelection;
+interface Props {
+  min: number,
+  max: number,
+  cb(ChangeEvent): void,
+  changeMaxPrice(): number,
+};
 
-export default class Slider extends Component {
+let lastSelection: number;
+
+export default class Slider extends Component<Props> {
+  value: number;
+
   constructor(props) {
-    super();
+    super(props);
     this.value = lastSelection || props.max;
   }
 
@@ -32,7 +40,7 @@ export default class Slider extends Component {
         type="range"
         min={min}
         max={max}
-        defaultValue={this.value}
+        defaultValue={this.value.toString()}
         onMouseUp={this.changeValue}
         onTouchEnd={this.changeValue}
         onChange={changeMaxPrice}
@@ -40,10 +48,3 @@ export default class Slider extends Component {
     );
   }
 }
-
-Slider.propTypes = {
-  max: PropTypes.number.isRequired,
-  min: PropTypes.number.isRequired,
-  cb: PropTypes.func.isRequired,
-  changeMaxPrice: PropTypes.func.isRequired,
-};
