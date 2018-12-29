@@ -12,7 +12,7 @@ if (!process.env.UAID) {
 module.exports = {
   entry: `${srcDir}/index.jsx`,
   output: {
-    path: path.join(__dirname, 'bin/'),
+    path: path.join(__dirname, 'build/'),
     filename: 'bundle.js',
   },
   module: {
