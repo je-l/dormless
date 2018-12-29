@@ -5,16 +5,22 @@ import '../css/slider.css';
 interface Props {
   min: number,
   max: number,
-  cb(e): void,
-  changeMaxPrice(e): void,
+  cb(e: Event): void,
+  changeMaxPrice(e: Event): void,
 };
+
+export interface Event {
+  currentTarget: {
+    value: string
+  }
+}
 
 let lastSelection: number;
 
 export default class Slider extends Component<Props> {
   value: number;
 
-  constructor(props) {
+  constructor(props: Props) {
     super(props);
     this.value = lastSelection || props.max;
   }
@@ -24,10 +30,10 @@ export default class Slider extends Component<Props> {
     lastSelection = this.value;
   }
 
-  changeValue = (event) => {
+  changeValue = (event: Event) => {
     const { props: { cb } } = this;
 
-    this.value = event.target.value;
+    this.value = parseInt(event.currentTarget.value);
     cb(event);
   }
 

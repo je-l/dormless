@@ -5,19 +5,22 @@ import { Residence } from './HouseMarker';
 import houseTypes from '../constants/residenceTypes';
 import { apartments } from '../../assets/hoas-data.json';
 
-function sum(array) {
+function sum(array: number[]) {
   return array.reduce((acc, cur) => acc + cur, 0);
 }
 
 export default class Statistics extends Component {
-  avgPriceForType = (name, residences: Residence[]) => {
+  avgPriceForType = (name: string, residences: Residence[]) => {
     const prices = residences
       .filter(r => houseTypes[r.type] === name)
       .map(r => r.price);
     return sum(prices) / prices.length;
   }
 
-  houseTypePrices = (residences: Residence[]) => (fiName, enName) => {
+  houseTypePrices = (residences: Residence[]) => (
+    fiName: string,
+    enName: string
+  ) => {
     return (
       <tr>
         <td>{fiName}</td>

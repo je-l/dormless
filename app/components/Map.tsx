@@ -8,7 +8,7 @@ import {
 } from 'react-leaflet';
 
 import SidePanel from './SidePanel';
-import HouseMarker from './HouseMarker';
+import HouseMarker, { Apartment } from './HouseMarker';
 import hoasData from '../../assets/hoas-data.json';
 
 import '../css/map.css';
@@ -16,34 +16,24 @@ import '../css/sidepanel.css';
 import '../css/map-large.css';
 import '../css/map-small.css';
 
-function createMarkers(apartments) {
-  // filter out houses without coordinates
-  return apartments.filter(x => x.lat).map(a => (
-    <HouseMarker key={a.address} position={[a.lat, a.lng]} apartment={a} />
-  ));
-}
-
 interface State {
   sidepanelVisible: boolean,
-  markers: HouseMarker[],
+  markers: Apartment[],
 }
 
 export default class DormMap extends Component<{}, State> {
-  constructor(props) {
-    super(props);
-    this.state = {
-      sidepanelVisible: false,
-      markers: createMarkers(hoasData.apartments),
-    };
-  }
+  state = {
+    sidepanelVisible: false,
+    markers: hoasData.apartments,
+  };
 
-  filterApartments = (maxPrice) => {
+  filterApartments = (maxPrice: number) => {
     const newAparts = hoasData.apartments.filter(a => (
       a.residences.filter(r => r.price <= maxPrice).length > 0
     ));
 
     this.setState({
-      markers: createMarkers(newAparts),
+      markers: newAparts,
     });
   }
 
@@ -106,7 +96,13 @@ export default class DormMap extends Component<{}, State> {
           <ScaleControl imperial={false} />
           <TileLayer url={tileServer} />
           <AttributionControl prefix={credits} />
-          {markers}
+          {markers.filter(x => x.lat).map(a => (
+            <HouseMarker
+              key={a.address}
+              position={[a.lat, a.lng]}
+              apartment={a}
+            />
+          ))}
         </Map>
       </div>
     );

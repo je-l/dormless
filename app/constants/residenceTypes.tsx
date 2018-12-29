@@ -1,3 +1,7 @@
+interface HouseClass {
+  [a: string]: string
+}
+
 export default {
   '1h+yhteiskeittiö': 'room',
   Huone: 'room',
@@ -26,4 +30,4 @@ export default {
   '3h+oh+kk': 'family',
   '4h+k': 'family',
   '8h+oh+tpk': 'family',
-};
+} as HouseClass;

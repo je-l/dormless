@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Leaflet from 'leaflet';
+import Leaflet, { LatLngTuple } from 'leaflet';
 import { Marker, Popup } from 'react-leaflet';
 
 import Pricing from './Pricing';
@@ -26,14 +26,17 @@ export interface Apartment {
 
 interface Props {
   apartment: Apartment,
-  position: number[],
+  position: LatLngTuple,
 }
 
-export default class HouseMarker extends Component<Props> {
-  constructor(props) {
-    super(props);
-  }
+const icon = Leaflet.icon({
+  iconUrl: markerPic,
+  iconSize: [30, 41],
+  iconAnchor: [15, 40],
+  popupAnchor: [0, -41],
+});
 
+export default class HouseMarker extends Component<Props> {
   render() {
     const { apartment, apartment: { address }, position } = this.props;
 
@@ -42,13 +45,6 @@ export default class HouseMarker extends Component<Props> {
       .replace(/ä/g, 'a')
       .replace(/ö/g, 'o')
       .replace(/å/g, 'å');
-
-    const icon = Leaflet.icon({
-      iconUrl: markerPic,
-      iconSize: [30, 41],
-      iconAnchor: [15, 40],
-      popupAnchor: [0, -41],
-    });
 
     const url = `https://www.hoas.fi/kohteet/${urlId}/`;
     return (
