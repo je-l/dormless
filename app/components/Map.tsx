@@ -23,7 +23,12 @@ function createMarkers(apartments) {
   ));
 }
 
-export default class DormMap extends Component {
+interface State {
+  sidepanelVisible: boolean,
+  markers: HouseMarker[],
+}
+
+export default class DormMap extends Component<{}, State> {
   constructor(props) {
     super(props);
     this.state = {

@@ -5,8 +5,8 @@ import '../css/slider.css';
 interface Props {
   min: number,
   max: number,
-  cb(ChangeEvent): void,
-  changeMaxPrice(): number,
+  cb(e): void,
+  changeMaxPrice(e): void,
 };
 
 let lastSelection: number;

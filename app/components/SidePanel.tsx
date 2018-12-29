@@ -3,10 +3,23 @@ import React, { Component } from 'react';
 import min from 'lodash/min';
 import max from 'lodash/max';
 
+import { Apartment } from './HouseMarker';
 import Slider from './Slider';
 import Statistics from './Statistics';
 
-export default class SidePanel extends Component {
+interface Props {
+  apartments: Apartment[],
+  filterApartments(string): void,
+  toggleSidepanel(): void
+}
+
+interface State {
+  minPrice: number,
+  maxPrice: number,
+  selectedMaxPrice: number,
+}
+
+export default class SidePanel extends Component<Props, State> {
   constructor(props) {
     super(props);
 
@@ -59,7 +72,6 @@ export default class SidePanel extends Component {
         <Slider
           cb={this.updateApartments}
           changeMaxPrice={this.updateMaxPrice}
-          apartments={apartments}
           min={minPrice}
           max={maxPrice}
         />
@@ -68,7 +80,7 @@ export default class SidePanel extends Component {
           {`${minPrice} - ${selectedMaxPrice} €`}
         </p>
 
-        <Statistics apartments={apartments} />
+        <Statistics />
       </div>
     );
   }

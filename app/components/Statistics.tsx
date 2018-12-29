@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import flatMap from 'lodash/flatMap';
 
+import { Residence } from './HouseMarker';
 import houseTypes from '../constants/residenceTypes';
 import { apartments } from '../../assets/hoas-data.json';
 
@@ -9,55 +10,52 @@ function sum(array) {
 }
 
 export default class Statistics extends Component {
-  constructor(props) {
-    super(props);
-    this.residences = flatMap(apartments, 'residences');
-    this.residenceCount = apartments
-      .reduce((acc, apartment) => acc + apartment.residence_count, 0);
-  }
-
-  avgPriceForType(name) {
-    const prices = this.residences
+  avgPriceForType = (name, residences: Residence[]) => {
+    const prices = residences
       .filter(r => houseTypes[r.type] === name)
       .map(r => r.price);
     return sum(prices) / prices.length;
   }
 
-  houseTypePrices(fiName, enName) {
+  houseTypePrices = (residences: Residence[]) => (fiName, enName) => {
     return (
       <tr>
         <td>{fiName}</td>
         <td>
-          {this.avgPriceForType(enName).toFixed(2)}
-          {' '}
-€
+          {`${this.avgPriceForType(enName, residences).toFixed(2)} €`}
         </td>
       </tr>
     );
   }
 
   render() {
+    const residences: Residence[] = flatMap(apartments, 'residences');
+    const residenceCount = apartments
+      .reduce((acc, apartment) => acc + apartment.residence_count, 0);
+
+    const housePriceFor = this.houseTypePrices(residences);
+
     return (
       <div>
         <table>
           <tbody>
             <tr>
               <td>Erilaiset huoneistot:</td>
-              <td>{this.residences.length}</td>
+              <td>{residences.length}</td>
             </tr>
             <tr>
               <td>Huoneistoja yhteensä:</td>
-              <td>{this.residenceCount}</td>
+              <td>{residenceCount}</td>
             </tr>
           </tbody>
         </table>
         <h3>Keskimääräiset vuokrat</h3>
         <table>
           <tbody>
-            {this.houseTypePrices('Huone', 'room')}
-            {this.houseTypePrices('Yksiö', 'studio')}
-            {this.houseTypePrices('Kaksio', 'double')}
-            {this.houseTypePrices('Perhe', 'family')}
+            {housePriceFor('Huone', 'room')}
+            {housePriceFor('Yksiö', 'studio')}
+            {housePriceFor('Kaksio', 'double')}
+            {housePriceFor('Perhe', 'family')}
           </tbody>
         </table>
       </div>

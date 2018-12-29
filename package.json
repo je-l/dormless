@@ -7,7 +7,7 @@
     "webpack": "webpack --progress",
     "build": "NODE_ENV=production webpack -p --progress",
     "dev": "NODE_ENV=development webpack-dev-server --debug --progress",
-    "lint": "eslint --ext js,jsx ."
+    "lint": "eslint --ext js,jsx,tsx ."
   },
   "author": "",
   "license": "MIT",

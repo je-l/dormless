@@ -8,16 +8,30 @@ import markerPic from '../../assets/marker.png';
 
 import '../css/marker.css';
 
-export default class HouseMarker extends Component {
+export interface Residence {
+  area: number,
+  price: number,
+  type: string,
+}
+
+export interface Apartment {
+  address: string,
+  city: string,
+  district: string,
+  lat: number,
+  lng: number,
+  residence_count: number,
+  residences: Residence[],
+}
+
+interface Props {
+  apartment: Apartment,
+  position: number[],
+}
+
+export default class HouseMarker extends Component<Props> {
   constructor(props) {
     super(props);
-
-    this.customIcon = Leaflet.icon({
-      iconUrl: markerPic,
-      iconSize: [30, 41],
-      iconAnchor: [15, 40],
-      popupAnchor: [0, -41],
-    });
   }
 
   render() {
@@ -29,10 +43,17 @@ export default class HouseMarker extends Component {
       .replace(/ö/g, 'o')
       .replace(/å/g, 'å');
 
+    const icon = Leaflet.icon({
+      iconUrl: markerPic,
+      iconSize: [30, 41],
+      iconAnchor: [15, 40],
+      popupAnchor: [0, -41],
+    });
+
     const url = `https://www.hoas.fi/kohteet/${urlId}/`;
     return (
       <div>
-        <Marker position={position} icon={this.customIcon}>
+        <Marker position={position} icon={icon}>
           <Popup>
             <div>
               <h3>
