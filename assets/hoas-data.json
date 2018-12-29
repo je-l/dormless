@@ -19,7 +19,7 @@
                     "type": "2h+oh+k"
                 },
                 {
-                    "area": 42.0,
+                    "area": 42,
                     "price": 411,
                     "type": "1h+tpk"
                 },
@@ -44,12 +44,12 @@
             "residence_count": 62,
             "residences": [
                 {
-                    "area": 37.0,
+                    "area": 37,
                     "price": 499,
                     "type": "1h+kt"
                 },
                 {
-                    "area": 55.0,
+                    "area": 55,
                     "price": 691,
                     "type": "1h+tpk"
                 },
@@ -59,12 +59,12 @@
                     "type": "1h+oh+kk"
                 },
                 {
-                    "area": 58.0,
+                    "area": 58,
                     "price": 729,
                     "type": "1h+oh+k"
                 },
                 {
-                    "area": 76.0,
+                    "area": 76,
                     "price": 818,
                     "type": "2h+tpk"
                 }
@@ -109,7 +109,7 @@
                     "type": "Huone"
                 },
                 {
-                    "area": 27.0,
+                    "area": 27,
                     "price": 330,
                     "type": "1h+kt"
                 },
@@ -134,12 +134,12 @@
             "residence_count": 143,
             "residences": [
                 {
-                    "area": 13.0,
+                    "area": 13,
                     "price": 361,
                     "type": "Huone"
                 },
                 {
-                    "area": 15.0,
+                    "area": 15,
                     "price": 387,
                     "type": "Huone"
                 },
@@ -154,12 +154,12 @@
                     "type": "1h+tpk"
                 },
                 {
-                    "area": 47.0,
+                    "area": 47,
                     "price": 750,
                     "type": "2h+k"
                 },
                 {
-                    "area": 74.0,
+                    "area": 74,
                     "price": 1115,
                     "type": "3h+k"
                 }
@@ -184,7 +184,7 @@
                     "type": "Huone"
                 },
                 {
-                    "area": 50.0,
+                    "area": 50,
                     "price": 535,
                     "type": "2h+k"
                 },
@@ -192,41 +192,6 @@
                     "area": 74.5,
                     "price": 785,
                     "type": "3h+kk"
-                }
-            ]
-        },
-        {
-            "address": "Atlantinkatu 5",
-            "city": "Helsinki",
-            "district": "Länsisatama",
-            "lat": null,
-            "lng": null,
-            "residence_count": 103,
-            "residences": [
-                {
-                    "area": 15.0,
-                    "price": 402,
-                    "type": "Huone"
-                },
-                {
-                    "area": 29.5,
-                    "price": 563,
-                    "type": "1h+kt"
-                },
-                {
-                    "area": 36.5,
-                    "price": 673,
-                    "type": "1h+kt"
-                },
-                {
-                    "area": 42.0,
-                    "price": 772,
-                    "type": "1h+oh+kt"
-                },
-                {
-                    "area": 55.0,
-                    "price": 968,
-                    "type": "2h+k"
                 }
             ]
         },
@@ -254,7 +219,7 @@
                     "type": "2h+kk"
                 },
                 {
-                    "area": 65.0,
+                    "area": 65,
                     "price": 605,
                     "type": "2h+tpk"
                 }
@@ -299,12 +264,12 @@
                     "type": "Huone"
                 },
                 {
-                    "area": 30.0,
+                    "area": 30,
                     "price": 491,
                     "type": "1h+kt"
                 },
                 {
-                    "area": 42.0,
+                    "area": 42,
                     "price": 654,
                     "type": "1h+tpk"
                 },
@@ -314,7 +279,7 @@
                     "type": "2h+kk"
                 },
                 {
-                    "area": 84.0,
+                    "area": 84,
                     "price": 1002,
                     "type": "3h+tpk"
                 }
@@ -334,17 +299,17 @@
                     "type": "Huone"
                 },
                 {
-                    "area": 31.0,
+                    "area": 31,
                     "price": 493,
                     "type": "1h+kt"
                 },
                 {
-                    "area": 41.0,
+                    "area": 41,
                     "price": 611,
                     "type": "1h+tpk"
                 },
                 {
-                    "area": 51.0,
+                    "area": 51,
                     "price": 716,
                     "type": "2h+k"
                 },
@@ -364,12 +329,12 @@
             "residence_count": 59,
             "residences": [
                 {
-                    "area": 45.0,
+                    "area": 45,
                     "price": 774,
                     "type": "1h+kk"
                 },
                 {
-                    "area": 53.0,
+                    "area": 53,
                     "price": 895,
                     "type": "1h+oh+kk"
                 },
@@ -379,12 +344,12 @@
                     "type": "1h+tpk"
                 },
                 {
-                    "area": 51.0,
+                    "area": 51,
                     "price": 863,
                     "type": "1h+tpk"
                 },
                 {
-                    "area": 32.0,
+                    "area": 32,
                     "price": 556,
                     "type": "1h+kt"
                 }
@@ -409,22 +374,22 @@
                     "type": "Huone"
                 },
                 {
-                    "area": 21.0,
+                    "area": 21,
                     "price": 359,
                     "type": "1h+kk"
                 },
                 {
-                    "area": 40.0,
+                    "area": 40,
                     "price": 590,
                     "type": "2h+kk"
                 },
                 {
-                    "area": 64.0,
+                    "area": 64,
                     "price": 809,
                     "type": "2h+tpk"
                 },
                 {
-                    "area": 62.0,
+                    "area": 62,
                     "price": 875,
                     "type": "3h+k"
                 }
@@ -439,17 +404,17 @@
             "residence_count": 105,
             "residences": [
                 {
-                    "area": 13.0,
+                    "area": 13,
                     "price": 247,
                     "type": "Huone"
                 },
                 {
-                    "area": 14.0,
+                    "area": 14,
                     "price": 265,
                     "type": "Huone"
                 },
                 {
-                    "area": 39.0,
+                    "area": 39,
                     "price": 471,
                     "type": "1h+tpk"
                 },
@@ -469,54 +434,24 @@
             "residence_count": 77,
             "residences": [
                 {
-                    "area": 13.0,
+                    "area": 13,
                     "price": 250,
                     "type": "Huone"
                 },
                 {
-                    "area": 46.0,
+                    "area": 46,
                     "price": 501,
                     "type": "1h+tpk"
                 },
                 {
-                    "area": 68.0,
+                    "area": 68,
                     "price": 658,
                     "type": "2h+tpk"
                 },
                 {
-                    "area": 68.0,
+                    "area": 68,
                     "price": 750,
                     "type": "3h+k"
-                }
-            ]
-        },
-        {
-            "address": "Haukilahdenkuja 15",
-            "city": "Helsinki",
-            "district": "Hermanni",
-            "lat": null,
-            "lng": null,
-            "residence_count": 150,
-            "residences": [
-                {
-                    "area": 27.5,
-                    "price": 466,
-                    "type": "1h+yhteiskeittiö"
-                },
-                {
-                    "area": 27.5,
-                    "price": 466,
-                    "type": "1h+kt"
-                },
-                {
-                    "area": 42.0,
-                    "price": 668,
-                    "type": "1h+tpk"
-                },
-                {
-                    "area": 56.5,
-                    "price": 790,
-                    "type": "2h+kk"
                 }
             ]
         },
@@ -539,12 +474,12 @@
                     "type": "1h+oh+k"
                 },
                 {
-                    "area": 49.0,
+                    "area": 49,
                     "price": 612,
                     "type": "1h+oh+kk"
                 },
                 {
-                    "area": 74.0,
+                    "area": 74,
                     "price": 734,
                     "type": "2h+oh+k"
                 },
@@ -564,17 +499,17 @@
             "residence_count": 34,
             "residences": [
                 {
-                    "area": 30.0,
+                    "area": 30,
                     "price": 383,
                     "type": "1h+kt"
                 },
                 {
-                    "area": 42.0,
+                    "area": 42,
                     "price": 517,
                     "type": "1h+tpk"
                 },
                 {
-                    "area": 56.0,
+                    "area": 56,
                     "price": 634,
                     "type": "2h+tpk"
                 }
@@ -634,7 +569,7 @@
                     "type": "Huone"
                 },
                 {
-                    "area": 23.0,
+                    "area": 23,
                     "price": 464,
                     "type": "1h+kt"
                 },
@@ -644,12 +579,12 @@
                     "type": "1h+kt"
                 },
                 {
-                    "area": 33.0,
+                    "area": 33,
                     "price": 561,
                     "type": "1h+tpk"
                 },
                 {
-                    "area": 46.0,
+                    "area": 46,
                     "price": 790,
                     "type": "2h+kk"
                 },
@@ -666,31 +601,6 @@
             ]
         },
         {
-            "address": "Intiankatu 20",
-            "city": "Helsinki",
-            "district": "Kumpula",
-            "lat": null,
-            "lng": null,
-            "residence_count": 74,
-            "residences": [
-                {
-                    "area": 30.0,
-                    "price": 480,
-                    "type": "1h+kt"
-                },
-                {
-                    "area": 44.0,
-                    "price": 693,
-                    "type": "1h+tpk"
-                },
-                {
-                    "area": 46.5,
-                    "price": 723,
-                    "type": "2h+kk"
-                }
-            ]
-        },
-        {
             "address": "Intiankatu 21",
             "city": "Helsinki",
             "district": "Kumpula",
@@ -699,12 +609,12 @@
             "residence_count": 81,
             "residences": [
                 {
-                    "area": 30.0,
+                    "area": 30,
                     "price": 480,
                     "type": "1h+kt"
                 },
                 {
-                    "area": 46.0,
+                    "area": 46,
                     "price": 714,
                     "type": "1h+tpk"
                 },
@@ -739,17 +649,17 @@
                     "type": "Huone"
                 },
                 {
-                    "area": 50.0,
+                    "area": 50,
                     "price": 718,
                     "type": "1h+tpk"
                 },
                 {
-                    "area": 62.0,
+                    "area": 62,
                     "price": 848,
                     "type": "1h+oh+k"
                 },
                 {
-                    "area": 61.0,
+                    "area": 61,
                     "price": 838,
                     "type": "2h+k"
                 }
@@ -764,17 +674,17 @@
             "residence_count": 74,
             "residences": [
                 {
-                    "area": 16.0,
+                    "area": 16,
                     "price": 319,
                     "type": "Huone"
                 },
                 {
-                    "area": 19.0,
+                    "area": 19,
                     "price": 356,
                     "type": "1h+kt"
                 },
                 {
-                    "area": 78.0,
+                    "area": 78,
                     "price": 913,
                     "type": "3h+tpk"
                 }
@@ -789,17 +699,17 @@
             "residence_count": 72,
             "residences": [
                 {
-                    "area": 15.0,
+                    "area": 15,
                     "price": 296,
                     "type": "Huone"
                 },
                 {
-                    "area": 14.0,
+                    "area": 14,
                     "price": 322,
                     "type": "Huone"
                 },
                 {
-                    "area": 36.0,
+                    "area": 36,
                     "price": 464,
                     "type": "1h+tpk"
                 },
@@ -829,7 +739,7 @@
                     "type": "Huone"
                 },
                 {
-                    "area": 25.0,
+                    "area": 25,
                     "price": 315,
                     "type": "1h+kt"
                 },
@@ -839,12 +749,12 @@
                     "type": "1h+kk"
                 },
                 {
-                    "area": 43.0,
+                    "area": 43,
                     "price": 503,
                     "type": "1h+tpk"
                 },
                 {
-                    "area": 65.0,
+                    "area": 65,
                     "price": 747,
                     "type": "3h+k"
                 }
@@ -864,7 +774,7 @@
                     "type": "1h+tpk"
                 },
                 {
-                    "area": 35.0,
+                    "area": 35,
                     "price": 441,
                     "type": "1h+oh+kk"
                 },
@@ -894,7 +804,7 @@
                     "type": "Huone"
                 },
                 {
-                    "area": 15.0,
+                    "area": 15,
                     "price": 331,
                     "type": "Huone"
                 },
@@ -929,12 +839,12 @@
             "residence_count": 15,
             "residences": [
                 {
-                    "area": 21.0,
+                    "area": 21,
                     "price": 359,
                     "type": "1h+kt"
                 },
                 {
-                    "area": 31.0,
+                    "area": 31,
                     "price": 514,
                     "type": "1h+kt"
                 }
@@ -949,7 +859,7 @@
             "residence_count": 118,
             "residences": [
                 {
-                    "area": 13.0,
+                    "area": 13,
                     "price": 308,
                     "type": "Huone"
                 },
@@ -969,7 +879,7 @@
                     "type": "1h+k"
                 },
                 {
-                    "area": 38.0,
+                    "area": 38,
                     "price": 508,
                     "type": "1h+tpk"
                 },
@@ -979,12 +889,12 @@
                     "type": "2h+kk"
                 },
                 {
-                    "area": 66.0,
+                    "area": 66,
                     "price": 920,
                     "type": "3h+k"
                 },
                 {
-                    "area": 93.0,
+                    "area": 93,
                     "price": 1187,
                     "type": "4h+k"
                 }
@@ -999,12 +909,12 @@
             "residence_count": 33,
             "residences": [
                 {
-                    "area": 32.0,
+                    "area": 32,
                     "price": 376,
                     "type": "1h+tpk"
                 },
                 {
-                    "area": 40.0,
+                    "area": 40,
                     "price": 443,
                     "type": "1h+tpk"
                 }
@@ -1044,7 +954,7 @@
                     "type": "2h+k"
                 },
                 {
-                    "area": 62.0,
+                    "area": 62,
                     "price": 950,
                     "type": "3h+k"
                 }
@@ -1064,7 +974,7 @@
                     "type": "Huone"
                 },
                 {
-                    "area": 26.0,
+                    "area": 26,
                     "price": 310,
                     "type": "1h+kk"
                 },
@@ -1094,7 +1004,7 @@
                     "type": "1h+tpk"
                 },
                 {
-                    "area": 66.0,
+                    "area": 66,
                     "price": 732,
                     "type": "1h+oh+k"
                 },
@@ -1119,7 +1029,7 @@
                     "type": "Huone"
                 },
                 {
-                    "area": 26.0,
+                    "area": 26,
                     "price": 310,
                     "type": "1h+kk"
                 },
@@ -1129,12 +1039,12 @@
                     "type": "2h+kk"
                 },
                 {
-                    "area": 62.0,
+                    "area": 62,
                     "price": 528,
                     "type": "2h+tpk"
                 },
                 {
-                    "area": 62.0,
+                    "area": 62,
                     "price": 573,
                     "type": "3h+k"
                 }
@@ -1159,12 +1069,12 @@
                     "type": "1h+tpk"
                 },
                 {
-                    "area": 50.0,
+                    "area": 50,
                     "price": 560,
                     "type": "2h+k"
                 },
                 {
-                    "area": 67.0,
+                    "area": 67,
                     "price": 771,
                     "type": "3h+k"
                 }
@@ -1179,7 +1089,7 @@
             "residence_count": 28,
             "residences": [
                 {
-                    "area": 25.0,
+                    "area": 25,
                     "price": 347,
                     "type": "1h+kt"
                 },
@@ -1214,17 +1124,17 @@
                     "type": "Huone"
                 },
                 {
-                    "area": 39.0,
+                    "area": 39,
                     "price": 437,
                     "type": "1h+tpk"
                 },
                 {
-                    "area": 51.0,
+                    "area": 51,
                     "price": 559,
                     "type": "1h+oh+kk"
                 },
                 {
-                    "area": 62.0,
+                    "area": 62,
                     "price": 653,
                     "type": "2h+k"
                 },
@@ -1264,7 +1174,7 @@
                     "type": "2h+tpk"
                 },
                 {
-                    "area": 74.0,
+                    "area": 74,
                     "price": 681,
                     "type": "3h+oh+k"
                 }
@@ -1299,7 +1209,7 @@
                     "type": "2h+tpk"
                 },
                 {
-                    "area": 74.0,
+                    "area": 74,
                     "price": 682,
                     "type": "3h+oh+k"
                 }
@@ -1324,7 +1234,7 @@
                     "type": "1h+oh+kk"
                 },
                 {
-                    "area": 61.0,
+                    "area": 61,
                     "price": 540,
                     "type": "1h+oh+k"
                 },
@@ -1349,17 +1259,17 @@
                     "type": "Huone"
                 },
                 {
-                    "area": 55.0,
+                    "area": 55,
                     "price": 590,
                     "type": "1h+tpk"
                 },
                 {
-                    "area": 55.0,
+                    "area": 55,
                     "price": 580,
                     "type": "2h+kk"
                 },
                 {
-                    "area": 61.0,
+                    "area": 61,
                     "price": 671,
                     "type": "3h+k"
                 }
@@ -1379,17 +1289,17 @@
                     "type": "Huone"
                 },
                 {
-                    "area": 18.0,
+                    "area": 18,
                     "price": 290,
                     "type": "Huone"
                 },
                 {
-                    "area": 55.0,
+                    "area": 55,
                     "price": 580,
                     "type": "2h+kk"
                 },
                 {
-                    "area": 61.0,
+                    "area": 61,
                     "price": 672,
                     "type": "3h+k"
                 }
@@ -1409,7 +1319,7 @@
                     "type": "Huone"
                 },
                 {
-                    "area": 21.0,
+                    "area": 21,
                     "price": 306,
                     "type": "1h+kt"
                 },
@@ -1419,12 +1329,12 @@
                     "type": "1h+tpk"
                 },
                 {
-                    "area": 41.0,
+                    "area": 41,
                     "price": 482,
                     "type": "2h+k"
                 },
                 {
-                    "area": 66.0,
+                    "area": 66,
                     "price": 693,
                     "type": "3h+k"
                 }
@@ -1444,12 +1354,12 @@
                     "type": "Huone"
                 },
                 {
-                    "area": 41.0,
+                    "area": 41,
                     "price": 394,
                     "type": "2h+k"
                 },
                 {
-                    "area": 78.0,
+                    "area": 78,
                     "price": 588,
                     "type": "3h+tpk"
                 }
@@ -1469,12 +1379,12 @@
                     "type": "Huone"
                 },
                 {
-                    "area": 41.0,
+                    "area": 41,
                     "price": 394,
                     "type": "2h+k"
                 },
                 {
-                    "area": 78.0,
+                    "area": 78,
                     "price": 588,
                     "type": "3h+tpk"
                 }
@@ -1489,7 +1399,7 @@
             "residence_count": 78,
             "residences": [
                 {
-                    "area": 13.0,
+                    "area": 13,
                     "price": 223,
                     "type": "Huone"
                 },
@@ -1499,7 +1409,7 @@
                     "type": "Huone"
                 },
                 {
-                    "area": 15.0,
+                    "area": 15,
                     "price": 280,
                     "type": "Huone"
                 },
@@ -1549,12 +1459,12 @@
                     "type": "Huone"
                 },
                 {
-                    "area": 41.0,
+                    "area": 41,
                     "price": 459,
                     "type": "1h+tpk"
                 },
                 {
-                    "area": 48.0,
+                    "area": 48,
                     "price": 542,
                     "type": "2h+k"
                 },
@@ -1584,7 +1494,7 @@
                     "type": "Huone"
                 },
                 {
-                    "area": 50.0,
+                    "area": 50,
                     "price": 549,
                     "type": "1h+tpk"
                 },
@@ -1594,7 +1504,7 @@
                     "type": "1h+oh+k"
                 },
                 {
-                    "area": 66.0,
+                    "area": 66,
                     "price": 670,
                     "type": "2h+oh+k"
                 },
@@ -1614,12 +1524,12 @@
             "residence_count": 82,
             "residences": [
                 {
-                    "area": 12.0,
+                    "area": 12,
                     "price": 246,
                     "type": "Huone"
                 },
                 {
-                    "area": 11.0,
+                    "area": 11,
                     "price": 222,
                     "type": "Huone"
                 },
@@ -1629,17 +1539,17 @@
                     "type": "Huone"
                 },
                 {
-                    "area": 31.0,
+                    "area": 31,
                     "price": 356,
                     "type": "1h+kk"
                 },
                 {
-                    "area": 44.0,
+                    "area": 44,
                     "price": 492,
                     "type": "2h+k"
                 },
                 {
-                    "area": 66.0,
+                    "area": 66,
                     "price": 655,
                     "type": "2h+oh+k"
                 }
@@ -1654,7 +1564,7 @@
             "residence_count": 133,
             "residences": [
                 {
-                    "area": 12.0,
+                    "area": 12,
                     "price": 238,
                     "type": "Huone"
                 },
@@ -1664,7 +1574,7 @@
                     "type": "Huone"
                 },
                 {
-                    "area": 37.0,
+                    "area": 37,
                     "price": 463,
                     "type": "1h+k"
                 },
@@ -1699,7 +1609,7 @@
                     "type": "1h+kt"
                 },
                 {
-                    "area": 42.0,
+                    "area": 42,
                     "price": 485,
                     "type": "1h+kk"
                 },
@@ -1739,17 +1649,17 @@
             "residence_count": 51,
             "residences": [
                 {
-                    "area": 39.0,
+                    "area": 39,
                     "price": 512,
                     "type": "1h+k"
                 },
                 {
-                    "area": 58.0,
+                    "area": 58,
                     "price": 691,
                     "type": "1h+oh+k"
                 },
                 {
-                    "area": 65.0,
+                    "area": 65,
                     "price": 720,
                     "type": "2h+tpk"
                 }
@@ -1774,7 +1684,7 @@
                     "type": "1h+tpk"
                 },
                 {
-                    "area": 53.0,
+                    "area": 53,
                     "price": 673,
                     "type": "1h+oh+k"
                 },
@@ -1784,7 +1694,7 @@
                     "type": "1h+oh+tpk"
                 },
                 {
-                    "area": 53.0,
+                    "area": 53,
                     "price": 661,
                     "type": "2h+k"
                 }
@@ -1799,7 +1709,7 @@
             "residence_count": 28,
             "residences": [
                 {
-                    "area": 55.0,
+                    "area": 55,
                     "price": 690,
                     "type": "1h+tpk"
                 },
@@ -1809,7 +1719,7 @@
                     "type": "2h+oh+k"
                 },
                 {
-                    "area": 96.0,
+                    "area": 96,
                     "price": 864,
                     "type": "3h+oh+k"
                 }
@@ -1839,7 +1749,7 @@
                     "type": "1h+oh+k"
                 },
                 {
-                    "area": 38.0,
+                    "area": 38,
                     "price": 638,
                     "type": "1h+tpk"
                 },
@@ -1859,7 +1769,7 @@
             "residence_count": 9,
             "residences": [
                 {
-                    "area": 36.0,
+                    "area": 36,
                     "price": 543,
                     "type": "1h+kk"
                 },
@@ -1869,12 +1779,12 @@
                     "type": "1h+kk"
                 },
                 {
-                    "area": 31.0,
+                    "area": 31,
                     "price": 484,
                     "type": "1h+tpk"
                 },
                 {
-                    "area": 64.0,
+                    "area": 64,
                     "price": 852,
                     "type": "1h+oh+k"
                 }
@@ -1904,7 +1814,7 @@
                     "type": "Huone"
                 },
                 {
-                    "area": 40.0,
+                    "area": 40,
                     "price": 476,
                     "type": "1h+tpk"
                 },
@@ -1914,12 +1824,12 @@
                     "type": "2h+k"
                 },
                 {
-                    "area": 77.0,
+                    "area": 77,
                     "price": 679,
                     "type": "2h+tpk"
                 },
                 {
-                    "area": 73.0,
+                    "area": 73,
                     "price": 775,
                     "type": "3h+k"
                 }
@@ -1949,12 +1859,12 @@
                     "type": "Huone"
                 },
                 {
-                    "area": 48.0,
+                    "area": 48,
                     "price": 581,
                     "type": "1h+oh+kk"
                 },
                 {
-                    "area": 50.0,
+                    "area": 50,
                     "price": 586,
                     "type": "2h+kk"
                 }
@@ -2009,12 +1919,12 @@
                     "type": "1h+tpk"
                 },
                 {
-                    "area": 56.0,
+                    "area": 56,
                     "price": 658,
                     "type": "2h+k"
                 },
                 {
-                    "area": 73.0,
+                    "area": 73,
                     "price": 786,
                     "type": "2h+tpk"
                 }
@@ -2029,17 +1939,17 @@
             "residence_count": 72,
             "residences": [
                 {
-                    "area": 12.0,
+                    "area": 12,
                     "price": 190,
                     "type": "Huone"
                 },
                 {
-                    "area": 12.0,
+                    "area": 12,
                     "price": 270,
                     "type": "Huone"
                 },
                 {
-                    "area": 37.0,
+                    "area": 37,
                     "price": 370,
                     "type": "2h+kk"
                 },
@@ -2064,7 +1974,7 @@
             "residence_count": 63,
             "residences": [
                 {
-                    "area": 16.0,
+                    "area": 16,
                     "price": 253,
                     "type": "Huone"
                 },
@@ -2074,12 +1984,12 @@
                     "type": "Huone"
                 },
                 {
-                    "area": 48.0,
+                    "area": 48,
                     "price": 506,
                     "type": "2h+kk"
                 },
                 {
-                    "area": 81.0,
+                    "area": 81,
                     "price": 757,
                     "type": "3h+oh+kk"
                 }
@@ -2094,7 +2004,7 @@
             "residence_count": 83,
             "residences": [
                 {
-                    "area": 48.0,
+                    "area": 48,
                     "price": 618,
                     "type": "1h+tpk"
                 },
@@ -2104,7 +2014,7 @@
                     "type": "1h+oh+k"
                 },
                 {
-                    "area": 53.0,
+                    "area": 53,
                     "price": 678,
                     "type": "2h+k"
                 }
@@ -2129,7 +2039,7 @@
                     "type": "Huone"
                 },
                 {
-                    "area": 28.0,
+                    "area": 28,
                     "price": 429,
                     "type": "1h+kt"
                 },
@@ -2164,12 +2074,12 @@
                     "type": "Huone"
                 },
                 {
-                    "area": 41.0,
+                    "area": 41,
                     "price": 406,
                     "type": "2h+kk"
                 },
                 {
-                    "area": 78.0,
+                    "area": 78,
                     "price": 699,
                     "type": "3h+tpk"
                 }
@@ -2199,12 +2109,12 @@
                     "type": "3h+tpk"
                 },
                 {
-                    "area": 39.0,
+                    "area": 39,
                     "price": 461,
                     "type": "1h+kt"
                 },
                 {
-                    "area": 57.0,
+                    "area": 57,
                     "price": 656,
                     "type": "2h+k"
                 },
@@ -2229,12 +2139,12 @@
                     "type": "Huone"
                 },
                 {
-                    "area": 13.0,
+                    "area": 13,
                     "price": 298,
                     "type": "Huone"
                 },
                 {
-                    "area": 38.0,
+                    "area": 38,
                     "price": 486,
                     "type": "1h+tpk"
                 },
@@ -2284,27 +2194,27 @@
                     "type": "Huone"
                 },
                 {
-                    "area": 15.0,
+                    "area": 15,
                     "price": 303,
                     "type": "Huone"
                 },
                 {
-                    "area": 49.0,
+                    "area": 49,
                     "price": 739,
                     "type": "1h+oh+k"
                 },
                 {
-                    "area": 41.0,
+                    "area": 41,
                     "price": 600,
                     "type": "2h+kk"
                 },
                 {
-                    "area": 46.0,
+                    "area": 46,
                     "price": 674,
                     "type": "2h+tpk"
                 },
                 {
-                    "area": 62.0,
+                    "area": 62,
                     "price": 903,
                     "type": "3h+kk"
                 }
@@ -2324,7 +2234,7 @@
                     "type": "Huone"
                 },
                 {
-                    "area": 14.0,
+                    "area": 14,
                     "price": 264,
                     "type": "Huone"
                 },
@@ -2334,7 +2244,7 @@
                     "type": "2h+tpk"
                 },
                 {
-                    "area": 49.0,
+                    "area": 49,
                     "price": 582,
                     "type": "2h+k"
                 }
@@ -2354,32 +2264,32 @@
                     "type": "Huone"
                 },
                 {
-                    "area": 12.0,
+                    "area": 12,
                     "price": 314,
                     "type": "Huone"
                 },
                 {
-                    "area": 32.0,
+                    "area": 32,
                     "price": 476,
                     "type": "1h+kt"
                 },
                 {
-                    "area": 45.0,
+                    "area": 45,
                     "price": 570,
                     "type": "1h+oh+k"
                 },
                 {
-                    "area": 49.0,
+                    "area": 49,
                     "price": 693,
                     "type": "2h+kt"
                 },
                 {
-                    "area": 50.0,
+                    "area": 50,
                     "price": 628,
                     "type": "2h+k"
                 },
                 {
-                    "area": 66.0,
+                    "area": 66,
                     "price": 855,
                     "type": "3h+k"
                 }
@@ -2394,17 +2304,17 @@
             "residence_count": 45,
             "residences": [
                 {
-                    "area": 21.0,
+                    "area": 21,
                     "price": 368,
                     "type": "1h+kt"
                 },
                 {
-                    "area": 35.0,
+                    "area": 35,
                     "price": 464,
                     "type": "1h+kt"
                 },
                 {
-                    "area": 50.0,
+                    "area": 50,
                     "price": 617,
                     "type": "1h+tpk"
                 },
@@ -2414,12 +2324,12 @@
                     "type": "2h+tpk"
                 },
                 {
-                    "area": 68.0,
+                    "area": 68,
                     "price": 729,
                     "type": "2h+oh+k"
                 },
                 {
-                    "area": 59.0,
+                    "area": 59,
                     "price": 643,
                     "type": "3h+tpk"
                 }
@@ -2444,7 +2354,7 @@
                     "type": "Huone"
                 },
                 {
-                    "area": 54.0,
+                    "area": 54,
                     "price": 705,
                     "type": "2h+k"
                 }
@@ -2474,7 +2384,7 @@
                     "type": "1h+oh+kk"
                 },
                 {
-                    "area": 64.0,
+                    "area": 64,
                     "price": 845,
                     "type": "2h+k"
                 },
@@ -2509,7 +2419,7 @@
                     "type": "1h+kk"
                 },
                 {
-                    "area": 46.0,
+                    "area": 46,
                     "price": 618,
                     "type": "2h+kk"
                 },
@@ -2534,7 +2444,7 @@
                     "type": "Huone"
                 },
                 {
-                    "area": 27.0,
+                    "area": 27,
                     "price": 467,
                     "type": "1h+kt"
                 },
@@ -2544,7 +2454,7 @@
                     "type": "1h+tpk"
                 },
                 {
-                    "area": 55.0,
+                    "area": 55,
                     "price": 826,
                     "type": "2h+k"
                 },
@@ -2574,7 +2484,7 @@
                     "type": "Huone"
                 },
                 {
-                    "area": 22.0,
+                    "area": 22,
                     "price": 358,
                     "type": "1h+kt"
                 },
@@ -2624,17 +2534,17 @@
                     "type": "1h+tpk"
                 },
                 {
-                    "area": 48.0,
+                    "area": 48,
                     "price": 538,
                     "type": "2h+k"
                 },
                 {
-                    "area": 60.0,
+                    "area": 60,
                     "price": 630,
                     "type": "2h+tpk"
                 },
                 {
-                    "area": 61.0,
+                    "area": 61,
                     "price": 677,
                     "type": "3h+k"
                 }
@@ -2649,7 +2559,7 @@
             "residence_count": 31,
             "residences": [
                 {
-                    "area": 13.0,
+                    "area": 13,
                     "price": 231,
                     "type": "Huone"
                 },
@@ -2659,12 +2569,12 @@
                     "type": "Huone"
                 },
                 {
-                    "area": 52.0,
+                    "area": 52,
                     "price": 570,
                     "type": "1h+oh+k"
                 },
                 {
-                    "area": 52.0,
+                    "area": 52,
                     "price": 572,
                     "type": "2h+k"
                 },
@@ -2714,12 +2624,12 @@
             "residence_count": 215,
             "residences": [
                 {
-                    "area": 29.0,
+                    "area": 29,
                     "price": 545,
                     "type": "1h+kt"
                 },
                 {
-                    "area": 44.0,
+                    "area": 44,
                     "price": 704,
                     "type": "1h+tpk"
                 },
@@ -2729,7 +2639,7 @@
                     "type": "1h+parvi+tpk"
                 },
                 {
-                    "area": 54.0,
+                    "area": 54,
                     "price": 822,
                     "type": "2h+tpk"
                 }
@@ -2754,7 +2664,7 @@
                     "type": "Huone"
                 },
                 {
-                    "area": 39.0,
+                    "area": 39,
                     "price": 512,
                     "type": "2h+kk"
                 }
@@ -2769,7 +2679,7 @@
             "residence_count": 209,
             "residences": [
                 {
-                    "area": 28.0,
+                    "area": 28,
                     "price": 372,
                     "type": "1h+kt"
                 },
@@ -2799,17 +2709,17 @@
                     "type": "Huone"
                 },
                 {
-                    "area": 49.0,
+                    "area": 49,
                     "price": 395,
                     "type": "1h+tpk"
                 },
                 {
-                    "area": 53.0,
+                    "area": 53,
                     "price": 408,
                     "type": "2h+kk"
                 },
                 {
-                    "area": 76.0,
+                    "area": 76,
                     "price": 538,
                     "type": "2h+tpk"
                 }
@@ -2824,7 +2734,7 @@
             "residence_count": 18,
             "residences": [
                 {
-                    "area": 47.0,
+                    "area": 47,
                     "price": 383,
                     "type": "1h+tpk"
                 },
@@ -2854,7 +2764,7 @@
                     "type": "Huone"
                 },
                 {
-                    "area": 47.0,
+                    "area": 47,
                     "price": 383,
                     "type": "1h+tpk"
                 },
@@ -2879,7 +2789,7 @@
             "residence_count": 89,
             "residences": [
                 {
-                    "area": 13.0,
+                    "area": 13,
                     "price": 243,
                     "type": "Huone"
                 },
@@ -2889,7 +2799,7 @@
                     "type": "Huone"
                 },
                 {
-                    "area": 34.0,
+                    "area": 34,
                     "price": 369,
                     "type": "1h+kk"
                 },
@@ -2899,7 +2809,7 @@
                     "type": "1h+tpk"
                 },
                 {
-                    "area": 61.0,
+                    "area": 61,
                     "price": 509,
                     "type": "2h+tpk"
                 },
@@ -2929,17 +2839,17 @@
                     "type": "2h+tpk"
                 },
                 {
-                    "area": 49.0,
+                    "area": 49,
                     "price": 395,
                     "type": "1h+tpk"
                 },
                 {
-                    "area": 53.0,
+                    "area": 53,
                     "price": 408,
                     "type": "2h+kk"
                 },
                 {
-                    "area": 76.0,
+                    "area": 76,
                     "price": 538,
                     "type": "2h+tpk"
                 }
@@ -2964,7 +2874,7 @@
                     "type": "2h+oh+k"
                 },
                 {
-                    "area": 97.0,
+                    "area": 97,
                     "price": 715,
                     "type": "3h+oh+k"
                 }
@@ -2999,17 +2909,17 @@
             "residence_count": 104,
             "residences": [
                 {
-                    "area": 14.0,
+                    "area": 14,
                     "price": 294,
                     "type": "Huone"
                 },
                 {
-                    "area": 50.0,
+                    "area": 50,
                     "price": 608,
                     "type": "2h+k"
                 },
                 {
-                    "area": 65.0,
+                    "area": 65,
                     "price": 830,
                     "type": "3h+k"
                 },
@@ -3029,12 +2939,12 @@
             "residence_count": 134,
             "residences": [
                 {
-                    "area": 31.0,
+                    "area": 31,
                     "price": 477,
                     "type": "1h+kt"
                 },
                 {
-                    "area": 36.0,
+                    "area": 36,
                     "price": 523,
                     "type": "1h+kt"
                 },
@@ -3054,7 +2964,7 @@
                     "type": "1h+oh+k"
                 },
                 {
-                    "area": 56.0,
+                    "area": 56,
                     "price": 770,
                     "type": "2h+k"
                 },
@@ -3099,12 +3009,12 @@
                     "type": "1h+tpk"
                 },
                 {
-                    "area": 49.0,
+                    "area": 49,
                     "price": 502,
                     "type": "1h+oh+kk"
                 },
                 {
-                    "area": 62.0,
+                    "area": 62,
                     "price": 683,
                     "type": "3h+k"
                 }
@@ -3139,7 +3049,7 @@
             "residence_count": 38,
             "residences": [
                 {
-                    "area": 12.0,
+                    "area": 12,
                     "price": 252,
                     "type": "Huone"
                 },
@@ -3149,7 +3059,7 @@
                     "type": "2h+k"
                 },
                 {
-                    "area": 65.0,
+                    "area": 65,
                     "price": 756,
                     "type": "3h+k"
                 }
@@ -3169,7 +3079,7 @@
                     "type": "Huone"
                 },
                 {
-                    "area": 75.0,
+                    "area": 75,
                     "price": 832,
                     "type": "2h+oh+k"
                 },
@@ -3204,7 +3114,7 @@
                     "type": "1h+kk"
                 },
                 {
-                    "area": 51.0,
+                    "area": 51,
                     "price": 656,
                     "type": "2h+kk"
                 }
@@ -3219,7 +3129,7 @@
             "residence_count": 27,
             "residences": [
                 {
-                    "area": 16.0,
+                    "area": 16,
                     "price": 327,
                     "type": "Huone"
                 },
@@ -3239,7 +3149,7 @@
                     "type": "2h+tpk"
                 },
                 {
-                    "area": 90.0,
+                    "area": 90,
                     "price": 935,
                     "type": "3h+tpk"
                 }
@@ -3264,7 +3174,7 @@
                     "type": "1h+oh+kk"
                 },
                 {
-                    "area": 75.0,
+                    "area": 75,
                     "price": 883,
                     "type": "2h+oh+kk"
                 }
@@ -3279,12 +3189,12 @@
             "residence_count": 50,
             "residences": [
                 {
-                    "area": 46.0,
+                    "area": 46,
                     "price": 592,
                     "type": "1h+tpk"
                 },
                 {
-                    "area": 44.0,
+                    "area": 44,
                     "price": 579,
                     "type": "1h+oh+kk"
                 },
@@ -3319,27 +3229,27 @@
                     "type": "Huone"
                 },
                 {
-                    "area": 27.0,
+                    "area": 27,
                     "price": 365,
                     "type": "1h+kt"
                 },
                 {
-                    "area": 45.0,
+                    "area": 45,
                     "price": 511,
                     "type": "1h+tpk"
                 },
                 {
-                    "area": 45.0,
+                    "area": 45,
                     "price": 512,
                     "type": "1h+oh+kk"
                 },
                 {
-                    "area": 46.0,
+                    "area": 46,
                     "price": 564,
                     "type": "2h+kk"
                 },
                 {
-                    "area": 67.0,
+                    "area": 67,
                     "price": 610,
                     "type": "2h+tpk"
                 }
@@ -3364,17 +3274,17 @@
                     "type": "Huone"
                 },
                 {
-                    "area": 48.0,
+                    "area": 48,
                     "price": 538,
                     "type": "2h+k"
                 },
                 {
-                    "area": 56.0,
+                    "area": 56,
                     "price": 606,
                     "type": "2h+k"
                 },
                 {
-                    "area": 60.0,
+                    "area": 60,
                     "price": 665,
                     "type": "3h+k"
                 }
@@ -3399,17 +3309,17 @@
                     "type": "Huone"
                 },
                 {
-                    "area": 48.0,
+                    "area": 48,
                     "price": 538,
                     "type": "2h+k"
                 },
                 {
-                    "area": 60.0,
+                    "area": 60,
                     "price": 636,
                     "type": "2h+tpk"
                 },
                 {
-                    "area": 60.0,
+                    "area": 60,
                     "price": 665,
                     "type": "3h+k"
                 }
@@ -3434,17 +3344,17 @@
                     "type": "Huone"
                 },
                 {
-                    "area": 48.0,
+                    "area": 48,
                     "price": 528,
                     "type": "2h+k"
                 },
                 {
-                    "area": 60.0,
+                    "area": 60,
                     "price": 624,
                     "type": "2h+tpk"
                 },
                 {
-                    "area": 60.0,
+                    "area": 60,
                     "price": 653,
                     "type": "3h+k"
                 }
@@ -3459,7 +3369,7 @@
             "residence_count": 38,
             "residences": [
                 {
-                    "area": 12.0,
+                    "area": 12,
                     "price": 252,
                     "type": "Huone"
                 },
@@ -3479,7 +3389,7 @@
             "residence_count": 60,
             "residences": [
                 {
-                    "area": 12.0,
+                    "area": 12,
                     "price": 223,
                     "type": "Huone"
                 },
@@ -3514,7 +3424,7 @@
                     "type": "1h+kk"
                 },
                 {
-                    "area": 51.0,
+                    "area": 51,
                     "price": 648,
                     "type": "1h+tpk"
                 },
@@ -3574,7 +3484,7 @@
                     "type": "Huone"
                 },
                 {
-                    "area": 12.0,
+                    "area": 12,
                     "price": 269,
                     "type": "Huone"
                 },
@@ -3584,17 +3494,17 @@
                     "type": "1h+kk"
                 },
                 {
-                    "area": 45.0,
+                    "area": 45,
                     "price": 606,
                     "type": "1h+tpk"
                 },
                 {
-                    "area": 48.0,
+                    "area": 48,
                     "price": 632,
                     "type": "2h+kk"
                 },
                 {
-                    "area": 67.0,
+                    "area": 67,
                     "price": 800,
                     "type": "2h+tpk"
                 }
@@ -3619,17 +3529,17 @@
                     "type": "Huone"
                 },
                 {
-                    "area": 47.0,
+                    "area": 47,
                     "price": 538,
                     "type": "2h+k"
                 },
                 {
-                    "area": 65.0,
+                    "area": 65,
                     "price": 683,
                     "type": "2h+oh+k"
                 },
                 {
-                    "area": 65.0,
+                    "area": 65,
                     "price": 707,
                     "type": "3h+k"
                 }
@@ -3644,17 +3554,17 @@
             "residence_count": 178,
             "residences": [
                 {
-                    "area": 42.0,
+                    "area": 42,
                     "price": 408,
                     "type": "1h+oh+kk"
                 },
                 {
-                    "area": 61.0,
+                    "area": 61,
                     "price": 568,
                     "type": "2h+tpk"
                 },
                 {
-                    "area": 61.0,
+                    "area": 61,
                     "price": 568,
                     "type": "2h+oh+kk"
                 }
@@ -3709,49 +3619,24 @@
                     "type": "Huone"
                 },
                 {
-                    "area": 38.0,
+                    "area": 38,
                     "price": 390,
                     "type": "1h+kk"
                 },
                 {
-                    "area": 47.0,
+                    "area": 47,
                     "price": 482,
                     "type": "1h+oh+kk"
                 },
                 {
-                    "area": 47.0,
+                    "area": 47,
                     "price": 484,
                     "type": "2h+kk"
                 },
                 {
-                    "area": 66.0,
+                    "area": 66,
                     "price": 692,
                     "type": "3h+k"
-                }
-            ]
-        },
-        {
-            "address": "Viljelijäntie 4-6",
-            "city": "Helsinki",
-            "district": "Malminkartano",
-            "lat": null,
-            "lng": null,
-            "residence_count": 192,
-            "residences": [
-                {
-                    "area": 27.0,
-                    "price": 352,
-                    "type": "1h+kt"
-                },
-                {
-                    "area": 42.5,
-                    "price": 499,
-                    "type": "1h+tpk"
-                },
-                {
-                    "area": 42.5,
-                    "price": 500,
-                    "type": "2h+tpk"
                 }
             ]
         },
@@ -3774,17 +3659,17 @@
                     "type": "Huone"
                 },
                 {
-                    "area": 46.0,
+                    "area": 46,
                     "price": 469,
                     "type": "1h+tpk"
                 },
                 {
-                    "area": 66.0,
+                    "area": 66,
                     "price": 640,
                     "type": "2h+tpk"
                 },
                 {
-                    "area": 66.0,
+                    "area": 66,
                     "price": 684,
                     "type": "3h+k"
                 }
@@ -3804,17 +3689,17 @@
                     "type": "Huone"
                 },
                 {
-                    "area": 15.0,
+                    "area": 15,
                     "price": 333,
                     "type": "Huone"
                 },
                 {
-                    "area": 20.0,
+                    "area": 20,
                     "price": 353,
                     "type": "Huone"
                 },
                 {
-                    "area": 31.0,
+                    "area": 31,
                     "price": 488,
                     "type": "1h+kt"
                 },
@@ -3844,7 +3729,7 @@
             "residence_count": 85,
             "residences": [
                 {
-                    "area": 13.0,
+                    "area": 13,
                     "price": 294,
                     "type": "Huone"
                 },
@@ -3859,22 +3744,22 @@
                     "type": "Huone"
                 },
                 {
-                    "area": 33.0,
+                    "area": 33,
                     "price": 457,
                     "type": "1h+k"
                 },
                 {
-                    "area": 44.0,
+                    "area": 44,
                     "price": 596,
                     "type": "1h+tpk"
                 },
                 {
-                    "area": 44.0,
+                    "area": 44,
                     "price": 596,
                     "type": "2h+kk"
                 },
                 {
-                    "area": 64.0,
+                    "area": 64,
                     "price": 846,
                     "type": "3h+k"
                 }
@@ -3899,17 +3784,17 @@
                     "type": "1h+tpk"
                 },
                 {
-                    "area": 57.0,
+                    "area": 57,
                     "price": 760,
                     "type": "1h+tpk"
                 },
                 {
-                    "area": 60.0,
+                    "area": 60,
                     "price": 733,
                     "type": "2h+k"
                 },
                 {
-                    "area": 65.0,
+                    "area": 65,
                     "price": 780,
                     "type": "2h+tpk"
                 }
@@ -3929,22 +3814,22 @@
                     "type": "8h+oh+tpk"
                 },
                 {
-                    "area": 33.0,
+                    "area": 33,
                     "price": 457,
                     "type": "1h+k"
                 },
                 {
-                    "area": 44.0,
+                    "area": 44,
                     "price": 596,
                     "type": "1h+tpk"
                 },
                 {
-                    "area": 44.0,
+                    "area": 44,
                     "price": 596,
                     "type": "2h+kk"
                 },
                 {
-                    "area": 64.0,
+                    "area": 64,
                     "price": 846,
                     "type": "3h+k"
                 }
@@ -3969,22 +3854,22 @@
                     "type": "1h+kt"
                 },
                 {
-                    "area": 46.0,
+                    "area": 46,
                     "price": 805,
                     "type": "1h+tpk"
                 },
                 {
-                    "area": 40.0,
+                    "area": 40,
                     "price": 716,
                     "type": "1h+oh+kt"
                 },
                 {
-                    "area": 46.0,
+                    "area": 46,
                     "price": 808,
                     "type": "2h+k"
                 },
                 {
-                    "area": 69.0,
+                    "area": 69,
                     "price": 1193,
                     "type": "3h+k"
                 }

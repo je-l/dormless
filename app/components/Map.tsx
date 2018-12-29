@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import {
   Map,
   TileLayer,
@@ -83,7 +83,7 @@ export default class DormMap extends Component<{}, State> {
 
     const tileServer = 'https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}{r}.png';
     return (
-      <div>
+      <Fragment>
         {this.sideContent()}
         <Map
           center={{ lat: 60.21, lng: 24.93 }}
@@ -96,7 +96,7 @@ export default class DormMap extends Component<{}, State> {
           <ScaleControl imperial={false} />
           <TileLayer url={tileServer} />
           <AttributionControl prefix={credits} />
-          {markers.filter(x => x.lat).map(a => (
+          {markers.map(a => (
             <HouseMarker
               key={a.address}
               position={[a.lat, a.lng]}
@@ -104,7 +104,7 @@ export default class DormMap extends Component<{}, State> {
             />
           ))}
         </Map>
-      </div>
+      </Fragment>
     );
   }
 }

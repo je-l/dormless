@@ -37,6 +37,10 @@ const icon = Leaflet.icon({
 });
 
 export default class HouseMarker extends Component<Props> {
+  shouldComponentUpdate(nextProps: Props) {
+    return nextProps.apartment.address !== this.props.apartment.address;
+  }
+
   render() {
     const { apartment, apartment: { address }, position } = this.props;
 
@@ -48,23 +52,19 @@ export default class HouseMarker extends Component<Props> {
 
     const url = `https://www.hoas.fi/kohteet/${urlId}/`;
     return (
-      <div>
-        <Marker position={position} icon={icon}>
-          <Popup>
-            <div>
-              <h3>
-                <a href={url} rel="noopener noreferrer" target="_blank">
-                  {address}
-                </a>
-              </h3>
-              <Pricing
-                key={address}
-                apartment={apartment}
-              />
-            </div>
-          </Popup>
-        </Marker>
-      </div>
+      <Marker position={position} icon={icon}>
+        <Popup>
+          <h3>
+            <a href={url} rel="noopener noreferrer" target="_blank">
+              {address}
+            </a>
+          </h3>
+          <Pricing
+            key={address}
+            apartment={apartment}
+          />
+        </Popup>
+      </Marker>
     );
   }
 }

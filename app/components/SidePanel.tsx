@@ -32,9 +32,9 @@ export default class SidePanel extends Component<Props, State> {
     )));
 
     this.state = {
-      maxPrice: highestPrice,
-      selectedMaxPrice: highestPrice,
-      minPrice: min(residences.map(x => x.price)),
+      maxPrice: highestPrice as number,
+      selectedMaxPrice: highestPrice as number,
+      minPrice: min(residences.map(x => x.price)) as number,
     };
   }
 

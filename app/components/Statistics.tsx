@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import flatMap from 'lodash/flatMap';
 
 import { Residence } from './HouseMarker';
@@ -39,7 +39,7 @@ export default class Statistics extends Component {
     const housePriceFor = this.houseTypePrices(residences);
 
     return (
-      <div>
+      <Fragment>
         <table>
           <tbody>
             <tr>
@@ -61,7 +61,7 @@ export default class Statistics extends Component {
             {housePriceFor('Perhe', 'family')}
           </tbody>
         </table>
-      </div>
+      </Fragment>
     );
   }
 }

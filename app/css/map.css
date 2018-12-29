@@ -7,10 +7,6 @@ html,
   font-family: 'Open Sans', 'sans-serif';
 }
 
-#app > div {
-  height: 100%;
-}
-
 .leaflet-left {
   margin: 1.6%;
 }
