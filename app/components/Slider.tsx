@@ -1,18 +1,12 @@
-import React, { Component } from 'react';
+import React, { Component, SyntheticEvent } from 'react';
 
 import '../css/slider.css';
 
 interface Props {
-  min: number,
-  max: number,
-  cb(e: Event): void,
-  changeMaxPrice(e: Event): void,
-};
-
-export interface Event {
-  currentTarget: {
-    value: string
-  }
+  min: number;
+  max: number;
+  cb(e: SyntheticEvent): void;
+  changeMaxPrice(e: SyntheticEvent): void;
 }
 
 let lastSelection: number;
@@ -30,12 +24,10 @@ export default class Slider extends Component<Props> {
     lastSelection = this.value;
   }
 
-  changeValue = (event: Event) => {
-    const { props: { cb } } = this;
-
-    this.value = parseInt(event.currentTarget.value);
-    cb(event);
-  }
+  changeValue = (event: SyntheticEvent<HTMLInputElement>) => {
+    this.value = parseInt(event.currentTarget.value, 10);
+    this.props.cb(event);
+  };
 
   render() {
     const { min, max, changeMaxPrice } = this.props;

@@ -4,3 +4,4 @@ bin/
 /.firebase
 /.firebaserc
 /firebase.json
+/.vscode

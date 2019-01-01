@@ -1,22 +1,22 @@
-import React, { Component } from 'react';
+import React, { Component, SyntheticEvent } from 'react';
 
-import min from 'lodash/min';
 import max from 'lodash/max';
+import min from 'lodash/min';
 
-import { Apartment } from './HouseMarker';
-import Slider, { Event } from './Slider';
+import { Apartment } from './HouseMarker';
+import Slider from './Slider';
 import Statistics from './Statistics';
 
 interface Props {
-  apartments: Apartment[],
-  filterApartments(maxPrice: number): void,
-  toggleSidepanel(): void
+  apartments: Apartment[];
+  filterApartments(maxPrice: number): void;
+  toggleSidepanel(): void;
 }
 
 interface State {
-  minPrice: number,
-  maxPrice: number,
-  selectedMaxPrice: number,
+  minPrice: number;
+  maxPrice: number;
+  selectedMaxPrice: number;
 }
 
 export default class SidePanel extends Component<Props, State> {
@@ -25,34 +25,34 @@ export default class SidePanel extends Component<Props, State> {
 
     const residences = props.apartments
       .map(a => a.residences)
-      .reduce((acc, cur) => (acc.concat(cur)), []);
+      .reduce((acc, cur) => acc.concat(cur), []);
 
-    const highestPrice = max(props.apartments.map(a => (
-      min(a.residences.map(r => r.price))
-    )));
+    const highestPrice = max(
+      props.apartments.map(a => min(a.residences.map(r => r.price)))
+    );
 
     this.state = {
       maxPrice: highestPrice as number,
       selectedMaxPrice: highestPrice as number,
-      minPrice: min(residences.map(x => x.price)) as number,
+      minPrice: min(residences.map(x => x.price)) as number
     };
   }
 
-  updateApartments = (event: Event) => {
+  updateApartments = (event: SyntheticEvent<HTMLInputElement>) => {
     this.setState({
-      selectedMaxPrice: parseInt(event.currentTarget.value),
+      selectedMaxPrice: parseInt(event.currentTarget.value, 10)
     });
 
     const { filterApartments } = this.props;
 
-    filterApartments(parseInt(event.currentTarget.value));
-  }
+    filterApartments(parseInt(event.currentTarget.value, 10));
+  };
 
-  updateMaxPrice = (event: Event) => {
+  updateMaxPrice = (event: SyntheticEvent<HTMLInputElement>) => {
     this.setState({
-      selectedMaxPrice: parseInt(event.currentTarget.value),
+      selectedMaxPrice: parseInt(event.currentTarget.value, 10)
     });
-  }
+  };
 
   render() {
     const { toggleSidepanel } = this.props;

@@ -1,9 +1,9 @@
-import React, { Component, Fragment } from 'react';
 import flatMap from 'lodash/flatMap';
+import React, { Component, Fragment } from 'react';
 
-import { Residence } from './HouseMarker';
-import houseTypes from '../constants/residenceTypes';
 import { apartments } from '../../assets/hoas-data.json';
+import houseTypes from '../constants/residenceTypes';
+import { Residence } from './HouseMarker';
 
 function sum(array: number[]) {
   return array.reduce((acc, cur) => acc + cur, 0);
@@ -15,7 +15,7 @@ export default class Statistics extends Component {
       .filter(r => houseTypes[r.type] === name)
       .map(r => r.price);
     return sum(prices) / prices.length;
-  }
+  };
 
   houseTypePrices = (residences: Residence[]) => (
     fiName: string,
@@ -24,17 +24,17 @@ export default class Statistics extends Component {
     return (
       <tr>
         <td>{fiName}</td>
-        <td>
-          {`${this.avgPriceForType(enName, residences).toFixed(2)} €`}
-        </td>
+        <td>{`${this.avgPriceForType(enName, residences).toFixed(2)} €`}</td>
       </tr>
     );
-  }
+  };
 
   render() {
     const residences: Residence[] = flatMap(apartments, 'residences');
-    const residenceCount = apartments
-      .reduce((acc, apartment) => acc + apartment.residence_count, 0);
+    const residenceCount = apartments.reduce(
+      (acc, apartment) => acc + apartment.residence_count,
+      0
+    );
 
     const housePriceFor = this.houseTypePrices(residences);
 

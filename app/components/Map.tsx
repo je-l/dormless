@@ -1,55 +1,55 @@
 import React, { Component, Fragment } from 'react';
 import {
-  Map,
-  TileLayer,
   AttributionControl,
+  Map,
   ScaleControl,
-  ZoomControl,
+  TileLayer,
+  ZoomControl
 } from 'react-leaflet';
 
-import SidePanel from './SidePanel';
-import HouseMarker, { Apartment } from './HouseMarker';
 import hoasData from '../../assets/hoas-data.json';
+import HouseMarker, { Apartment } from './HouseMarker';
+import SidePanel from './SidePanel';
 
-import '../css/map.css';
-import '../css/sidepanel.css';
 import '../css/map-large.css';
 import '../css/map-small.css';
+import '../css/map.css';
+import '../css/sidepanel.css';
 
 interface State {
-  sidepanelVisible: boolean,
-  markers: Apartment[],
+  sidepanelVisible: boolean;
+  markers: Apartment[];
 }
 
 export default class DormMap extends Component<{}, State> {
   state = {
     sidepanelVisible: false,
-    markers: hoasData.apartments,
+    markers: hoasData.apartments
   };
 
   filterApartments = (maxPrice: number) => {
-    const newAparts = hoasData.apartments.filter(a => (
-      a.residences.filter(r => r.price <= maxPrice).length > 0
-    ));
+    const newAparts = hoasData.apartments.filter(
+      a => a.residences.filter(r => r.price <= maxPrice).length > 0
+    );
 
     this.setState({
-      markers: newAparts,
+      markers: newAparts
     });
-  }
+  };
 
   toggleSidepanel = () => {
-    this.setState(prevState => (
-      { sidepanelVisible: !prevState.sidepanelVisible }
-    ));
+    this.setState(prevState => ({
+      sidepanelVisible: !prevState.sidepanelVisible
+    }));
 
-    const selector = '.leaflet-bottom.leaflet-left, '
-      + '.show-button, .leaflet-control-zoom';
+    const selector =
+      '.leaflet-bottom.leaflet-left, ' + '.show-button, .leaflet-control-zoom';
 
     // TODO: remove queryselector hack
     const hideOnMobile = document.querySelectorAll(selector);
 
     hideOnMobile.forEach(element => element.classList.toggle('panel-open'));
-  }
+  };
 
   sideContent() {
     const { sidepanelVisible } = this.state;
@@ -60,7 +60,8 @@ export default class DormMap extends Component<{}, State> {
           apartments={hoasData.apartments}
           filterApartments={this.filterApartments}
           toggleSidepanel={this.toggleSidepanel}
-        />);
+        />
+      );
     }
 
     return (
@@ -78,10 +79,12 @@ export default class DormMap extends Component<{}, State> {
   render() {
     const { markers } = this.state;
 
-    const credits = '&copy <a href="http://osm.org/'
-      + 'copyright">OpenStreetMap</a> contributors';
+    const credits =
+      '&copy <a href="http://osm.org/' +
+      'copyright">OpenStreetMap</a> contributors';
 
     const tileServer = 'https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}{r}.png';
+
     return (
       <Fragment>
         {this.sideContent()}

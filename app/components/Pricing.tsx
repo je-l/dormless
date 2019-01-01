@@ -2,30 +2,30 @@ import React from 'react';
 import { Apartment } from './HouseMarker';
 
 interface Props {
-  apartment: Apartment
+  apartment: Apartment;
 }
 
-export default function pricing(props: Props) {
-  const { apartment: { residences: residenceData } } = props;
+const Pricing = (props: Props) => {
+  const {
+    apartment: { residences: residenceData }
+  } = props;
 
   const residences = residenceData.map(r => (
-    <tr key={r.type + r.area + r.price}>
+    <tr key={r.type + r.area.toString() + r.price.toString()}>
       <td>{r.type}</td>
       <td>
         {`${r.area} m`}
         <sup>2</sup>
       </td>
-      <td>
-        {`${r.price} €`}
-      </td>
+      <td>{`${r.price} €`}</td>
     </tr>
   ));
 
   return (
     <table>
-      <tbody>
-        {residences}
-      </tbody>
+      <tbody>{residences}</tbody>
     </table>
   );
-}
+};
+
+export default Pricing;

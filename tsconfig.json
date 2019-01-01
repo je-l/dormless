@@ -8,7 +8,9 @@
     "strict": true,
     "allowSyntheticDefaultImports": true,
     "moduleResolution": "node",
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true
   },
   "include": [
     "./app/**/*"

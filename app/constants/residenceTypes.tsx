@@ -1,8 +1,8 @@
 interface HouseClass {
-  [a: string]: string
+  [a: string]: string;
 }
 
-export default {
+const a: HouseClass = {
   '1h+yhteiskeittiö': 'room',
   Huone: 'room',
   '1h+kt': 'studio',
@@ -29,5 +29,7 @@ export default {
   '3h+kk': 'family',
   '3h+oh+kk': 'family',
   '4h+k': 'family',
-  '8h+oh+tpk': 'family',
-} as HouseClass;
+  '8h+oh+tpk': 'family'
+};
+
+export default a;
