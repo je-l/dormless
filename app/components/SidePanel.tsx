@@ -9,14 +9,15 @@ import Statistics from './Statistics';
 
 interface Props {
   apartments: Apartment[];
-  filterApartments(maxPrice: number): void;
+  sliderPos: string | null;
+  changeMaxPrice(e: SyntheticEvent): void;
+  filterApartments(e: SyntheticEvent): void;
   toggleSidepanel(): void;
 }
 
 interface State {
   minPrice: number;
   maxPrice: number;
-  selectedMaxPrice: number;
 }
 
 export default class SidePanel extends Component<Props, State> {
@@ -33,30 +34,21 @@ export default class SidePanel extends Component<Props, State> {
 
     this.state = {
       maxPrice: highestPrice as number,
-      selectedMaxPrice: highestPrice as number,
       minPrice: min(residences.map(x => x.price)) as number
     };
   }
 
-  updateApartments = (event: SyntheticEvent<HTMLInputElement>) => {
-    this.setState({
-      selectedMaxPrice: parseInt(event.currentTarget.value, 10)
-    });
-
-    const { filterApartments } = this.props;
-
-    filterApartments(parseInt(event.currentTarget.value, 10));
-  };
-
-  updateMaxPrice = (event: SyntheticEvent<HTMLInputElement>) => {
-    this.setState({
-      selectedMaxPrice: parseInt(event.currentTarget.value, 10)
-    });
-  };
-
   render() {
-    const { toggleSidepanel } = this.props;
-    const { minPrice, maxPrice, selectedMaxPrice } = this.state;
+    const {
+      toggleSidepanel,
+      sliderPos,
+      filterApartments,
+      changeMaxPrice
+    } = this.props;
+
+    const { minPrice, maxPrice } = this.state;
+
+    const rentSelection = sliderPos || maxPrice.toString();
 
     return (
       <div className="sidepanel">
@@ -70,15 +62,14 @@ export default class SidePanel extends Component<Props, State> {
 
         <p>Vuokra:</p>
         <Slider
-          cb={this.updateApartments}
-          changeMaxPrice={this.updateMaxPrice}
+          sliderPos={rentSelection}
+          changeRentFilter={filterApartments}
+          changeMaxPrice={changeMaxPrice}
           min={minPrice}
           max={maxPrice}
         />
 
-        <p className="min-price-area">
-          {`${minPrice} - ${selectedMaxPrice} €`}
-        </p>
+        <p className="min-price-area">{`${minPrice} - ${rentSelection} €`}</p>
 
         <Statistics />
       </div>

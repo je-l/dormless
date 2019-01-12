@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component, Fragment, SyntheticEvent } from 'react';
 import {
   AttributionControl,
   Map,
@@ -18,16 +18,20 @@ import '../css/sidepanel.css';
 
 interface State {
   sidepanelVisible: boolean;
+  sliderPos: string | null;
   markers: Apartment[];
 }
 
 export default class DormMap extends Component<{}, State> {
   state = {
     sidepanelVisible: false,
+    sliderPos: null,
     markers: hoasData.apartments
   };
 
-  filterApartments = (maxPrice: number) => {
+  filterApartments = (e: SyntheticEvent<HTMLInputElement>) => {
+    const maxPrice = parseInt(e.currentTarget.value, 10);
+
     const newAparts = hoasData.apartments.filter(
       a => a.residences.filter(r => r.price <= maxPrice).length > 0
     );
@@ -51,43 +55,41 @@ export default class DormMap extends Component<{}, State> {
     hideOnMobile.forEach(element => element.classList.toggle('panel-open'));
   };
 
-  sideContent() {
-    const { sidepanelVisible } = this.state;
-
-    if (sidepanelVisible) {
-      return (
-        <SidePanel
-          apartments={hoasData.apartments}
-          filterApartments={this.filterApartments}
-          toggleSidepanel={this.toggleSidepanel}
-        />
-      );
-    }
-
-    return (
-      <button
-        type="button"
-        onClick={this.toggleSidepanel}
-        className="show-button"
-      >
-        <div className="show-button-icon" />
-        <span className="show-button-text">suodata</span>
-      </button>
-    );
-  }
+  changeSliderPos = (event: SyntheticEvent<HTMLInputElement>) => {
+    this.setState({
+      sliderPos: event.currentTarget.value
+    });
+  };
 
   render() {
-    const { markers } = this.state;
+    const { markers, sliderPos, sidepanelVisible } = this.state;
 
     const credits =
-      '&copy <a href="http://osm.org/' +
+      '&copy <a href="https://osm.org/' +
       'copyright">OpenStreetMap</a> contributors';
 
     const tileServer = 'https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}{r}.png';
 
     return (
       <Fragment>
-        {this.sideContent()}
+        {sidepanelVisible ? (
+          <SidePanel
+            sliderPos={sliderPos}
+            apartments={hoasData.apartments}
+            changeMaxPrice={this.changeSliderPos}
+            filterApartments={this.filterApartments}
+            toggleSidepanel={this.toggleSidepanel}
+          />
+        ) : (
+          <button
+            type="button"
+            onClick={this.toggleSidepanel}
+            className="show-button"
+          >
+            <div className="show-button-icon" />
+            <span className="show-button-text">suodata</span>
+          </button>
+        )}
         <Map
           center={{ lat: 60.21, lng: 24.93 }}
           zoom={11}

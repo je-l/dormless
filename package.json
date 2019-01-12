@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "webpack": "webpack --progress",
     "build": "NODE_ENV=production webpack -p --progress",
-    "dev": "NODE_ENV=development webpack-dev-server --debug --progress",
+    "start": "NODE_ENV=development webpack-dev-server --progress",
     "lint": "tslint -p . -c tslint.json 'app/**/*.tsx'"
   },
   "author": "",
